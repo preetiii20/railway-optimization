@@ -10,14 +10,15 @@ require('dotenv').config();
 const Train = require('./models/Train');
 const Section = require('./models/Section');
 
+// Import Routes
+const simulationRoutes = require('./routes/simulation');
+
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 // 2. Middleware
 app.use(cors());
 app.use(express.json());
-app.use(notFound);
-app.use(errorHandler);
 
 // 3. Connect to MongoDB Atlas
 mongoose.connect(process.env.MONGODB_URI)
@@ -53,6 +54,13 @@ app.get('/api/sections', async (req, res) => {
     res.status(500).json({ success: false, error: error.message });
   }
 });
+
+// Use simulation routes
+app.use('/api', simulationRoutes);
+
+// Error handling middleware (must be last)
+app.use(notFound);
+app.use(errorHandler);
 
 // 5. Create HTTP Server & WebSocket
 const server = http.createServer(app);
