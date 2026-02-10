@@ -7,3 +7,13 @@ dist/
 build/
 .vscode/
 .idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+python-ai/.env
+python-ai/data/processed/
+python-ai/data/output/

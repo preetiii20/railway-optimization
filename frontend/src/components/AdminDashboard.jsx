@@ -1,306 +1,514 @@
-import { useState, useEffect } from 'react';
-import { getTrains, getSections, getUsers } from '../services/api';
-import '../styles/control-room.css';
+import React, { useState, useEffect, useRef } from 'react';
+import axios from 'axios';
+import { MapContainer, TileLayer, Marker, Popup, Polyline, CircleMarker, Tooltip, useMap } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
+import io from 'socket.io-client';
+import './AdminDashboard.css';
 
-const AdminDashboard = ({ user, onLogout }) => {
-  const [systemStats, setSystemStats] = useState({
-    totalSections: 0,
-    totalTrains: 0,
-    activeSections: 0,
-    totalUsers: 0,
-    systemStatus: 'operational'
+// Fix Leaflet default marker
+delete L.Icon.Default.prototype._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+  iconUrl: require('leaflet/dist/images/marker-icon.png'),
+  shadowUrl: require('leaflet/dist/images/marker-shadow.png'),
+});
+
+const API_BASE = 'http://localhost:5000/api';
+const SOCKET_URL = 'http://localhost:5000';
+
+// Custom train icon with actual train emoji
+const createTrainIcon = (color, trainId, trainName) => {
+  return L.divIcon({
+    className: 'custom-train-marker',
+    html: `
+      <div class="train-marker-container">
+        <div class="train-icon-wrapper">
+          <div class="train-emoji">🚆</div>
+          <div class="train-glow" style="background: ${color}; box-shadow: 0 0 20px ${color}, 0 0 40px ${color};"></div>
+        </div>
+        <div class="train-label" style="
+          background: rgba(0, 0, 0, 0.85);
+          color: white;
+          padding: 4px 8px;
+          border-radius: 4px;
+          font-size: 10px;
+          font-weight: 700;
+          white-space: nowrap;
+          margin-top: 2px;
+          border: 2px solid ${color};
+          box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+          text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+        ">
+          ${trainId}
+        </div>
+      </div>
+    `,
+    iconSize: [60, 70],
+    iconAnchor: [30, 35]
   });
+};
 
-  const [activeModule, setActiveModule] = useState('overview');
+// Component to display trains with live WebSocket positions
+const LiveTrain = ({ trainData, getTrainColor, onSelect }) => {
+  if (!trainData.latitude || !trainData.longitude) return null;
+
+  const position = [trainData.latitude, trainData.longitude];
+  const color = getTrainColor({ delay: trainData.delay });
+
+  return (
+    <Marker
+      position={position}
+      icon={createTrainIcon(color, trainData.trainId, trainData.trainName)}
+      eventHandlers={{
+        click: () => onSelect(trainData)
+      }}
+    >
+      <Popup>
+        <div className="train-popup">
+          <strong>{trainData.trainName}</strong>
+          <p>🆔 {trainData.trainId}</p>
+          <p>🚉 Current: {trainData.currentStation}</p>
+          <p>➡️ Next: {trainData.nextStation}</p>
+          <p>🚄 Speed: {trainData.speed} km/h</p>
+          <p>📊 Progress: {trainData.progress}%</p>
+          <p>⏱️ Status: <span style={{color: color, fontWeight: 'bold'}}>
+            {trainData.status === 'delayed' ? `Delayed ${trainData.delay}min` : 'On-Time'}
+          </span></p>
+        </div>
+      </Popup>
+    </Marker>
+  );
+};
+
+const AdminDashboard = () => {
+  const [stats, setStats] = useState(null);
+  const [trains, setTrains] = useState([]);
+  const [liveTrains, setLiveTrains] = useState([]); // Live train positions from WebSocket
+  const [stations, setStations] = useState({});
+  const [conflicts, setConflicts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [selectedTrain, setSelectedTrain] = useState(null);
+  const [mapCenter] = useState([19.0760, 72.8777]); // Mumbai CSMT
+  const socketRef = useRef(null);
 
   useEffect(() => {
-    loadSystemStats();
+    fetchData();
+    
+    // Setup WebSocket for real-time updates
+    socketRef.current = io(SOCKET_URL);
+    
+    socketRef.current.on('connect', () => {
+      console.log('✅ Connected to WebSocket');
+    });
+
+    socketRef.current.on('trainUpdate', (updatedTrains) => {
+      console.log('🚂 Live train update:', updatedTrains.length, 'trains');
+      setLiveTrains(updatedTrains);
+    });
+
+    socketRef.current.on('conflictUpdate', (conflictData) => {
+      console.log('⚠️ Live conflict update:', conflictData.total_conflicts, 'conflicts');
+      setConflicts(conflictData.conflicts || []);
+      
+      // Update stats with live conflict count
+      setStats(prev => prev ? {
+        ...prev,
+        totalConflicts: conflictData.total_conflicts,
+        highSeverityConflicts: conflictData.conflicts?.filter(c => c.severity === 'high').length || 0
+      } : null);
+    });
+
+    const interval = setInterval(fetchData, 10000); // Refresh every 10 seconds
+
+    return () => {
+      if (socketRef.current) {
+        socketRef.current.disconnect();
+      }
+      clearInterval(interval);
+    };
   }, []);
 
-  const loadSystemStats = async () => {
+  const fetchData = async () => {
     try {
-      const [trainsRes, sectionsRes] = await Promise.all([
-        getTrains(),
-        getSections()
+      const [statsRes, trainsRes, stationsRes, conflictsRes] = await Promise.all([
+        axios.get(`${API_BASE}/ai/statistics`),
+        axios.get(`${API_BASE}/ai/trains`),
+        axios.get(`${API_BASE}/ai/stations`),
+        axios.get(`${API_BASE}/ai/conflicts`)
       ]);
 
-      setSystemStats({
-        totalSections: sectionsRes.data.data?.length || 3,
-        totalTrains: trainsRes.data.data?.length || 8,
-        activeSections: 2,
-        totalUsers: 12,
-        systemStatus: 'operational'
-      });
-    } catch (error) {
-      console.error('Failed to load system stats:', error);
+      setStats(statsRes.data.data);
+      setTrains(trainsRes.data.data);
+      setStations(stationsRes.data.data);
+      setConflicts(conflictsRes.data.data.conflicts || []);
+      setLoading(false);
+      setError(null);
+    } catch (err) {
+      console.error('Error fetching data:', err);
+      setError(err.message);
+      setLoading(false);
     }
   };
 
-  const adminModules = [
-    { id: 'overview', name: 'System Overview', icon: '📊', description: 'System status and statistics' },
-    { id: 'sections', name: 'Manage Sections', icon: '🛤️', description: 'Railway section configuration' },
-    { id: 'stations', name: 'Stations & Platforms', icon: '🏢', description: 'Station and platform setup' },
-    { id: 'tracks', name: 'Track Blocks', icon: '🚧', description: 'Track block configuration' },
-    { id: 'trains', name: 'Train Master', icon: '🚂', description: 'Train fleet management' },
-    { id: 'timetable', name: 'Timetable Upload', icon: '📅', description: 'Schedule management' },
-    { id: 'users', name: 'User Management', icon: '👥', description: 'User accounts and roles' }
-  ];
+  if (loading) {
+    return (
+      <div className="admin-dashboard loading-screen">
+        <div className="loading-spinner"></div>
+        <p>Initializing Railway Control System...</p>
+        <p className="loading-subtext">Loading 106 trains, 406 stations...</p>
+      </div>
+    );
+  }
 
-  const renderModuleContent = () => {
-    switch (activeModule) {
-      case 'overview':
-        return (
-          <div className="admin-overview">
-            <div className="stats-grid">
-              <div className="stat-card primary">
-                <div className="stat-icon">🛤️</div>
-                <div className="stat-content">
-                  <div className="stat-value">{systemStats.totalSections}</div>
-                  <div className="stat-label">Total Sections</div>
-                </div>
-              </div>
-              <div className="stat-card success">
-                <div className="stat-icon">🚂</div>
-                <div className="stat-content">
-                  <div className="stat-value">{systemStats.totalTrains}</div>
-                  <div className="stat-label">Total Trains</div>
-                </div>
-              </div>
-              <div className="stat-card warning">
-                <div className="stat-icon">⚡</div>
-                <div className="stat-content">
-                  <div className="stat-value">{systemStats.activeSections}</div>
-                  <div className="stat-label">Active Sections</div>
-                </div>
-              </div>
-              <div className="stat-card info">
-                <div className="stat-icon">👥</div>
-                <div className="stat-content">
-                  <div className="stat-value">{systemStats.totalUsers}</div>
-                  <div className="stat-label">Total Users</div>
-                </div>
-              </div>
-            </div>
+  if (error) {
+    return (
+      <div className="admin-dashboard error-screen">
+        <div className="error-icon">⚠️</div>
+        <h2>Connection Error</h2>
+        <p>{error}</p>
+        <button onClick={fetchData}>Retry Connection</button>
+      </div>
+    );
+  }
 
-            <div className="system-status-panel">
-              <h3>System Status</h3>
-              <div className="status-items">
-                <div className="status-item">
-                  <div className="status-dot online"></div>
-                  <span>Database Connection: Online</span>
-                </div>
-                <div className="status-item">
-                  <div className="status-dot online"></div>
-                  <span>AI Engine: Operational</span>
-                </div>
-                <div className="status-item">
-                  <div className="status-dot online"></div>
-                  <span>Real-time Updates: Active</span>
-                </div>
-                <div className="status-item">
-                  <div className="status-dot warning"></div>
-                  <span>Backup System: Scheduled</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        );
+  const getTrainColor = (train) => {
+    const delay = train.delay || 0;
+    if (delay > 10) return '#ff4444'; // Red - Critical delay
+    if (delay > 5) return '#ffaa00'; // Yellow - Minor delay
+    return '#00ff88'; // Green - On time
+  };
 
-      case 'sections':
-        return (
-          <div className="admin-module">
-            <h3>Section Management</h3>
-            <div className="module-actions">
-              <button className="action-btn btn-primary">+ Add New Section</button>
-              <button className="action-btn btn-secondary">Import Configuration</button>
-            </div>
-            <div className="data-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Section ID</th>
-                    <th>Name</th>
-                    <th>Tracks</th>
-                    <th>Status</th>
-                    <th>Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>SEC-001</td>
-                    <td>Section A-B-C</td>
-                    <td>3 tracks</td>
-                    <td><span className="status-badge active">Active</span></td>
-                    <td>
-                      <button className="table-btn edit">Edit</button>
-                      <button className="table-btn delete">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>SEC-002</td>
-                    <td>Section D-E-F</td>
-                    <td>2 tracks</td>
-                    <td><span className="status-badge inactive">Inactive</span></td>
-                    <td>
-                      <button className="table-btn edit">Edit</button>
-                      <button className="table-btn delete">Delete</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        );
+  const criticalConflicts = conflicts.filter(c => c.severity === 'high').slice(0, 5);
+  const recentConflicts = conflicts.slice(0, 10);
 
-      case 'trains':
-        return (
-          <div className="admin-module">
-            <h3>Train Fleet Management</h3>
-            <div className="module-actions">
-              <button className="action-btn btn-primary">+ Add New Train</button>
-              <button className="action-btn btn-secondary">Bulk Import</button>
-            </div>
-            <div className="data-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Train ID</th>
-                    <th>Type</th>
-                    <th>Priority</th>
-                    <th>Status</th>
-                    <th>Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>T101</td>
-                    <td>Express</td>
-                    <td>High (9)</td>
-                    <td><span className="status-badge active">Active</span></td>
-                    <td>
-                      <button className="table-btn edit">Edit</button>
-                      <button className="table-btn delete">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>F205</td>
-                    <td>Freight</td>
-                    <td>Medium (5)</td>
-                    <td><span className="status-badge active">Active</span></td>
-                    <td>
-                      <button className="table-btn edit">Edit</button>
-                      <button className="table-btn delete">Delete</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        );
-
-      case 'users':
-        return (
-          <div className="admin-module">
-            <h3>User Management</h3>
-            <div className="module-actions">
-              <button className="action-btn btn-primary">+ Add New User</button>
-              <button className="action-btn btn-secondary">Export Users</button>
-            </div>
-            <div className="data-table">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Username</th>
-                    <th>Role</th>
-                    <th>Section</th>
-                    <th>Last Login</th>
-                    <th>Actions</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>controller_1</td>
-                    <td>Section Controller</td>
-                    <td>Section A-B-C</td>
-                    <td>2 hours ago</td>
-                    <td>
-                      <button className="table-btn edit">Edit</button>
-                      <button className="table-btn delete">Delete</button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>supervisor_1</td>
-                    <td>Supervisor</td>
-                    <td>All Sections</td>
-                    <td>1 day ago</td>
-                    <td>
-                      <button className="table-btn edit">Edit</button>
-                      <button className="table-btn delete">Delete</button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        );
-
-      default:
-        return <div>Select a module from the sidebar</div>;
-    }
+  // Get train routes for visualization
+  const getTrainRoute = (train) => {
+    if (!train.route || train.route.length < 2) return [];
+    
+    const routePoints = [];
+    train.route.forEach(stop => {
+      const station = stations[stop.station_code];
+      if (station?.latitude && station?.longitude) {
+        routePoints.push([station.latitude, station.longitude]);
+      }
+    });
+    return routePoints;
   };
 
   return (
     <div className="admin-dashboard">
       {/* Header */}
-      <header className="admin-header">
-        <div className="header-content">
-          <div className="system-title">
-            <span className="system-logo">⚙️</span>
-            <div>
-              <span className="system-name">RailOpt Admin Panel</span>
-              <span className="system-subtitle">System Configuration & Management</span>
-            </div>
+      <div className="dashboard-header">
+        <div className="header-left">
+          <h1>🚂 Railway Control Center</h1>
+          <p className="subtitle">Real-Time Monitoring & AI Analysis - CSMT Operations</p>
+        </div>
+        <div className="header-right">
+          <div className="live-indicator">
+            <span className="pulse"></span>
+            <span>LIVE</span>
           </div>
-          
-          <div className="header-actions">
-            <div className="user-info">
-              <span className="user-name">{user.name}</span>
-              <span className="user-role">{user.role}</span>
-            </div>
-            <button className="logout-btn" onClick={onLogout}>
-              🚪 Logout
-            </button>
+          <div className="timestamp">
+            {new Date().toLocaleTimeString()}
           </div>
         </div>
-      </header>
-
-      <div className="admin-layout">
-        {/* Sidebar */}
-        <aside className="admin-sidebar">
-          <nav className="admin-nav">
-            {adminModules.map(module => (
-              <button
-                key={module.id}
-                className={`nav-item ${activeModule === module.id ? 'active' : ''}`}
-                onClick={() => setActiveModule(module.id)}
-              >
-                <span className="nav-icon">{module.icon}</span>
-                <div className="nav-content">
-                  <span className="nav-name">{module.name}</span>
-                  <span className="nav-description">{module.description}</span>
-                </div>
-              </button>
-            ))}
-          </nav>
-        </aside>
-
-        {/* Main Content */}
-        <main className="admin-main">
-          <div className="admin-content">
-            {renderModuleContent()}
-          </div>
-        </main>
       </div>
+
+      {/* KPI Cards */}
+      <div className="kpi-grid">
+        <div className="kpi-card">
+          <div className="kpi-icon">🚆</div>
+          <div className="kpi-content">
+            <div className="kpi-value">{stats?.totalTrains || 0}</div>
+            <div className="kpi-label">Active Trains</div>
+          </div>
+          <div className="kpi-trend positive">
+            <span className="trend-icon">↑</span> {stats?.activeTrains || 0} online
+          </div>
+        </div>
+
+        <div className="kpi-card">
+          <div className="kpi-icon">⚠️</div>
+          <div className="kpi-content">
+            <div className="kpi-value animate-number">{stats?.totalConflicts || 0}</div>
+            <div className="kpi-label">Total Conflicts</div>
+          </div>
+          <div className="kpi-trend negative">
+            <span className="trend-icon">⚠</span> {stats?.highSeverityConflicts || 0} critical
+          </div>
+        </div>
+
+        <div className="kpi-card">
+          <div className="kpi-icon">⏱️</div>
+          <div className="kpi-content">
+            <div className="kpi-value">{stats?.avgDelay || 0} <span className="unit">min</span></div>
+            <div className="kpi-label">Avg Delay</div>
+          </div>
+          <div className="kpi-trend neutral">Network wide</div>
+        </div>
+
+        <div className="kpi-card">
+          <div className="kpi-icon">✅</div>
+          <div className="kpi-content">
+            <div className="kpi-value">{stats?.onTimePercentage || 0}<span className="unit">%</span></div>
+            <div className="kpi-label">On-Time Performance</div>
+          </div>
+          <div className="kpi-trend positive">
+            <span className="trend-icon">✓</span> Target: 85%
+          </div>
+        </div>
+      </div>
+
+      {/* Main Content Grid */}
+      <div className="main-content-grid">
+        {/* Live Map */}
+        <div className="map-container">
+          <div className="panel-header">
+            <h2>🗺️ Live Train Tracking</h2>
+            <div className="map-controls">
+              <div className="map-legend">
+                <span><span className="legend-dot green"></span> On-Time</span>
+                <span><span className="legend-dot yellow"></span> Minor Delay</span>
+                <span><span className="legend-dot red"></span> Critical</span>
+              </div>
+              <div className="train-count">
+                {trains.length} trains tracked
+              </div>
+            </div>
+          </div>
+          <MapContainer 
+            center={mapCenter} 
+            zoom={9} 
+            style={{ height: '100%', width: '100%' }}
+            className="railway-map"
+          >
+            <TileLayer
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='&copy; OpenStreetMap contributors'
+            />
+            
+            {/* Render Railway Tracks (Routes) with Labels */}
+            {trains.slice(0, 15).map((train, idx) => {
+              const routePoints = getTrainRoute(train);
+              if (routePoints.length < 2) return null;
+              
+              const midPoint = routePoints[Math.floor(routePoints.length / 2)];
+              
+              return (
+                <React.Fragment key={`route-${idx}`}>
+                  <Polyline
+                    positions={routePoints}
+                    color={getTrainColor(train)}
+                    weight={3}
+                    opacity={0.6}
+                    dashArray="10, 5"
+                  >
+                    <Tooltip 
+                      permanent 
+                      direction="center"
+                      className="track-label"
+                    >
+                      <div className="track-name">
+                        {train.train_name}
+                        <br />
+                        <span className="track-route">
+                          {train.source_name} → {train.destination_name}
+                        </span>
+                      </div>
+                    </Tooltip>
+                  </Polyline>
+                </React.Fragment>
+              );
+            })}
+
+            {/* Render Stations */}
+            {Object.values(stations).map((station, idx) => (
+              station.latitude && station.longitude && (
+                <CircleMarker
+                  key={`station-${idx}`}
+                  center={[station.latitude, station.longitude]}
+                  radius={4}
+                  fillColor="#4a90e2"
+                  color="#fff"
+                  weight={2}
+                  opacity={1}
+                  fillOpacity={0.8}
+                >
+                  <Popup>
+                    <div className="station-popup">
+                      <strong>{station.name}</strong>
+                      <p>Code: {station.code}</p>
+                    </div>
+                  </Popup>
+                </CircleMarker>
+              )
+            ))}
+
+            {/* Render Live Animated Trains from WebSocket */}
+            {liveTrains.map((trainData) => (
+              <LiveTrain
+                key={`train-${trainData.trainId}`}
+                trainData={trainData}
+                getTrainColor={getTrainColor}
+                onSelect={(data) => {
+                  // Find full train details
+                  const fullTrain = trains.find(t => t.train_id === data.trainId);
+                  if (fullTrain) {
+                    setSelectedTrain({...fullTrain, ...data});
+                  }
+                }}
+              />
+            ))}
+
+            {/* Render Conflict Zones */}
+            {criticalConflicts.map((conflict, idx) => {
+              const station = stations[conflict.station];
+              if (!station?.latitude || !station?.longitude) return null;
+
+              return (
+                <CircleMarker
+                  key={`conflict-${idx}`}
+                  center={[station.latitude, station.longitude]}
+                  radius={15}
+                  fillColor="#ff4444"
+                  color="#ff0000"
+                  weight={2}
+                  opacity={0.8}
+                  fillOpacity={0.3}
+                  className="conflict-zone"
+                >
+                  <Popup>
+                    <div className="conflict-popup">
+                      <strong>⚠️ CONFLICT DETECTED</strong>
+                      <p>Type: {conflict.type}</p>
+                      <p>Trains: {conflict.train1_id} & {conflict.train2_id}</p>
+                      <p>Severity: <span className="severity-high">{conflict.severity}</span></p>
+                    </div>
+                  </Popup>
+                </CircleMarker>
+              );
+            })}
+          </MapContainer>
+        </div>
+
+        {/* Right Panel - Conflicts & Stats */}
+        <div className="right-panel">
+          {/* Critical Alerts */}
+          <div className="alerts-panel">
+            <div className="panel-header">
+              <h2>🚨 Critical Alerts</h2>
+              <span className="alert-count blink">{criticalConflicts.length}</span>
+            </div>
+            <div className="alerts-list">
+              {criticalConflicts.length === 0 ? (
+                <div className="no-alerts">
+                  <div className="success-icon">✓</div>
+                  <p>No Critical Conflicts</p>
+                  <span>System Operating Normally</span>
+                </div>
+              ) : (
+                criticalConflicts.map((conflict, idx) => (
+                  <div key={idx} className="alert-item animate-slide-in" style={{animationDelay: `${idx * 0.1}s`}}>
+                    <div className="alert-icon blink">⚠️</div>
+                    <div className="alert-content">
+                      <div className="alert-title">{conflict.type}</div>
+                      <div className="alert-details">
+                        🚂 {conflict.train1_id} & {conflict.train2_id}
+                      </div>
+                      <div className="alert-location">
+                        📍 {conflict.station}
+                      </div>
+                      <div className="alert-time">
+                        ⏰ {conflict.time}
+                      </div>
+                    </div>
+                    <div className={`alert-severity ${conflict.severity}`}>
+                      {conflict.severity}
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+          </div>
+
+          {/* Recent Activity */}
+          <div className="activity-panel">
+            <div className="panel-header">
+              <h2>📊 Recent Activity</h2>
+            </div>
+            <div className="activity-list">
+              {recentConflicts.slice(0, 5).map((conflict, idx) => (
+                <div key={idx} className="activity-item">
+                  <div className="activity-icon">
+                    {conflict.severity === 'high' ? '🔴' : conflict.severity === 'medium' ? '🟡' : '🟢'}
+                  </div>
+                  <div className="activity-text">
+                    <span className="activity-type">{conflict.type}</span>
+                    <span className="activity-detail">at {conflict.station}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Train Details Modal */}
+      {selectedTrain && (
+        <div className="modal-overlay" onClick={() => setSelectedTrain(null)}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-header">
+              <h2>🚂 {selectedTrain.train_name}</h2>
+              <button className="close-btn" onClick={() => setSelectedTrain(null)}>×</button>
+            </div>
+            <div className="modal-body">
+              <div className="train-info-grid">
+                <div className="info-item">
+                  <span className="info-label">Train ID</span>
+                  <span className="info-value">{selectedTrain.train_id}</span>
+                </div>
+                <div className="info-item">
+                  <span className="info-label">Type</span>
+                  <span className="info-value">{selectedTrain.train_type}</span>
+                </div>
+                <div className="info-item">
+                  <span className="info-label">Priority</span>
+                  <span className="info-value">{selectedTrain.priority}</span>
+                </div>
+                <div className="info-item">
+                  <span className="info-label">Distance</span>
+                  <span className="info-value">{selectedTrain.total_distance} km</span>
+                </div>
+              </div>
+              
+              <div className="route-section">
+                <h3>📍 Route Details ({selectedTrain.total_stations} stations)</h3>
+                <div className="route-list">
+                  {selectedTrain.route?.slice(0, 8).map((stop, idx) => (
+                    <div key={idx} className="route-stop">
+                      <div className="stop-number">{stop.seq}</div>
+                      <div className="stop-details">
+                        <div className="stop-name">{stop.station_name}</div>
+                        <div className="stop-time">
+                          Arr: {stop.arrival_time} | Dep: {stop.departure_time}
+                        </div>
+                        <div className="stop-distance">{stop.distance} km</div>
+                      </div>
+                    </div>
+                  ))}
+                  {selectedTrain.route?.length > 8 && (
+                    <div className="route-more">
+                      + {selectedTrain.route.length - 8} more stations
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
