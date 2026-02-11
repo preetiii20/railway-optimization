@@ -1,0 +1,54 @@
+.time-distance-graph {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.graph-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.graph-header h3 {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.graph-legend {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.legend-line {
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.legend-line.green { background: #00ff88; }
+.legend-line.yellow { background: #ffaa00; }
+.legend-line.blue { background: #4a90e2; }
+
+.legend-box {
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.legend-box.red { background: rgba(255, 68, 68, 0.3); }
+
+.graph-info {
+  margin-top: 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+}

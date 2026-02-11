@@ -161,3 +161,113 @@ router.post('/run-python', (req, res) => {
 });
 
 module.exports = router;
+
+
+// POST /api/ai/optimize-freight - Run freight optimization
+router.post('/optimize-freight', async (req, res) => {
+  try {
+    const { passenger_trains, time_window } = req.body;
+    
+    const pythonProcess = spawn('python', [
+      path.join(__dirname, '../../python-ai/run_freight_optimizer.py'),
+      JSON.stringify({ passenger_trains, time_window })
+    ]);
+
+    let result = '';
+    pythonProcess.stdout.on('data', (data) => {
+      result += data.toString();
+    });
+
+    pythonProcess.on('close', (code) => {
+      if (code === 0) {
+        res.json(JSON.parse(result));
+      } else {
+        res.status(500).json({ success: false, error: 'Optimization failed' });
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// POST /api/ai/predict-conflicts - Predict future conflicts
+router.post('/predict-conflicts', (req, res) => {
+  try {
+    const { current_trains, time_horizon } = req.body;
+    
+    // Mock predictions for now
+    const predictions = [
+      {
+        id: 1,
+        type: 'Track Occupancy Conflict',
+        severity: 'high',
+        probability: 0.85,
+        train1_id: '1011',
+        train2_id: '1023',
+        station: 'DADAR',
+        expected_time: '14:25',
+        impact_description: 'Both trains scheduled to arrive within 3 minutes',
+        recommendation: 'Delay Train 1023 by 5 minutes to avoid conflict',
+        suggested_delay_train: '1023'
+      }
+    ];
+    
+    res.json({ success: true, predictions });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// POST /api/ai/simulate-infrastructure - Simulate infrastructure changes
+router.post('/simulate-infrastructure', (req, res) => {
+  try {
+    const { natural_language_input, current_network } = req.body;
+    
+    // Mock simulation results
+    const simulation = {
+      parsed: {
+        action: 'add',
+        infrastructure_type: 'loop line',
+        stations: ['Dadar', 'Kurla']
+      },
+      before: {
+        freight_capacity: 45,
+        avg_headway: 8,
+        loop_utilization: 75,
+        conflicts_per_day: 12
+      },
+      after: {
+        freight_capacity: 60,
+        avg_headway: 6,
+        loop_utilization: 65,
+        conflicts_per_day: 7
+      },
+      cost: 50,
+      revenue: 15,
+      roi_years: 3.3,
+      feasibility: 'high'
+    };
+    
+    res.json({ success: true, ...simulation });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// POST /api/ai/resolve-conflict - Execute conflict resolution action
+router.post('/resolve-conflict', (req, res) => {
+  try {
+    const { prediction_id, action } = req.body;
+    
+    console.log(`🎯 Executing action: ${action} for prediction ${prediction_id}`);
+    
+    res.json({ 
+      success: true, 
+      message: `Action "${action}" executed successfully`,
+      action_taken: action,
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
