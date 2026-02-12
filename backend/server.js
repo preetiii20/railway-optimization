@@ -8,9 +8,57 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const http = require('http');
 const socketIo = require('socket.io');
+const { spawn } = require('child_process');
+const path = require('path');
 require('dotenv').config();
 
 console.log('\n🚀 Starting Railway Optimization System Backend...\n');
+
+// Auto-start Python AI API
+let pythonProcess = null;
+function startPythonAPI() {
+  const pythonPath = path.join(__dirname, '../python-ai/api/freight_api.py');
+  
+  console.log('🐍 Starting Python AI API...');
+  pythonProcess = spawn('python', [pythonPath], {
+    cwd: path.join(__dirname, '../python-ai')
+  });
+
+  pythonProcess.stdout.on('data', (data) => {
+    console.log(`[Python AI] ${data.toString().trim()}`);
+  });
+
+  pythonProcess.stderr.on('data', (data) => {
+    const message = data.toString().trim();
+    if (!message.includes('WARNING') && !message.includes('Restarting')) {
+      console.error(`[Python AI Error] ${message}`);
+    }
+  });
+
+  pythonProcess.on('close', (code) => {
+    console.log(`[Python AI] Process exited with code ${code}`);
+  });
+
+  console.log('✅ Python AI API started on port 5001\n');
+}
+
+// Start Python API
+startPythonAPI();
+
+// Cleanup on exit
+process.on('exit', () => {
+  if (pythonProcess) {
+    pythonProcess.kill();
+  }
+});
+
+process.on('SIGINT', () => {
+  console.log('\n🛑 Shutting down...');
+  if (pythonProcess) {
+    pythonProcess.kill();
+  }
+  process.exit();
+});
 
 // Initialize Express
 const app = express();
@@ -25,6 +73,7 @@ const aiDataService = require('./services/aiDataService');
 const { getLiveTrainStatus } = require('./services/railRadarService');
 const trainSimulator = require('./services/trainSimulator');
 const liveConflictDetector = require('./services/liveConflictDetector');
+const freightService = require('./services/freightService');
 
 // Import Models
 const Train = require('./models/Train');
@@ -41,7 +90,14 @@ console.log('✅ All modules loaded successfully\n');
 // DATABASE CONNECTION
 // ========================================
 mongoose.connect(process.env.MONGODB_URI)
-  .then(() => console.log('✅ Connected to MongoDB Atlas'))
+  .then(async () => {
+    console.log('✅ Connected to MongoDB Atlas');
+    
+    // Initialize freight service after DB connection
+    console.log('\n🚛 Initializing Freight Train System...');
+    await freightService.initialize();
+    console.log('✅ Freight Train System Ready\n');
+  })
   .catch(err => console.error('❌ Database connection error:', err));
 
 // ========================================

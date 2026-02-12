@@ -1,0 +1,434 @@
+[
+  {
+    "train_id": "FRT-001",
+    "train_name": "FREIGHT EXPRESS 001",
+    "train_type": "freight",
+    "source": "CSMT",
+    "source_name": "Mumbai CST",
+    "destination": "PUNE",
+    "destination_name": "Pune Junction",
+    "departure_time": "00:30:00",
+    "arrival_time": "04:00:00",
+    "total_distance": 192,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "00:00:00", "departure_time": "00:30:00", "distance": 0},
+      {"seq": 2, "station_code": "PUNE", "station_name": "Pune Junction", "arrival_time": "04:00:00", "departure_time": "04:00:00", "distance": 192}
+    ]
+  },
+  {
+    "train_id": "FRT-002",
+    "train_name": "FREIGHT EXPRESS 002",
+    "train_type": "freight",
+    "source": "DADAR",
+    "source_name": "Dadar",
+    "destination": "THANE",
+    "destination_name": "Thane",
+    "departure_time": "01:15:00",
+    "arrival_time": "02:00:00",
+    "total_distance": 34,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "DADAR", "station_name": "Dadar", "arrival_time": "00:00:00", "departure_time": "01:15:00", "distance": 0},
+      {"seq": 2, "station_code": "THANE", "station_name": "Thane", "arrival_time": "02:00:00", "departure_time": "02:00:00", "distance": 34}
+    ]
+  },
+  {
+    "train_id": "FRT-003",
+    "train_name": "FREIGHT EXPRESS 003",
+    "train_type": "freight",
+    "source": "KALYAN",
+    "source_name": "Kalyan Junction",
+    "destination": "LONAVALA",
+    "destination_name": "Lonavala",
+    "departure_time": "02:30:00",
+    "arrival_time": "04:15:00",
+    "total_distance": 64,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "KALYAN", "station_name": "Kalyan Junction", "arrival_time": "00:00:00", "departure_time": "02:30:00", "distance": 0},
+      {"seq": 2, "station_code": "LONAVALA", "station_name": "Lonavala", "arrival_time": "04:15:00", "departure_time": "04:15:00", "distance": 64}
+    ]
+  },
+  {
+    "train_id": "FRT-004",
+    "train_name": "FREIGHT EXPRESS 004",
+    "train_type": "freight",
+    "source": "PANVEL",
+    "source_name": "Panvel",
+    "destination": "KARJAT",
+    "destination_name": "Karjat",
+    "departure_time": "03:45:00",
+    "arrival_time": "05:15:00",
+    "total_distance": 42,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "PANVEL", "station_name": "Panvel", "arrival_time": "00:00:00", "departure_time": "03:45:00", "distance": 0},
+      {"seq": 2, "station_code": "KARJAT", "station_name": "Karjat", "arrival_time": "05:15:00", "departure_time": "05:15:00", "distance": 42}
+    ]
+  },
+  {
+    "train_id": "FRT-005",
+    "train_name": "FREIGHT EXPRESS 005",
+    "train_type": "freight",
+    "source": "BANDRA",
+    "source_name": "Bandra Terminus",
+    "destination": "VIRAR",
+    "destination_name": "Virar",
+    "departure_time": "05:00:00",
+    "arrival_time": "06:45:00",
+    "total_distance": 58,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "BANDRA", "station_name": "Bandra Terminus", "arrival_time": "00:00:00", "departure_time": "05:00:00", "distance": 0},
+      {"seq": 2, "station_code": "VIRAR", "station_name": "Virar", "arrival_time": "06:45:00", "departure_time": "06:45:00", "distance": 58}
+    ]
+  },
+  {
+    "train_id": "FRT-006",
+    "train_name": "FREIGHT EXPRESS 006",
+    "train_type": "freight",
+    "source": "CSMT",
+    "source_name": "Mumbai CST",
+    "destination": "LONAVALA",
+    "destination_name": "Lonavala",
+    "departure_time": "06:20:00",
+    "arrival_time": "08:30:00",
+    "total_distance": 96,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "00:00:00", "departure_time": "06:20:00", "distance": 0},
+      {"seq": 2, "station_code": "LONAVALA", "station_name": "Lonavala", "arrival_time": "08:30:00", "departure_time": "08:30:00", "distance": 96}
+    ]
+  },
+  {
+    "train_id": "FRT-007",
+    "train_name": "FREIGHT EXPRESS 007",
+    "train_type": "freight",
+    "source": "THANE",
+    "source_name": "Thane",
+    "destination": "KALYAN",
+    "destination_name": "Kalyan Junction",
+    "departure_time": "07:30:00",
+    "arrival_time": "08:15:00",
+    "total_distance": 28,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "THANE", "station_name": "Thane", "arrival_time": "00:00:00", "departure_time": "07:30:00", "distance": 0},
+      {"seq": 2, "station_code": "KALYAN", "station_name": "Kalyan Junction", "arrival_time": "08:15:00", "departure_time": "08:15:00", "distance": 28}
+    ]
+  },
+  {
+    "train_id": "FRT-008",
+    "train_name": "FREIGHT EXPRESS 008",
+    "train_type": "freight",
+    "source": "PUNE",
+    "source_name": "Pune Junction",
+    "destination": "CSMT",
+    "destination_name": "Mumbai CST",
+    "departure_time": "08:45:00",
+    "arrival_time": "12:15:00",
+    "total_distance": 192,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "PUNE", "station_name": "Pune Junction", "arrival_time": "00:00:00", "departure_time": "08:45:00", "distance": 0},
+      {"seq": 2, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "12:15:00", "departure_time": "12:15:00", "distance": 192}
+    ]
+  },
+  {
+    "train_id": "FRT-009",
+    "train_name": "FREIGHT EXPRESS 009",
+    "train_type": "freight",
+    "source": "VIRAR",
+    "source_name": "Virar",
+    "destination": "DADAR",
+    "destination_name": "Dadar",
+    "departure_time": "09:30:00",
+    "arrival_time": "11:00:00",
+    "total_distance": 52,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "VIRAR", "station_name": "Virar", "arrival_time": "00:00:00", "departure_time": "09:30:00", "distance": 0},
+      {"seq": 2, "station_code": "DADAR", "station_name": "Dadar", "arrival_time": "11:00:00", "departure_time": "11:00:00", "distance": 52}
+    ]
+  },
+  {
+    "train_id": "FRT-010",
+    "train_name": "FREIGHT EXPRESS 010",
+    "train_type": "freight",
+    "source": "KARJAT",
+    "source_name": "Karjat",
+    "destination": "PANVEL",
+    "destination_name": "Panvel",
+    "departure_time": "10:15:00",
+    "arrival_time": "11:45:00",
+    "total_distance": 42,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "KARJAT", "station_name": "Karjat", "arrival_time": "00:00:00", "departure_time": "10:15:00", "distance": 0},
+      {"seq": 2, "station_code": "PANVEL", "station_name": "Panvel", "arrival_time": "11:45:00", "departure_time": "11:45:00", "distance": 42}
+    ]
+  },
+  {
+    "train_id": "FRT-011",
+    "train_name": "FREIGHT EXPRESS 011",
+    "train_type": "freight",
+    "source": "LONAVALA",
+    "source_name": "Lonavala",
+    "destination": "PUNE",
+    "destination_name": "Pune Junction",
+    "departure_time": "11:30:00",
+    "arrival_time": "13:00:00",
+    "total_distance": 64,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "LONAVALA", "station_name": "Lonavala", "arrival_time": "00:00:00", "departure_time": "11:30:00", "distance": 0},
+      {"seq": 2, "station_code": "PUNE", "station_name": "Pune Junction", "arrival_time": "13:00:00", "departure_time": "13:00:00", "distance": 64}
+    ]
+  },
+  {
+    "train_id": "FRT-012",
+    "train_name": "FREIGHT EXPRESS 012",
+    "train_type": "freight",
+    "source": "CSMT",
+    "source_name": "Mumbai CST",
+    "destination": "THANE",
+    "destination_name": "Thane",
+    "departure_time": "12:45:00",
+    "arrival_time": "13:30:00",
+    "total_distance": 34,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "00:00:00", "departure_time": "12:45:00", "distance": 0},
+      {"seq": 2, "station_code": "THANE", "station_name": "Thane", "arrival_time": "13:30:00", "departure_time": "13:30:00", "distance": 34}
+    ]
+  },
+  {
+    "train_id": "FRT-013",
+    "train_name": "FREIGHT EXPRESS 013",
+    "train_type": "freight",
+    "source": "DADAR",
+    "source_name": "Dadar",
+    "destination": "KALYAN",
+    "destination_name": "Kalyan Junction",
+    "departure_time": "13:20:00",
+    "arrival_time": "14:15:00",
+    "total_distance": 38,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "DADAR", "station_name": "Dadar", "arrival_time": "00:00:00", "departure_time": "13:20:00", "distance": 0},
+      {"seq": 2, "station_code": "KALYAN", "station_name": "Kalyan Junction", "arrival_time": "14:15:00", "departure_time": "14:15:00", "distance": 38}
+    ]
+  },
+  {
+    "train_id": "FRT-014",
+    "train_name": "FREIGHT EXPRESS 014",
+    "train_type": "freight",
+    "source": "BANDRA",
+    "source_name": "Bandra Terminus",
+    "destination": "PANVEL",
+    "destination_name": "Panvel",
+    "departure_time": "14:30:00",
+    "arrival_time": "16:15:00",
+    "total_distance": 48,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "BANDRA", "station_name": "Bandra Terminus", "arrival_time": "00:00:00", "departure_time": "14:30:00", "distance": 0},
+      {"seq": 2, "station_code": "PANVEL", "station_name": "Panvel", "arrival_time": "16:15:00", "departure_time": "16:15:00", "distance": 48}
+    ]
+  },
+  {
+    "train_id": "FRT-015",
+    "train_name": "FREIGHT EXPRESS 015",
+    "train_type": "freight",
+    "source": "PUNE",
+    "source_name": "Pune Junction",
+    "destination": "LONAVALA",
+    "destination_name": "Lonavala",
+    "departure_time": "15:00:00",
+    "arrival_time": "16:30:00",
+    "total_distance": 64,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "PUNE", "station_name": "Pune Junction", "arrival_time": "00:00:00", "departure_time": "15:00:00", "distance": 0},
+      {"seq": 2, "station_code": "LONAVALA", "station_name": "Lonavala", "arrival_time": "16:30:00", "departure_time": "16:30:00", "distance": 64}
+    ]
+  },
+  {
+    "train_id": "FRT-016",
+    "train_name": "FREIGHT EXPRESS 016",
+    "train_type": "freight",
+    "source": "THANE",
+    "source_name": "Thane",
+    "destination": "VIRAR",
+    "destination_name": "Virar",
+    "departure_time": "16:45:00",
+    "arrival_time": "18:15:00",
+    "total_distance": 46,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "THANE", "station_name": "Thane", "arrival_time": "00:00:00", "departure_time": "16:45:00", "distance": 0},
+      {"seq": 2, "station_code": "VIRAR", "station_name": "Virar", "arrival_time": "18:15:00", "departure_time": "18:15:00", "distance": 46}
+    ]
+  },
+  {
+    "train_id": "FRT-017",
+    "train_name": "FREIGHT EXPRESS 017",
+    "train_type": "freight",
+    "source": "KALYAN",
+    "source_name": "Kalyan Junction",
+    "destination": "CSMT",
+    "destination_name": "Mumbai CST",
+    "departure_time": "17:30:00",
+    "arrival_time": "19:00:00",
+    "total_distance": 54,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "KALYAN", "station_name": "Kalyan Junction", "arrival_time": "00:00:00", "departure_time": "17:30:00", "distance": 0},
+      {"seq": 2, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "19:00:00", "departure_time": "19:00:00", "distance": 54}
+    ]
+  },
+  {
+    "train_id": "FRT-018",
+    "train_name": "FREIGHT EXPRESS 018",
+    "train_type": "freight",
+    "source": "PANVEL",
+    "source_name": "Panvel",
+    "destination": "BANDRA",
+    "destination_name": "Bandra Terminus",
+    "departure_time": "18:15:00",
+    "arrival_time": "20:00:00",
+    "total_distance": 48,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "PANVEL", "station_name": "Panvel", "arrival_time": "00:00:00", "departure_time": "18:15:00", "distance": 0},
+      {"seq": 2, "station_code": "BANDRA", "station_name": "Bandra Terminus", "arrival_time": "20:00:00", "departure_time": "20:00:00", "distance": 48}
+    ]
+  },
+  {
+    "train_id": "FRT-019",
+    "train_name": "FREIGHT EXPRESS 019",
+    "train_type": "freight",
+    "source": "LONAVALA",
+    "source_name": "Lonavala",
+    "destination": "KALYAN",
+    "destination_name": "Kalyan Junction",
+    "departure_time": "19:00:00",
+    "arrival_time": "20:45:00",
+    "total_distance": 64,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "LONAVALA", "station_name": "Lonavala", "arrival_time": "00:00:00", "departure_time": "19:00:00", "distance": 0},
+      {"seq": 2, "station_code": "KALYAN", "station_name": "Kalyan Junction", "arrival_time": "20:45:00", "departure_time": "20:45:00", "distance": 64}
+    ]
+  },
+  {
+    "train_id": "FRT-020",
+    "train_name": "FREIGHT EXPRESS 020",
+    "train_type": "freight",
+    "source": "CSMT",
+    "source_name": "Mumbai CST",
+    "destination": "PUNE",
+    "destination_name": "Pune Junction",
+    "departure_time": "20:30:00",
+    "arrival_time": "00:00:00",
+    "total_distance": 192,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "00:00:00", "departure_time": "20:30:00", "distance": 0},
+      {"seq": 2, "station_code": "PUNE", "station_name": "Pune Junction", "arrival_time": "00:00:00", "departure_time": "00:00:00", "distance": 192}
+    ]
+  },
+  {
+    "train_id": "FRT-021",
+    "train_name": "FREIGHT EXPRESS 021",
+    "train_type": "freight",
+    "source": "VIRAR",
+    "source_name": "Virar",
+    "destination": "THANE",
+    "destination_name": "Thane",
+    "departure_time": "21:15:00",
+    "arrival_time": "22:45:00",
+    "total_distance": 46,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "VIRAR", "station_name": "Virar", "arrival_time": "00:00:00", "departure_time": "21:15:00", "distance": 0},
+      {"seq": 2, "station_code": "THANE", "station_name": "Thane", "arrival_time": "22:45:00", "departure_time": "22:45:00", "distance": 46}
+    ]
+  },
+  {
+    "train_id": "FRT-022",
+    "train_name": "FREIGHT EXPRESS 022",
+    "train_type": "freight",
+    "source": "DADAR",
+    "source_name": "Dadar",
+    "destination": "PANVEL",
+    "destination_name": "Panvel",
+    "departure_time": "22:00:00",
+    "arrival_time": "23:30:00",
+    "total_distance": 42,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "DADAR", "station_name": "Dadar", "arrival_time": "00:00:00", "departure_time": "22:00:00", "distance": 0},
+      {"seq": 2, "station_code": "PANVEL", "station_name": "Panvel", "arrival_time": "23:30:00", "departure_time": "23:30:00", "distance": 42}
+    ]
+  },
+  {
+    "train_id": "FRT-023",
+    "train_name": "FREIGHT EXPRESS 023",
+    "train_type": "freight",
+    "source": "KALYAN",
+    "source_name": "Kalyan Junction",
+    "destination": "DADAR",
+    "destination_name": "Dadar",
+    "departure_time": "22:45:00",
+    "arrival_time": "23:40:00",
+    "total_distance": 38,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "KALYAN", "station_name": "Kalyan Junction", "arrival_time": "00:00:00", "departure_time": "22:45:00", "distance": 0},
+      {"seq": 2, "station_code": "DADAR", "station_name": "Dadar", "arrival_time": "23:40:00", "departure_time": "23:40:00", "distance": 38}
+    ]
+  },
+  {
+    "train_id": "FRT-024",
+    "train_name": "FREIGHT EXPRESS 024",
+    "train_type": "freight",
+    "source": "PUNE",
+    "source_name": "Pune Junction",
+    "destination": "CSMT",
+    "destination_name": "Mumbai CST",
+    "departure_time": "23:30:00",
+    "arrival_time": "03:00:00",
+    "total_distance": 192,
+    "total_stations": 2,
+    "priority": 5,
+    "route": [
+      {"seq": 1, "station_code": "PUNE", "station_name": "Pune Junction", "arrival_time": "00:00:00", "departure_time": "23:30:00", "distance": 0},
+      {"seq": 2, "station_code": "CSMT", "station_name": "Mumbai CST", "arrival_time": "03:00:00", "departure_time": "03:00:00", "distance": 192}
+    ]
+  }
+]

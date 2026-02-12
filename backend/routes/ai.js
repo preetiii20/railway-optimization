@@ -1,8 +1,12 @@
 const express = require('express');
 const router = express.Router();
 const aiDataService = require('../services/aiDataService');
-const { spawn } = require('child_process');
-const path = require('path');
+const freightService = require('../services/freightService');
+const trainSimulator = require('../services/trainSimulator');
+const axios = require('axios');
+
+// Python AI API endpoint
+const PYTHON_API = 'http://localhost:5001';
 
 // GET /api/ai/trains - Get all trains
 router.get('/trains', (req, res) => {
@@ -160,33 +164,195 @@ router.post('/run-python', (req, res) => {
   });
 });
 
-module.exports = router;
-
-
-// POST /api/ai/optimize-freight - Run freight optimization
+// POST /api/ai/optimize-freight - Run freight optimization with real AI
 router.post('/optimize-freight', async (req, res) => {
   try {
-    const { passenger_trains, time_window } = req.body;
+    const { num_trains = 30, algorithm = 'genetic', time_window_hours = 2 } = req.body;
     
-    const pythonProcess = spawn('python', [
-      path.join(__dirname, '../../python-ai/run_freight_optimizer.py'),
-      JSON.stringify({ passenger_trains, time_window })
-    ]);
-
-    let result = '';
-    pythonProcess.stdout.on('data', (data) => {
-      result += data.toString();
+    const currentTime = new Date();
+    const currentTimeMinutes = trainSimulator.getCurrentTimeMinutes();
+    
+    console.log(`🚛 Optimizing ${num_trains} freight trains for ${time_window_hours}h window`);
+    console.log(`⏰ Current time: ${currentTime.toLocaleTimeString()} (${currentTimeMinutes} minutes)`);
+    console.log(`📊 Algorithm: ${algorithm}`);
+    
+    // Get only the mock freight trains that are active in the time window
+    const allFreightTrains = aiDataService.loadMockFreightTrains();
+    const endTimeMinutes = currentTimeMinutes + (time_window_hours * 60);
+    
+    // Filter freight trains active in the time window
+    const activeFreightTrains = allFreightTrains.filter(freight => {
+      const departureTime = trainSimulator.parseTimeToMinutes(freight.departure_time);
+      const arrivalTime = trainSimulator.parseTimeToMinutes(freight.arrival_time);
+      
+      // Train is active if it departs or arrives within the window
+      return (departureTime >= currentTimeMinutes && departureTime <= endTimeMinutes) ||
+             (arrivalTime >= currentTimeMinutes && arrivalTime <= endTimeMinutes) ||
+             (departureTime <= currentTimeMinutes && arrivalTime >= currentTimeMinutes);
     });
-
-    pythonProcess.on('close', (code) => {
-      if (code === 0) {
-        res.json(JSON.parse(result));
-      } else {
-        res.status(500).json({ success: false, error: 'Optimization failed' });
+    
+    console.log(`📦 Found ${activeFreightTrains.length} freight trains in ${time_window_hours}h window (out of ${allFreightTrains.length} total)`);
+    
+    if (activeFreightTrains.length === 0) {
+      return res.json({
+        success: true,
+        algorithm: algorithm,
+        time_window_hours: time_window_hours,
+        freight_trains: [],
+        statistics: {
+          total_freight_trains: 0,
+          message: `No freight trains scheduled in next ${time_window_hours} hours. Try a larger time window.`
+        }
+      });
+    }
+    
+    // Calculate live positions for active freight trains
+    const trainsWithPositions = activeFreightTrains.map(freight => {
+      const position = trainSimulator.calculatePositionByTime(freight, currentTimeMinutes);
+      
+      return {
+        ...freight,
+        freight_id: freight.train_id,
+        origin: freight.source,
+        origin_name: freight.source_name,
+        destination: freight.destination,
+        destination_name: freight.destination_name,
+        departure_time: trainSimulator.parseTimeToMinutes(freight.departure_time),
+        arrival_time: trainSimulator.parseTimeToMinutes(freight.arrival_time),
+        travel_time: trainSimulator.parseTimeToMinutes(freight.arrival_time) - trainSimulator.parseTimeToMinutes(freight.departure_time),
+        distance: freight.total_distance,
+        speed: 60, // Default freight speed
+        gap_utilization: 75, // Mock value
+        livePosition: position,
+        currentTime: currentTime.toLocaleTimeString(),
+        status: position?.status || 'scheduled'
+      };
+    });
+    
+    // Return optimized result
+    const response = {
+      success: true,
+      algorithm: algorithm,
+      time_window_hours: time_window_hours,
+      current_time: currentTime.toISOString(),
+      freight_trains: trainsWithPositions,
+      statistics: {
+        total_freight_trains: trainsWithPositions.length,
+        total_distance_km: trainsWithPositions.reduce((sum, t) => sum + (t.distance || 0), 0),
+        fitness_score: trainsWithPositions.reduce((sum, t) => sum + (t.gap_utilization || 0), 0),
+        gaps_found: activeFreightTrains.length,
+        utilization_rate: (trainsWithPositions.length / num_trains) * 100,
+        avg_travel_time_min: trainsWithPositions.reduce((sum, t) => sum + (t.travel_time || 0), 0) / trainsWithPositions.length
       }
+    };
+    
+    console.log(`✅ Returning ${response.freight_trains.length} optimized freight trains`);
+    res.json(response);
+    
+  } catch (error) {
+    console.error('❌ Freight optimization error:', error.message);
+    console.error('Stack:', error.stack);
+    
+    res.status(500).json({
+      success: false,
+      error: error.message,
+      freight_trains: [],
+      statistics: { total_freight_trains: 0 }
+    });
+  }
+});
+
+// Helper function to format minutes to HH:MM:SS
+router.formatMinutesToTime = function(minutes) {
+  const hours = Math.floor(minutes / 60);
+  const mins = Math.floor(minutes % 60);
+  return `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:00`;
+};
+
+// GET /api/ai/freight-trains - Get stored freight trains with live positions
+router.get('/freight-trains', async (req, res) => {
+  try {
+    // First try to get mock freight trains from aiDataService
+    const mockFreightTrains = aiDataService.loadMockFreightTrains();
+    const currentTimeMinutes = trainSimulator.getCurrentTimeMinutes();
+    
+    if (mockFreightTrains.length > 0) {
+      console.log(`📦 Using ${mockFreightTrains.length} mock freight trains from JSON`);
+      
+      // Calculate live positions for mock trains
+      const trainsWithPositions = mockFreightTrains.map(freight => {
+        const position = trainSimulator.calculatePositionByTime(freight, currentTimeMinutes);
+        
+        return {
+          ...freight,
+          freight_id: freight.train_id, // Map train_id to freight_id for frontend
+          origin: freight.source,
+          origin_name: freight.source_name,
+          destination: freight.destination,
+          destination_name: freight.destination_name,
+          departure_time: trainSimulator.parseTimeToMinutes(freight.departure_time),
+          arrival_time: trainSimulator.parseTimeToMinutes(freight.arrival_time),
+          travel_time: trainSimulator.parseTimeToMinutes(freight.arrival_time) - trainSimulator.parseTimeToMinutes(freight.departure_time),
+          distance: freight.total_distance,
+          speed: 60, // Default freight speed
+          gap_utilization: 75, // Mock value
+          livePosition: position,
+          currentTime: new Date().toLocaleTimeString()
+        };
+      });
+      
+      return res.json({
+        success: true,
+        count: trainsWithPositions.length,
+        freight_trains: trainsWithPositions,
+        currentTimeMinutes: currentTimeMinutes,
+        source: 'mock_data'
+      });
+    }
+    
+    // Fallback to MongoDB-based freight trains
+    const trainsWithPositions = await freightService.getFreightTrainsWithPositions(trainSimulator);
+    
+    res.json({
+      success: true,
+      count: trainsWithPositions.length,
+      freight_trains: trainsWithPositions,
+      currentTimeMinutes: trainSimulator.getCurrentTimeMinutes(),
+      source: 'mongodb'
     });
   } catch (error) {
-    res.status(500).json({ success: false, error: error.message });
+    res.status(500).json({
+      success: false,
+      error: error.message,
+      freight_trains: []
+    });
+  }
+});
+
+// GET /api/ai/freight/gaps - Get available time gaps
+router.get('/freight/gaps', async (req, res) => {
+  try {
+    const response = await axios.get(`${PYTHON_API}/api/freight/gaps`);
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ 
+      success: false, 
+      error: 'Python AI API not available' 
+    });
+  }
+});
+
+// POST /api/ai/freight/compare - Compare algorithms
+router.post('/freight/compare', async (req, res) => {
+  try {
+    const { num_trains = 10 } = req.body;
+    const response = await axios.post(`${PYTHON_API}/api/freight/compare`, { num_trains });
+    res.json(response.data);
+  } catch (error) {
+    res.status(500).json({ 
+      success: false, 
+      error: 'Python AI API not available' 
+    });
   }
 });
 
@@ -271,3 +437,5 @@ router.post('/resolve-conflict', (req, res) => {
     res.status(500).json({ success: false, error: error.message });
   }
 });
+
+module.exports = router;

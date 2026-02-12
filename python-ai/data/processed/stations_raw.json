@@ -1,0 +1,2612 @@
+{
+  "CSMT": {
+    "code": "CSMT",
+    "name": "CST-MUMBAI",
+    "trains_count": 106
+  },
+  "DR": {
+    "code": "DR",
+    "name": "DADAR",
+    "trains_count": 90
+  },
+  "TNA": {
+    "code": "TNA",
+    "name": "THANE",
+    "trains_count": 62
+  },
+  "KYN": {
+    "code": "KYN",
+    "name": "KALYAN JN",
+    "trains_count": 84
+  },
+  "IGP": {
+    "code": "IGP",
+    "name": "IGATPURI",
+    "trains_count": 39
+  },
+  "NK": {
+    "code": "NK",
+    "name": "NASIK ROAD",
+    "trains_count": 39
+  },
+  "MMR": {
+    "code": "MMR",
+    "name": "MANMAD JN.",
+    "trains_count": 35
+  },
+  "JL": {
+    "code": "JL",
+    "name": "JALGAON JN.",
+    "trains_count": 23
+  },
+  "BSL": {
+    "code": "BSL",
+    "name": "BHUSAVAL JN.",
+    "trains_count": 38
+  },
+  "MKU": {
+    "code": "MKU",
+    "name": "MALKAPUR",
+    "trains_count": 11
+  },
+  "SEG": {
+    "code": "SEG",
+    "name": "SHEGAON",
+    "trains_count": 11
+  },
+  "AK": {
+    "code": "AK",
+    "name": "AKOLA JN.",
+    "trains_count": 13
+  },
+  "MZR": {
+    "code": "MZR",
+    "name": "MURTAJAPUR J",
+    "trains_count": 9
+  },
+  "BD": {
+    "code": "BD",
+    "name": "BADNERA JN.",
+    "trains_count": 13
+  },
+  "DMN": {
+    "code": "DMN",
+    "name": "DHAMANGAON",
+    "trains_count": 7
+  },
+  "PLO": {
+    "code": "PLO",
+    "name": "PULGAON JN.",
+    "trains_count": 7
+  },
+  "WR": {
+    "code": "WR",
+    "name": "WARDHA JN.",
+    "trains_count": 9
+  },
+  "NGP": {
+    "code": "NGP",
+    "name": "NAGPUR JN.(C",
+    "trains_count": 17
+  },
+  "KRMI": {
+    "code": "KRMI",
+    "name": "KARMALI",
+    "trains_count": 9
+  },
+  "THVM": {
+    "code": "THVM",
+    "name": "THIVIM",
+    "trains_count": 5
+  },
+  "SWV": {
+    "code": "SWV",
+    "name": "SAWANTWADI R",
+    "trains_count": 5
+  },
+  "KUDL": {
+    "code": "KUDL",
+    "name": "KUDAL",
+    "trains_count": 9
+  },
+  "KKW": {
+    "code": "KKW",
+    "name": "KANKAVALI",
+    "trains_count": 7
+  },
+  "RN": {
+    "code": "RN",
+    "name": "RATNAGIRI",
+    "trains_count": 11
+  },
+  "SGR": {
+    "code": "SGR",
+    "name": "SANGMESHWAR",
+    "trains_count": 5
+  },
+  "CHI": {
+    "code": "CHI",
+    "name": "CHIPLUN",
+    "trains_count": 5
+  },
+  "KHED": {
+    "code": "KHED",
+    "name": "KHED",
+    "trains_count": 5
+  },
+  "ROHA": {
+    "code": "ROHA",
+    "name": "ROHA",
+    "trains_count": 1
+  },
+  "PNVL": {
+    "code": "PNVL",
+    "name": "PANVEL",
+    "trains_count": 13
+  },
+  "MNI": {
+    "code": "MNI",
+    "name": "MANGAON",
+    "trains_count": 4
+  },
+  "ADVI": {
+    "code": "ADVI",
+    "name": "ADAVALI",
+    "trains_count": 2
+  },
+  "RAJP": {
+    "code": "RAJP",
+    "name": "RAJAPUR ROAD",
+    "trains_count": 4
+  },
+  "VBW": {
+    "code": "VBW",
+    "name": "VAIBHAVWADI",
+    "trains_count": 4
+  },
+  "SNDD": {
+    "code": "SNDD",
+    "name": "SINDHU DURG",
+    "trains_count": 4
+  },
+  "PERN": {
+    "code": "PERN",
+    "name": "PERNEM",
+    "trains_count": 4
+  },
+  "MAO": {
+    "code": "MAO",
+    "name": "MADGOAN JN.",
+    "trains_count": 6
+  },
+  "VID": {
+    "code": "VID",
+    "name": "VILAVADE",
+    "trains_count": 2
+  },
+  "NRL": {
+    "code": "NRL",
+    "name": "NERAL",
+    "trains_count": 3
+  },
+  "KJT": {
+    "code": "KJT",
+    "name": "KARJAT",
+    "trains_count": 36
+  },
+  "KAD": {
+    "code": "KAD",
+    "name": "KANDALA",
+    "trains_count": 15
+  },
+  "LNL": {
+    "code": "LNL",
+    "name": "LONAVLA",
+    "trains_count": 45
+  },
+  "TGN": {
+    "code": "TGN",
+    "name": "TALEGAON",
+    "trains_count": 10
+  },
+  "KK": {
+    "code": "KK",
+    "name": "KHADKI",
+    "trains_count": 15
+  },
+  "SVJR": {
+    "code": "SVJR",
+    "name": "SHIVAJINAGAR",
+    "trains_count": 16
+  },
+  "PUNE": {
+    "code": "PUNE",
+    "name": "PUNE JN.",
+    "trains_count": 47
+  },
+  "CCH": {
+    "code": "CCH",
+    "name": "CHINCHVAD",
+    "trains_count": 8
+  },
+  "PMP": {
+    "code": "PMP",
+    "name": "PIMPRI",
+    "trains_count": 8
+  },
+  "DD": {
+    "code": "DD",
+    "name": "DAUND JN.",
+    "trains_count": 26
+  },
+  "SUR": {
+    "code": "SUR",
+    "name": "SOLAPUR",
+    "trains_count": 25
+  },
+  "GR": {
+    "code": "GR",
+    "name": "GULBARGA",
+    "trains_count": 20
+  },
+  "WADI": {
+    "code": "WADI",
+    "name": "WADI JN.",
+    "trains_count": 20
+  },
+  "SEM": {
+    "code": "SEM",
+    "name": "SERAM",
+    "trains_count": 6
+  },
+  "TDU": {
+    "code": "TDU",
+    "name": "TANDUR",
+    "trains_count": 6
+  },
+  "LPI": {
+    "code": "LPI",
+    "name": "LINGAMPALLI",
+    "trains_count": 4
+  },
+  "BMT": {
+    "code": "BMT",
+    "name": "BEGAMPET",
+    "trains_count": 6
+  },
+  "SC": {
+    "code": "SC",
+    "name": "SECUNDERABAD",
+    "trains_count": 4
+  },
+  "KZJ": {
+    "code": "KZJ",
+    "name": "KAZIPET JN.",
+    "trains_count": 2
+  },
+  "WL": {
+    "code": "WL",
+    "name": "WARANGAL",
+    "trains_count": 2
+  },
+  "MABD": {
+    "code": "MABD",
+    "name": "MAHBUBABAD",
+    "trains_count": 2
+  },
+  "KMT": {
+    "code": "KMT",
+    "name": "KHAMMAM",
+    "trains_count": 2
+  },
+  "MDR": {
+    "code": "MDR",
+    "name": "MADHIRA",
+    "trains_count": 2
+  },
+  "BZA": {
+    "code": "BZA",
+    "name": "VIJAYWADA JN",
+    "trains_count": 2
+  },
+  "EE": {
+    "code": "EE",
+    "name": "ELURU",
+    "trains_count": 2
+  },
+  "TDD": {
+    "code": "TDD",
+    "name": "TADEPALLI GU",
+    "trains_count": 2
+  },
+  "NDD": {
+    "code": "NDD",
+    "name": "NIDADAVOLU J",
+    "trains_count": 2
+  },
+  "RJY": {
+    "code": "RJY",
+    "name": "RAJAHMUNDRY",
+    "trains_count": 2
+  },
+  "SLO": {
+    "code": "SLO",
+    "name": "SAMALKOT JN.",
+    "trains_count": 2
+  },
+  "TUNI": {
+    "code": "TUNI",
+    "name": "TUNI",
+    "trains_count": 2
+  },
+  "AKP": {
+    "code": "AKP",
+    "name": "ANAKAPALLE",
+    "trains_count": 2
+  },
+  "VSKP": {
+    "code": "VSKP",
+    "name": "VISAKHAPATNA",
+    "trains_count": 2
+  },
+  "VZM": {
+    "code": "VZM",
+    "name": "VIZIANAGARAM",
+    "trains_count": 2
+  },
+  "CHE": {
+    "code": "CHE",
+    "name": "SRIKAKULAM R",
+    "trains_count": 2
+  },
+  "PSA": {
+    "code": "PSA",
+    "name": "PALASA",
+    "trains_count": 2
+  },
+  "SPT": {
+    "code": "SPT",
+    "name": "SOMPETA",
+    "trains_count": 2
+  },
+  "IPM": {
+    "code": "IPM",
+    "name": "ICHCHA PURAM",
+    "trains_count": 2
+  },
+  "BAM": {
+    "code": "BAM",
+    "name": "BERHAMPUR",
+    "trains_count": 2
+  },
+  "CAP": {
+    "code": "CAP",
+    "name": "CHATRAPUR",
+    "trains_count": 2
+  },
+  "BALU": {
+    "code": "BALU",
+    "name": "BALUGAN",
+    "trains_count": 2
+  },
+  "KUR": {
+    "code": "KUR",
+    "name": "KHURDA ROAD",
+    "trains_count": 2
+  },
+  "BBS": {
+    "code": "BBS",
+    "name": "BHUBANESWAR",
+    "trains_count": 2
+  },
+  "DEHR": {
+    "code": "DEHR",
+    "name": "DEHU ROAD",
+    "trains_count": 6
+  },
+  "JJR": {
+    "code": "JJR",
+    "name": "JEJURI",
+    "trains_count": 4
+  },
+  "NIRA": {
+    "code": "NIRA",
+    "name": "NIRA",
+    "trains_count": 4
+  },
+  "LNN": {
+    "code": "LNN",
+    "name": "LONAND",
+    "trains_count": 4
+  },
+  "WTR": {
+    "code": "WTR",
+    "name": "WATHAR",
+    "trains_count": 4
+  },
+  "STR": {
+    "code": "STR",
+    "name": "SATARA",
+    "trains_count": 6
+  },
+  "KRG": {
+    "code": "KRG",
+    "name": "KOREGAON",
+    "trains_count": 4
+  },
+  "KRD": {
+    "code": "KRD",
+    "name": "KARAD",
+    "trains_count": 6
+  },
+  "KOV": {
+    "code": "KOV",
+    "name": "KIRLOSKAR WA",
+    "trains_count": 6
+  },
+  "BVQ": {
+    "code": "BVQ",
+    "name": "BHILAVDI",
+    "trains_count": 4
+  },
+  "SLI": {
+    "code": "SLI",
+    "name": "SANGLI",
+    "trains_count": 6
+  },
+  "MRJ": {
+    "code": "MRJ",
+    "name": "MIRAJ JN.",
+    "trains_count": 6
+  },
+  "JSP": {
+    "code": "JSP",
+    "name": "JAYASINGPUR",
+    "trains_count": 6
+  },
+  "HTK": {
+    "code": "HTK",
+    "name": "HATKANANGALE",
+    "trains_count": 6
+  },
+  "RKD": {
+    "code": "RKD",
+    "name": "RUKADI",
+    "trains_count": 6
+  },
+  "VV": {
+    "code": "VV",
+    "name": "VALIVADE",
+    "trains_count": 6
+  },
+  "KOP": {
+    "code": "KOP",
+    "name": "CHHATRAPATI",
+    "trains_count": 6
+  },
+  "GPR": {
+    "code": "GPR",
+    "name": "GHORPURI",
+    "trains_count": 3
+  },
+  "BGVN": {
+    "code": "BGVN",
+    "name": "BHIGVAN",
+    "trains_count": 10
+  },
+  "JEUR": {
+    "code": "JEUR",
+    "name": "JEUR",
+    "trains_count": 10
+  },
+  "KEM": {
+    "code": "KEM",
+    "name": "KEM",
+    "trains_count": 4
+  },
+  "KWV": {
+    "code": "KWV",
+    "name": "KURDUVADI JN",
+    "trains_count": 27
+  },
+  "MA": {
+    "code": "MA",
+    "name": "MADHA",
+    "trains_count": 3
+  },
+  "MO": {
+    "code": "MO",
+    "name": "MOHOL",
+    "trains_count": 4
+  },
+  "HG": {
+    "code": "HG",
+    "name": "HOTGI JN.",
+    "trains_count": 4
+  },
+  "AKOR": {
+    "code": "AKOR",
+    "name": "AKALKOT ROAD",
+    "trains_count": 4
+  },
+  "DUD": {
+    "code": "DUD",
+    "name": "DUDHANI",
+    "trains_count": 6
+  },
+  "GUR": {
+    "code": "GUR",
+    "name": "GANGAPUR ROA",
+    "trains_count": 6
+  },
+  "SDB": {
+    "code": "SDB",
+    "name": "SHAHABAD",
+    "trains_count": 16
+  },
+  "NW": {
+    "code": "NW",
+    "name": "NALWAR",
+    "trains_count": 4
+  },
+  "YG": {
+    "code": "YG",
+    "name": "YADGIR",
+    "trains_count": 14
+  },
+  "SADP": {
+    "code": "SADP",
+    "name": "SAIDAPUR",
+    "trains_count": 4
+  },
+  "KSN": {
+    "code": "KSN",
+    "name": "KRISHNA",
+    "trains_count": 6
+  },
+  "RC": {
+    "code": "RC",
+    "name": "RAICHUR",
+    "trains_count": 14
+  },
+  "MTU": {
+    "code": "MTU",
+    "name": "MATMARI",
+    "trains_count": 2
+  },
+  "MALM": {
+    "code": "MALM",
+    "name": "MANTHRALAYAM",
+    "trains_count": 13
+  },
+  "KO": {
+    "code": "KO",
+    "name": "KOSGI",
+    "trains_count": 2
+  },
+  "KGL": {
+    "code": "KGL",
+    "name": "KUPGAL",
+    "trains_count": 2
+  },
+  "AD": {
+    "code": "AD",
+    "name": "ADONI",
+    "trains_count": 14
+  },
+  "NRR": {
+    "code": "NRR",
+    "name": "NAGARUR",
+    "trains_count": 2
+  },
+  "GTL": {
+    "code": "GTL",
+    "name": "GUNTAKAL JN.",
+    "trains_count": 14
+  },
+  "GY": {
+    "code": "GY",
+    "name": "GOOTY JN.",
+    "trains_count": 14
+  },
+  "RLO": {
+    "code": "RLO",
+    "name": "RAYALCHERUVU",
+    "trains_count": 2
+  },
+  "TU": {
+    "code": "TU",
+    "name": "TADIPATRI",
+    "trains_count": 8
+  },
+  "KDP": {
+    "code": "KDP",
+    "name": "KONDAPURAM",
+    "trains_count": 8
+  },
+  "MOO": {
+    "code": "MOO",
+    "name": "MUDDANURU",
+    "trains_count": 4
+  },
+  "YA": {
+    "code": "YA",
+    "name": "YERRA GUNTLA",
+    "trains_count": 8
+  },
+  "KKM": {
+    "code": "KKM",
+    "name": "KAMALAPURAM",
+    "trains_count": 4
+  },
+  "HX": {
+    "code": "HX",
+    "name": "CUDDAPAH",
+    "trains_count": 8
+  },
+  "NRE": {
+    "code": "NRE",
+    "name": "NANDALUR",
+    "trains_count": 6
+  },
+  "RJP": {
+    "code": "RJP",
+    "name": "RAZAMPETA",
+    "trains_count": 8
+  },
+  "KOU": {
+    "code": "KOU",
+    "name": "KODURU",
+    "trains_count": 8
+  },
+  "RU": {
+    "code": "RU",
+    "name": "RENIGUNTA JN",
+    "trains_count": 8
+  },
+  "PUT": {
+    "code": "PUT",
+    "name": "PUTUR",
+    "trains_count": 4
+  },
+  "TRT": {
+    "code": "TRT",
+    "name": "TIRUTTANI",
+    "trains_count": 6
+  },
+  "AJJ": {
+    "code": "AJJ",
+    "name": "ARAKKONAM JN",
+    "trains_count": 6
+  },
+  "TRL": {
+    "code": "TRL",
+    "name": "TIRUVALLUR",
+    "trains_count": 2
+  },
+  "PER": {
+    "code": "PER",
+    "name": "PERAMBUR",
+    "trains_count": 2
+  },
+  "MAS": {
+    "code": "MAS",
+    "name": "CHENNAI CENT",
+    "trains_count": 4
+  },
+  "RMP": {
+    "code": "RMP",
+    "name": "RAHIMATPUR",
+    "trains_count": 2
+  },
+  "TAZ": {
+    "code": "TAZ",
+    "name": "TARGAON",
+    "trains_count": 2
+  },
+  "MSR": {
+    "code": "MSR",
+    "name": "MASUR",
+    "trains_count": 2
+  },
+  "SIW": {
+    "code": "SIW",
+    "name": "SHIRAVADE",
+    "trains_count": 1
+  },
+  "TKR": {
+    "code": "TKR",
+    "name": "TAKARI",
+    "trains_count": 4
+  },
+  "NMGT": {
+    "code": "NMGT",
+    "name": "NIMSHIRGAON",
+    "trains_count": 1
+  },
+  "VRB": {
+    "code": "VRB",
+    "name": "VISHRAMBAG",
+    "trains_count": 1
+  },
+  "KSRA": {
+    "code": "KSRA",
+    "name": "KASARA",
+    "trains_count": 13
+  },
+  "DVL": {
+    "code": "DVL",
+    "name": "DEVLALI",
+    "trains_count": 20
+  },
+  "CSN": {
+    "code": "CSN",
+    "name": "CHALISGAON J",
+    "trains_count": 14
+  },
+  "PC": {
+    "code": "PC",
+    "name": "PACHORA JN.",
+    "trains_count": 6
+  },
+  "SAV": {
+    "code": "SAV",
+    "name": "SAVDA",
+    "trains_count": 2
+  },
+  "NB": {
+    "code": "NB",
+    "name": "NIMBHORA",
+    "trains_count": 2
+  },
+  "RV": {
+    "code": "RV",
+    "name": "RAVER",
+    "trains_count": 2
+  },
+  "BAU": {
+    "code": "BAU",
+    "name": "BURHANPUR",
+    "trains_count": 8
+  },
+  "NPNR": {
+    "code": "NPNR",
+    "name": "NEPA NAGAR",
+    "trains_count": 6
+  },
+  "KNW": {
+    "code": "KNW",
+    "name": "KHANDWA JN.",
+    "trains_count": 16
+  },
+  "TLV": {
+    "code": "TLV",
+    "name": "TALVADIYA",
+    "trains_count": 2
+  },
+  "CAER": {
+    "code": "CAER",
+    "name": "CHANERA",
+    "trains_count": 2
+  },
+  "KKN": {
+    "code": "KKN",
+    "name": "KHIRKIYA",
+    "trains_count": 4
+  },
+  "HD": {
+    "code": "HD",
+    "name": "HARDA",
+    "trains_count": 8
+  },
+  "TBN": {
+    "code": "TBN",
+    "name": "TIMARNI",
+    "trains_count": 2
+  },
+  "BPF": {
+    "code": "BPF",
+    "name": "BANAPURA",
+    "trains_count": 4
+  },
+  "ET": {
+    "code": "ET",
+    "name": "ITARSI",
+    "trains_count": 18
+  },
+  "HBD": {
+    "code": "HBD",
+    "name": "HOSHANGABAD",
+    "trains_count": 4
+  },
+  "BNI": {
+    "code": "BNI",
+    "name": "BUDNI",
+    "trains_count": 2
+  },
+  "ODG": {
+    "code": "ODG",
+    "name": "OBAIDULLA GA",
+    "trains_count": 2
+  },
+  "MDDP": {
+    "code": "MDDP",
+    "name": "MANDIDEEP",
+    "trains_count": 2
+  },
+  "HBJ": {
+    "code": "HBJ",
+    "name": "HABIBGANJ",
+    "trains_count": 6
+  },
+  "BPL": {
+    "code": "BPL",
+    "name": "BHOPAL",
+    "trains_count": 10
+  },
+  "SCI": {
+    "code": "SCI",
+    "name": "SANCHI",
+    "trains_count": 2
+  },
+  "BHS": {
+    "code": "BHS",
+    "name": "VIDISHA",
+    "trains_count": 4
+  },
+  "GLG": {
+    "code": "GLG",
+    "name": "GULABGANJ",
+    "trains_count": 2
+  },
+  "BAQ": {
+    "code": "BAQ",
+    "name": "GANJ BASODA",
+    "trains_count": 4
+  },
+  "MABA": {
+    "code": "MABA",
+    "name": "MANDI BAMORA",
+    "trains_count": 2
+  },
+  "BINA": {
+    "code": "BINA",
+    "name": "BINA",
+    "trains_count": 4
+  },
+  "DUA": {
+    "code": "DUA",
+    "name": "DHAURA",
+    "trains_count": 2
+  },
+  "JLN": {
+    "code": "JLN",
+    "name": "JAKHLAUN",
+    "trains_count": 2
+  },
+  "LAR": {
+    "code": "LAR",
+    "name": "LALITPUR",
+    "trains_count": 6
+  },
+  "TBT": {
+    "code": "TBT",
+    "name": "TALBAHAT",
+    "trains_count": 2
+  },
+  "BZY": {
+    "code": "BZY",
+    "name": "BASAI",
+    "trains_count": 2
+  },
+  "BAB": {
+    "code": "BAB",
+    "name": "BABINA",
+    "trains_count": 4
+  },
+  "JHS": {
+    "code": "JHS",
+    "name": "JHANSI JN",
+    "trains_count": 10
+  },
+  "DAA": {
+    "code": "DAA",
+    "name": "DATIA",
+    "trains_count": 4
+  },
+  "SOR": {
+    "code": "SOR",
+    "name": "SONAGIR",
+    "trains_count": 2
+  },
+  "DBA": {
+    "code": "DBA",
+    "name": "DABRA",
+    "trains_count": 4
+  },
+  "GWL": {
+    "code": "GWL",
+    "name": "GWALIOR JN",
+    "trains_count": 4
+  },
+  "MRA": {
+    "code": "MRA",
+    "name": "MORENA",
+    "trains_count": 4
+  },
+  "DHO": {
+    "code": "DHO",
+    "name": "DHAULPUR",
+    "trains_count": 4
+  },
+  "AGC": {
+    "code": "AGC",
+    "name": "AGRA CANTT",
+    "trains_count": 4
+  },
+  "RKM": {
+    "code": "RKM",
+    "name": "RAJA-KI-MAND",
+    "trains_count": 4
+  },
+  "MTJ": {
+    "code": "MTJ",
+    "name": "MATHURA JN.",
+    "trains_count": 4
+  },
+  "KSV": {
+    "code": "KSV",
+    "name": "KOSI KALAN",
+    "trains_count": 4
+  },
+  "PWL": {
+    "code": "PWL",
+    "name": "PALWAL",
+    "trains_count": 2
+  },
+  "BVH": {
+    "code": "BVH",
+    "name": "BALLABGARH",
+    "trains_count": 2
+  },
+  "FDB": {
+    "code": "FDB",
+    "name": "FARIDABAD",
+    "trains_count": 4
+  },
+  "NZM": {
+    "code": "NZM",
+    "name": "HAZRAT NIZAM",
+    "trains_count": 3
+  },
+  "NDLS": {
+    "code": "NDLS",
+    "name": "NEW DELHI",
+    "trains_count": 4
+  },
+  "SZM": {
+    "code": "SZM",
+    "name": "SUBZI MANDI",
+    "trains_count": 2
+  },
+  "BHD": {
+    "code": "BHD",
+    "name": "BADLI",
+    "trains_count": 1
+  },
+  "NUR": {
+    "code": "NUR",
+    "name": "NARELA",
+    "trains_count": 2
+  },
+  "SNP": {
+    "code": "SNP",
+    "name": "SONIPAT",
+    "trains_count": 2
+  },
+  "GNU": {
+    "code": "GNU",
+    "name": "GANAUR",
+    "trains_count": 2
+  },
+  "SMK": {
+    "code": "SMK",
+    "name": "SAMALKHA",
+    "trains_count": 2
+  },
+  "PNP": {
+    "code": "PNP",
+    "name": "PANIPAT JN.",
+    "trains_count": 2
+  },
+  "GRA": {
+    "code": "GRA",
+    "name": "GHARAUNDA",
+    "trains_count": 2
+  },
+  "KUN": {
+    "code": "KUN",
+    "name": "KARNAL",
+    "trains_count": 2
+  },
+  "TRR": {
+    "code": "TRR",
+    "name": "TARAORI",
+    "trains_count": 2
+  },
+  "NLKR": {
+    "code": "NLKR",
+    "name": "NILOKHERI",
+    "trains_count": 2
+  },
+  "KKDE": {
+    "code": "KKDE",
+    "name": "KURUKSHETRA",
+    "trains_count": 2
+  },
+  "SHDM": {
+    "code": "SHDM",
+    "name": "SHAHABAD MAR",
+    "trains_count": 2
+  },
+  "UMB": {
+    "code": "UMB",
+    "name": "AMBALA CANTT",
+    "trains_count": 2
+  },
+  "UBC": {
+    "code": "UBC",
+    "name": "AMBALA CITY",
+    "trains_count": 2
+  },
+  "RPJ": {
+    "code": "RPJ",
+    "name": "RAJPURA JN.",
+    "trains_count": 2
+  },
+  "PTA": {
+    "code": "PTA",
+    "name": "PATIALA",
+    "trains_count": 2
+  },
+  "NBA": {
+    "code": "NBA",
+    "name": "NABHA",
+    "trains_count": 2
+  },
+  "DUI": {
+    "code": "DUI",
+    "name": "DHURI JN.",
+    "trains_count": 2
+  },
+  "MET": {
+    "code": "MET",
+    "name": "MALERKOTLA",
+    "trains_count": 2
+  },
+  "AHH": {
+    "code": "AHH",
+    "name": "AHMED GARH",
+    "trains_count": 2
+  },
+  "LDH": {
+    "code": "LDH",
+    "name": "LUDHIANA JN.",
+    "trains_count": 2
+  },
+  "PHR": {
+    "code": "PHR",
+    "name": "PHILLAUR JN.",
+    "trains_count": 2
+  },
+  "GRY": {
+    "code": "GRY",
+    "name": "GORAYA",
+    "trains_count": 2
+  },
+  "PGW": {
+    "code": "PGW",
+    "name": "PHAGWARA JN.",
+    "trains_count": 2
+  },
+  "JRC": {
+    "code": "JRC",
+    "name": "JALANDHAR CA",
+    "trains_count": 2
+  },
+  "JUC": {
+    "code": "JUC",
+    "name": "JALANDHAR CI",
+    "trains_count": 2
+  },
+  "BEAS": {
+    "code": "BEAS",
+    "name": "BEAS JN",
+    "trains_count": 2
+  },
+  "JNL": {
+    "code": "JNL",
+    "name": "JANDIALA",
+    "trains_count": 2
+  },
+  "ASR": {
+    "code": "ASR",
+    "name": "AMRITSAR JN.",
+    "trains_count": 2
+  },
+  "KRE": {
+    "code": "KRE",
+    "name": "KARTARPUR",
+    "trains_count": 1
+  },
+  "RDDE": {
+    "code": "RDDE",
+    "name": "RATHDHANA",
+    "trains_count": 1
+  },
+  "ANDI": {
+    "code": "ANDI",
+    "name": "ADARSH NAGAR",
+    "trains_count": 1
+  },
+  "PPI": {
+    "code": "PPI",
+    "name": "PIPARIYA",
+    "trains_count": 6
+  },
+  "NU": {
+    "code": "NU",
+    "name": "NARSINGHPUR",
+    "trains_count": 6
+  },
+  "MML": {
+    "code": "MML",
+    "name": "MADANMAHAL",
+    "trains_count": 1
+  },
+  "JBP": {
+    "code": "JBP",
+    "name": "JABALPUR",
+    "trains_count": 9
+  },
+  "KTE": {
+    "code": "KTE",
+    "name": "KATNI",
+    "trains_count": 6
+  },
+  "MYR": {
+    "code": "MYR",
+    "name": "MAIHAR",
+    "trains_count": 4
+  },
+  "STA": {
+    "code": "STA",
+    "name": "SATNA",
+    "trains_count": 7
+  },
+  "MKP": {
+    "code": "MKP",
+    "name": "MANIKPUR JN.",
+    "trains_count": 4
+  },
+  "ACOI": {
+    "code": "ACOI",
+    "name": "CHHEOKI",
+    "trains_count": 5
+  },
+  "BDL": {
+    "code": "BDL",
+    "name": "VINDHYACHAL",
+    "trains_count": 4
+  },
+  "MZP": {
+    "code": "MZP",
+    "name": "MIRZAPUR",
+    "trains_count": 6
+  },
+  "CAR": {
+    "code": "CAR",
+    "name": "CHUNAR JN.",
+    "trains_count": 4
+  },
+  "KEI": {
+    "code": "KEI",
+    "name": "KASHI",
+    "trains_count": 2
+  },
+  "BSB": {
+    "code": "BSB",
+    "name": "VARANASI JN.",
+    "trains_count": 2
+  },
+  "URI": {
+    "code": "URI",
+    "name": "URULI",
+    "trains_count": 8
+  },
+  "ATP": {
+    "code": "ATP",
+    "name": "ANANTAPUR",
+    "trains_count": 6
+  },
+  "DMM": {
+    "code": "DMM",
+    "name": "DHARMAVARAM",
+    "trains_count": 6
+  },
+  "SSPN": {
+    "code": "SSPN",
+    "name": "SRI SATYA SA",
+    "trains_count": 2
+  },
+  "PKD": {
+    "code": "PKD",
+    "name": "PENU KONDA",
+    "trains_count": 2
+  },
+  "HUP": {
+    "code": "HUP",
+    "name": "HINDUPUR",
+    "trains_count": 6
+  },
+  "GBD": {
+    "code": "GBD",
+    "name": "GAURIBIDANUR",
+    "trains_count": 2
+  },
+  "DBU": {
+    "code": "DBU",
+    "name": "DODBALLAPUR",
+    "trains_count": 2
+  },
+  "YNK": {
+    "code": "YNK",
+    "name": "YELAHANKA JN",
+    "trains_count": 2
+  },
+  "BNCE": {
+    "code": "BNCE",
+    "name": "BANGALORE EA",
+    "trains_count": 1
+  },
+  "BNC": {
+    "code": "BNC",
+    "name": "BANGALORE CA",
+    "trains_count": 2
+  },
+  "SBC": {
+    "code": "SBC",
+    "name": "KRANTIVIRA S",
+    "trains_count": 2
+  },
+  "NSL": {
+    "code": "NSL",
+    "name": "NAGARSOL",
+    "trains_count": 2
+  },
+  "RGO": {
+    "code": "RGO",
+    "name": "ROTEGAON",
+    "trains_count": 6
+  },
+  "LSR": {
+    "code": "LSR",
+    "name": "LASUR",
+    "trains_count": 6
+  },
+  "AWB": {
+    "code": "AWB",
+    "name": "AURANGABAD",
+    "trains_count": 6
+  },
+  "J": {
+    "code": "J",
+    "name": "JALNA",
+    "trains_count": 6
+  },
+  "PTU": {
+    "code": "PTU",
+    "name": "PARTUR",
+    "trains_count": 6
+  },
+  "SELU": {
+    "code": "SELU",
+    "name": "SELU",
+    "trains_count": 6
+  },
+  "MVO": {
+    "code": "MVO",
+    "name": "MANWATH ROAD",
+    "trains_count": 6
+  },
+  "PBN": {
+    "code": "PBN",
+    "name": "PARBHANI JN.",
+    "trains_count": 6
+  },
+  "PAU": {
+    "code": "PAU",
+    "name": "PURNA  JN.",
+    "trains_count": 6
+  },
+  "NED": {
+    "code": "NED",
+    "name": "NANDED",
+    "trains_count": 6
+  },
+  "MUE": {
+    "code": "MUE",
+    "name": "MUDKHED JN.",
+    "trains_count": 4
+  },
+  "BOKR": {
+    "code": "BOKR",
+    "name": "BHOKAR",
+    "trains_count": 2
+  },
+  "HEM": {
+    "code": "HEM",
+    "name": "HIMAYATNAGAR",
+    "trains_count": 2
+  },
+  "SHSK": {
+    "code": "SHSK",
+    "name": "SAHASRAKUND",
+    "trains_count": 2
+  },
+  "BHBK": {
+    "code": "BHBK",
+    "name": "BODHADI BUJR",
+    "trains_count": 2
+  },
+  "KNVT": {
+    "code": "KNVT",
+    "name": "KINWAT",
+    "trains_count": 2
+  },
+  "ADB": {
+    "code": "ADB",
+    "name": "ADILABAD",
+    "trains_count": 2
+  },
+  "PMKT": {
+    "code": "PMKT",
+    "name": "PIMPALKHUTI",
+    "trains_count": 2
+  },
+  "LNT": {
+    "code": "LNT",
+    "name": "LINGTI",
+    "trains_count": 2
+  },
+  "KAYR": {
+    "code": "KAYR",
+    "name": "KAYAR",
+    "trains_count": 2
+  },
+  "WANI": {
+    "code": "WANI",
+    "name": "WANI",
+    "trains_count": 2
+  },
+  "MJRI": {
+    "code": "MJRI",
+    "name": "MAJRI JN.",
+    "trains_count": 2
+  },
+  "WRR": {
+    "code": "WRR",
+    "name": "WARORA",
+    "trains_count": 2
+  },
+  "HGT": {
+    "code": "HGT",
+    "name": "HINGANGHAT",
+    "trains_count": 2
+  },
+  "SEGM": {
+    "code": "SEGM",
+    "name": "SEWAGRAM",
+    "trains_count": 5
+  },
+  "NN": {
+    "code": "NN",
+    "name": "NANDURA",
+    "trains_count": 8
+  },
+  "CND": {
+    "code": "CND",
+    "name": "CHANDUR",
+    "trains_count": 4
+  },
+  "AJNI": {
+    "code": "AJNI",
+    "name": "AJNI",
+    "trains_count": 4
+  },
+  "KP": {
+    "code": "KP",
+    "name": "KAMPTEE",
+    "trains_count": 2
+  },
+  "BRD": {
+    "code": "BRD",
+    "name": "BHANDARA RD",
+    "trains_count": 6
+  },
+  "TMR": {
+    "code": "TMR",
+    "name": "TUMSAR RD",
+    "trains_count": 4
+  },
+  "TRO": {
+    "code": "TRO",
+    "name": "TIRORA",
+    "trains_count": 2
+  },
+  "G": {
+    "code": "G",
+    "name": "GONDIA JN.",
+    "trains_count": 8
+  },
+  "NR": {
+    "code": "NR",
+    "name": "NIPHAD",
+    "trains_count": 8
+  },
+  "LS": {
+    "code": "LS",
+    "name": "LASAL GAON",
+    "trains_count": 10
+  },
+  "AMI": {
+    "code": "AMI",
+    "name": "AMRAVATI",
+    "trains_count": 2
+  },
+  "KAWR": {
+    "code": "KAWR",
+    "name": "KAWR",
+    "trains_count": 2
+  },
+  "KT": {
+    "code": "KT",
+    "name": "KUMTA",
+    "trains_count": 2
+  },
+  "BTJL": {
+    "code": "BTJL",
+    "name": "BHATKAL",
+    "trains_count": 2
+  },
+  "BYNR": {
+    "code": "BYNR",
+    "name": "BYNDOOR",
+    "trains_count": 2
+  },
+  "KUDA": {
+    "code": "KUDA",
+    "name": "KUNDAPURA",
+    "trains_count": 2
+  },
+  "UD": {
+    "code": "UD",
+    "name": "UDUPI",
+    "trains_count": 2
+  },
+  "SL": {
+    "code": "SL",
+    "name": "SURATHKAL",
+    "trains_count": 2
+  },
+  "MAJN": {
+    "code": "MAJN",
+    "name": "MANGALORE JN",
+    "trains_count": 2
+  },
+  "DKZ": {
+    "code": "DKZ",
+    "name": "DELHI-KISHAN",
+    "trains_count": 2
+  },
+  "SSB": {
+    "code": "SSB",
+    "name": "SHAKUR BASTI",
+    "trains_count": 2
+  },
+  "BGZ": {
+    "code": "BGZ",
+    "name": "BAHADURGARH",
+    "trains_count": 2
+  },
+  "ROK": {
+    "code": "ROK",
+    "name": "ROHTAK JN.",
+    "trains_count": 2
+  },
+  "JIND": {
+    "code": "JIND",
+    "name": "JIND JN",
+    "trains_count": 2
+  },
+  "NRW": {
+    "code": "NRW",
+    "name": "NARWANA JN.",
+    "trains_count": 2
+  },
+  "TUN": {
+    "code": "TUN",
+    "name": "TOHANA",
+    "trains_count": 2
+  },
+  "JHL": {
+    "code": "JHL",
+    "name": "JAKHAL JN.",
+    "trains_count": 2
+  },
+  "BRZ": {
+    "code": "BRZ",
+    "name": "BARETA",
+    "trains_count": 2
+  },
+  "BLZ": {
+    "code": "BLZ",
+    "name": "BUDHLADA",
+    "trains_count": 2
+  },
+  "MSZ": {
+    "code": "MSZ",
+    "name": "MANSA",
+    "trains_count": 2
+  },
+  "MAUR": {
+    "code": "MAUR",
+    "name": "MAUR",
+    "trains_count": 2
+  },
+  "BTI": {
+    "code": "BTI",
+    "name": "BATHINDA JN",
+    "trains_count": 2
+  },
+  "GNA": {
+    "code": "GNA",
+    "name": "GONIANA",
+    "trains_count": 2
+  },
+  "GJUT": {
+    "code": "GJUT",
+    "name": "GANGSAR JAIT",
+    "trains_count": 2
+  },
+  "KKP": {
+    "code": "KKP",
+    "name": "KOT KAPURA J",
+    "trains_count": 2
+  },
+  "FDK": {
+    "code": "FDK",
+    "name": "FARIDKOT",
+    "trains_count": 2
+  },
+  "FZR": {
+    "code": "FZR",
+    "name": "FIROZPUR CAN",
+    "trains_count": 2
+  },
+  "NGN": {
+    "code": "NGN",
+    "name": "NANDGAON",
+    "trains_count": 4
+  },
+  "VNA": {
+    "code": "VNA",
+    "name": "VARANGAON",
+    "trains_count": 2
+  },
+  "BDWD": {
+    "code": "BDWD",
+    "name": "BODWAD",
+    "trains_count": 2
+  },
+  "JM": {
+    "code": "JM",
+    "name": "JALAMB JN.",
+    "trains_count": 4
+  },
+  "SNI": {
+    "code": "SNI",
+    "name": "SINDI",
+    "trains_count": 2
+  },
+  "GAR": {
+    "code": "GAR",
+    "name": "GADARWARA",
+    "trains_count": 4
+  },
+  "BSP": {
+    "code": "BSP",
+    "name": "BILASPUR JN.",
+    "trains_count": 8
+  },
+  "TATA": {
+    "code": "TATA",
+    "name": "TATANAGAR JN",
+    "trains_count": 8
+  },
+  "HWH": {
+    "code": "HWH",
+    "name": "HOWRAH JN.",
+    "trains_count": 10
+  },
+  "BWN": {
+    "code": "BWN",
+    "name": "BARDDHAMAN J",
+    "trains_count": 2
+  },
+  "PAN": {
+    "code": "PAN",
+    "name": "PANA GARH",
+    "trains_count": 2
+  },
+  "DGR": {
+    "code": "DGR",
+    "name": "DURGAPUR",
+    "trains_count": 2
+  },
+  "RNG": {
+    "code": "RNG",
+    "name": "RANI GANJ",
+    "trains_count": 2
+  },
+  "ASN": {
+    "code": "ASN",
+    "name": "ASANSOL MAIN",
+    "trains_count": 4
+  },
+  "BRR": {
+    "code": "BRR",
+    "name": "BARAKAR",
+    "trains_count": 2
+  },
+  "DHN": {
+    "code": "DHN",
+    "name": "DHANBAD JN.",
+    "trains_count": 2
+  },
+  "GMO": {
+    "code": "GMO",
+    "name": "NSC BOSE J G",
+    "trains_count": 2
+  },
+  "PNME": {
+    "code": "PNME",
+    "name": "PARASNATH",
+    "trains_count": 2
+  },
+  "HZD": {
+    "code": "HZD",
+    "name": "HAZARIBAGH R",
+    "trains_count": 2
+  },
+  "KQR": {
+    "code": "KQR",
+    "name": "KODERMA",
+    "trains_count": 2
+  },
+  "GAYA": {
+    "code": "GAYA",
+    "name": "GAYA JN.",
+    "trains_count": 2
+  },
+  "AUBR": {
+    "code": "AUBR",
+    "name": "ANUGRAH NARA",
+    "trains_count": 2
+  },
+  "DOS": {
+    "code": "DOS",
+    "name": "DEHRI-ON-SON",
+    "trains_count": 2
+  },
+  "SSM": {
+    "code": "SSM",
+    "name": "SASARAM",
+    "trains_count": 2
+  },
+  "BBU": {
+    "code": "BBU",
+    "name": "BHABUA ROAD",
+    "trains_count": 2
+  },
+  "MGS": {
+    "code": "MGS",
+    "name": "MUGHAL SARAI",
+    "trains_count": 5
+  },
+  "SRJ": {
+    "code": "SRJ",
+    "name": "SHANKARGARH",
+    "trains_count": 2
+  },
+  "SRID": {
+    "code": "SRID",
+    "name": "SRIDHAM",
+    "trains_count": 2
+  },
+  "KY": {
+    "code": "KY",
+    "name": "KARELI",
+    "trains_count": 2
+  },
+  "CRJ": {
+    "code": "CRJ",
+    "name": "CHITTARANJAN",
+    "trains_count": 2
+  },
+  "MDP": {
+    "code": "MDP",
+    "name": "MADHUPUR JN.",
+    "trains_count": 2
+  },
+  "JSME": {
+    "code": "JSME",
+    "name": "JASIDIH JN.",
+    "trains_count": 2
+  },
+  "JAJ": {
+    "code": "JAJ",
+    "name": "JHAJHA",
+    "trains_count": 2
+  },
+  "KIUL": {
+    "code": "KIUL",
+    "name": "KIUL JN.",
+    "trains_count": 2
+  },
+  "PNC": {
+    "code": "PNC",
+    "name": "PATNA SAHEB",
+    "trains_count": 2
+  },
+  "PNBE": {
+    "code": "PNBE",
+    "name": "PATNA JN.",
+    "trains_count": 3
+  },
+  "BXR": {
+    "code": "BXR",
+    "name": "BUXAR",
+    "trains_count": 2
+  },
+  "LJN": {
+    "code": "LJN",
+    "name": "LUCKNOW JN.",
+    "trains_count": 4
+  },
+  "ON": {
+    "code": "ON",
+    "name": "UNNAO JN.",
+    "trains_count": 2
+  },
+  "CNB": {
+    "code": "CNB",
+    "name": "KANPUR CENTR",
+    "trains_count": 6
+  },
+  "ORAI": {
+    "code": "ORAI",
+    "name": "ORAI",
+    "trains_count": 6
+  },
+  "GKP": {
+    "code": "GKP",
+    "name": "GORAKHPUR JN",
+    "trains_count": 4
+  },
+  "KLD": {
+    "code": "KLD",
+    "name": "KHALILABAD",
+    "trains_count": 2
+  },
+  "BST": {
+    "code": "BST",
+    "name": "BASTI",
+    "trains_count": 4
+  },
+  "GD": {
+    "code": "GD",
+    "name": "GONDA JN.",
+    "trains_count": 4
+  },
+  "LKO": {
+    "code": "LKO",
+    "name": "LUCKNOW JN.",
+    "trains_count": 2
+  },
+  "CT": {
+    "code": "CT",
+    "name": "CHITTAPUR",
+    "trains_count": 4
+  },
+  "MQR": {
+    "code": "MQR",
+    "name": "MALKHAID ROA",
+    "trains_count": 4
+  },
+  "VKB": {
+    "code": "VKB",
+    "name": "VIKRABAD JN.",
+    "trains_count": 4
+  },
+  "HYB": {
+    "code": "HYB",
+    "name": "HYDERABAD DE",
+    "trains_count": 4
+  },
+  "DGG": {
+    "code": "DGG",
+    "name": "DONGAR GARH",
+    "trains_count": 2
+  },
+  "RJN": {
+    "code": "RJN",
+    "name": "RAJNANDGAON",
+    "trains_count": 4
+  },
+  "DURG": {
+    "code": "DURG",
+    "name": "DURG",
+    "trains_count": 6
+  },
+  "R": {
+    "code": "R",
+    "name": "RAIPUR JN.",
+    "trains_count": 6
+  },
+  "BYT": {
+    "code": "BYT",
+    "name": "BHATAPARA",
+    "trains_count": 2
+  },
+  "CPH": {
+    "code": "CPH",
+    "name": "CHAMPA JN.",
+    "trains_count": 2
+  },
+  "SKT": {
+    "code": "SKT",
+    "name": "SAKTI",
+    "trains_count": 2
+  },
+  "KHS": {
+    "code": "KHS",
+    "name": "KHARSIA",
+    "trains_count": 2
+  },
+  "RIG": {
+    "code": "RIG",
+    "name": "RAIGARH",
+    "trains_count": 4
+  },
+  "BRJN": {
+    "code": "BRJN",
+    "name": "BRAJARAJNAGA",
+    "trains_count": 2
+  },
+  "JSG": {
+    "code": "JSG",
+    "name": "JHARSUGUDA J",
+    "trains_count": 6
+  },
+  "ROU": {
+    "code": "ROU",
+    "name": "ROURKELA",
+    "trains_count": 6
+  },
+  "CKP": {
+    "code": "CKP",
+    "name": "CHAKARADHARP",
+    "trains_count": 6
+  },
+  "KGP": {
+    "code": "KGP",
+    "name": "KHARAGPUR",
+    "trains_count": 6
+  },
+  "SRC": {
+    "code": "SRC",
+    "name": "SANTRAGACHI",
+    "trains_count": 3
+  },
+  "CPR": {
+    "code": "CPR",
+    "name": "CHHAPRA JN.",
+    "trains_count": 2
+  },
+  "SV": {
+    "code": "SV",
+    "name": "SIWAN JN.",
+    "trains_count": 2
+  },
+  "BTT": {
+    "code": "BTT",
+    "name": "BHATNI JN.",
+    "trains_count": 2
+  },
+  "DEOS": {
+    "code": "DEOS",
+    "name": "DEORIA SADAR",
+    "trains_count": 2
+  },
+  "KJM": {
+    "code": "KJM",
+    "name": "KRISHNA RAJA",
+    "trains_count": 4
+  },
+  "BWT": {
+    "code": "BWT",
+    "name": "BANGARPET JN",
+    "trains_count": 4
+  },
+  "TPT": {
+    "code": "TPT",
+    "name": "TIRUPATTUR",
+    "trains_count": 4
+  },
+  "SA": {
+    "code": "SA",
+    "name": "SALEM JN.",
+    "trains_count": 6
+  },
+  "ED": {
+    "code": "ED",
+    "name": "ERODE JN.",
+    "trains_count": 6
+  },
+  "TUP": {
+    "code": "TUP",
+    "name": "TIRUPPUR",
+    "trains_count": 4
+  },
+  "CBE": {
+    "code": "CBE",
+    "name": "COIMBATORE",
+    "trains_count": 4
+  },
+  "PTJ": {
+    "code": "PTJ",
+    "name": "PODANUR JN.",
+    "trains_count": 2
+  },
+  "PGT": {
+    "code": "PGT",
+    "name": "PALAKKAD JN",
+    "trains_count": 4
+  },
+  "OTP": {
+    "code": "OTP",
+    "name": "OTTAPPALAM",
+    "trains_count": 4
+  },
+  "TCR": {
+    "code": "TCR",
+    "name": "TRICHUR",
+    "trains_count": 4
+  },
+  "AWY": {
+    "code": "AWY",
+    "name": "ALWAYE",
+    "trains_count": 4
+  },
+  "ERS": {
+    "code": "ERS",
+    "name": "ERNAKULAM. J",
+    "trains_count": 2
+  },
+  "SRTL": {
+    "code": "SRTL",
+    "name": "SHERTALAI",
+    "trains_count": 2
+  },
+  "ALLP": {
+    "code": "ALLP",
+    "name": "ALLEPPEY",
+    "trains_count": 2
+  },
+  "AMPA": {
+    "code": "AMPA",
+    "name": "AMBALAPUZHA",
+    "trains_count": 2
+  },
+  "HAD": {
+    "code": "HAD",
+    "name": "HARIPAD",
+    "trains_count": 2
+  },
+  "KYJ": {
+    "code": "KYJ",
+    "name": "KAYANKULAM J",
+    "trains_count": 4
+  },
+  "QLN": {
+    "code": "QLN",
+    "name": "QUILON",
+    "trains_count": 4
+  },
+  "VAK": {
+    "code": "VAK",
+    "name": "VARKALA",
+    "trains_count": 4
+  },
+  "TVC": {
+    "code": "TVC",
+    "name": "TRIVANDRUM C",
+    "trains_count": 4
+  },
+  "KPN": {
+    "code": "KPN",
+    "name": "KUPPAM",
+    "trains_count": 2
+  },
+  "KRR": {
+    "code": "KRR",
+    "name": "KARUR JN.",
+    "trains_count": 2
+  },
+  "DG": {
+    "code": "DG",
+    "name": "DINDIGUL JN",
+    "trains_count": 4
+  },
+  "KQN": {
+    "code": "KQN",
+    "name": "KODAIKKANAL",
+    "trains_count": 2
+  },
+  "MDU": {
+    "code": "MDU",
+    "name": "MADURAI JN",
+    "trains_count": 4
+  },
+  "VPT": {
+    "code": "VPT",
+    "name": "VIRUDUNAGAR",
+    "trains_count": 4
+  },
+  "SRT": {
+    "code": "SRT",
+    "name": "SATUR",
+    "trains_count": 4
+  },
+  "CVP": {
+    "code": "CVP",
+    "name": "KOVILPATTI",
+    "trains_count": 4
+  },
+  "MEJ": {
+    "code": "MEJ",
+    "name": "VANCHI MANIY",
+    "trains_count": 4
+  },
+  "TEN": {
+    "code": "TEN",
+    "name": "TIRUNELVELI",
+    "trains_count": 4
+  },
+  "NNN": {
+    "code": "NNN",
+    "name": "NANGUNERI",
+    "trains_count": 2
+  },
+  "VLY": {
+    "code": "VLY",
+    "name": "VALLIYUR",
+    "trains_count": 4
+  },
+  "NCJ": {
+    "code": "NCJ",
+    "name": "NAGERCOIL JN",
+    "trains_count": 6
+  },
+  "CJ": {
+    "code": "CJ",
+    "name": "KANCHIPURAM",
+    "trains_count": 2
+  },
+  "CGL": {
+    "code": "CGL",
+    "name": "CHENGALPATTU",
+    "trains_count": 2
+  },
+  "MLMR": {
+    "code": "MLMR",
+    "name": "MELMARUVATHU",
+    "trains_count": 2
+  },
+  "TMV": {
+    "code": "TMV",
+    "name": "TINDIVANAM",
+    "trains_count": 2
+  },
+  "VM": {
+    "code": "VM",
+    "name": "VILLUPURAM J",
+    "trains_count": 2
+  },
+  "VRI": {
+    "code": "VRI",
+    "name": "VRIDHA CHALA",
+    "trains_count": 2
+  },
+  "ALU": {
+    "code": "ALU",
+    "name": "ARIYALUR",
+    "trains_count": 2
+  },
+  "SRGM": {
+    "code": "SRGM",
+    "name": "SRIRANGAM",
+    "trains_count": 2
+  },
+  "TPJ": {
+    "code": "TPJ",
+    "name": "TIRUCHIRAPPA",
+    "trains_count": 2
+  },
+  "KDU": {
+    "code": "KDU",
+    "name": "KADAMBUR",
+    "trains_count": 2
+  },
+  "TPTY": {
+    "code": "TPTY",
+    "name": "TIRUPATI",
+    "trains_count": 2
+  },
+  "PAK": {
+    "code": "PAK",
+    "name": "PAKALA JN.",
+    "trains_count": 2
+  },
+  "CTO": {
+    "code": "CTO",
+    "name": "CHITTOOR",
+    "trains_count": 1
+  },
+  "KPD": {
+    "code": "KPD",
+    "name": "KATPADI JN",
+    "trains_count": 2
+  },
+  "JTJ": {
+    "code": "JTJ",
+    "name": "JOLARPETTAI",
+    "trains_count": 2
+  },
+  "WKI": {
+    "code": "WKI",
+    "name": "WADAKANCHERI",
+    "trains_count": 2
+  },
+  "IJK": {
+    "code": "IJK",
+    "name": "IRINJALAKUDA",
+    "trains_count": 2
+  },
+  "CKI": {
+    "code": "CKI",
+    "name": "CHALAKUDI",
+    "trains_count": 2
+  },
+  "AFK": {
+    "code": "AFK",
+    "name": "ANGAMALI (FO",
+    "trains_count": 2
+  },
+  "ERN": {
+    "code": "ERN",
+    "name": "ERNAKULAM TO",
+    "trains_count": 2
+  },
+  "TRTR": {
+    "code": "TRTR",
+    "name": "TRIPUNITTURA",
+    "trains_count": 1
+  },
+  "KTYM": {
+    "code": "KTYM",
+    "name": "KOTTAYAM",
+    "trains_count": 2
+  },
+  "CGY": {
+    "code": "CGY",
+    "name": "CHANGANACHER",
+    "trains_count": 2
+  },
+  "TRVL": {
+    "code": "TRVL",
+    "name": "TIRUVALLA",
+    "trains_count": 2
+  },
+  "CNGR": {
+    "code": "CNGR",
+    "name": "CHENGANNUR",
+    "trains_count": 2
+  },
+  "MVLK": {
+    "code": "MVLK",
+    "name": "MAVELIKARA",
+    "trains_count": 2
+  },
+  "KPY": {
+    "code": "KPY",
+    "name": "KARUNAGAPPAL",
+    "trains_count": 2
+  },
+  "PVU": {
+    "code": "PVU",
+    "name": "PARAVUR",
+    "trains_count": 2
+  },
+  "KVU": {
+    "code": "KVU",
+    "name": "KADAKAVUR",
+    "trains_count": 2
+  },
+  "CRY": {
+    "code": "CRY",
+    "name": "CHIRAYINKIL",
+    "trains_count": 2
+  },
+  "TVP": {
+    "code": "TVP",
+    "name": "TRIVANDRAM P",
+    "trains_count": 1
+  },
+  "NYY": {
+    "code": "NYY",
+    "name": "NEYYATTINKAR",
+    "trains_count": 2
+  },
+  "PASA": {
+    "code": "PASA",
+    "name": "PARASSALA",
+    "trains_count": 2
+  },
+  "KZT": {
+    "code": "KZT",
+    "name": "KULITTURAI",
+    "trains_count": 2
+  },
+  "ERL": {
+    "code": "ERL",
+    "name": "ERANIEL",
+    "trains_count": 2
+  },
+  "CAPE": {
+    "code": "CAPE",
+    "name": "KANNIYAKUMAR",
+    "trains_count": 2
+  },
+  "KDG": {
+    "code": "KDG",
+    "name": "KEDGAON",
+    "trains_count": 4
+  },
+  "UMRI": {
+    "code": "UMRI",
+    "name": "UMRI",
+    "trains_count": 2
+  },
+  "DAB": {
+    "code": "DAB",
+    "name": "DHARMABAD",
+    "trains_count": 2
+  },
+  "BSX": {
+    "code": "BSX",
+    "name": "BASAR",
+    "trains_count": 2
+  },
+  "NZB": {
+    "code": "NZB",
+    "name": "NIZAMABAD",
+    "trains_count": 2
+  },
+  "KMC": {
+    "code": "KMC",
+    "name": "KAMAREDDI",
+    "trains_count": 2
+  },
+  "AKE": {
+    "code": "AKE",
+    "name": "AKANAPET",
+    "trains_count": 2
+  },
+  "MZL": {
+    "code": "MZL",
+    "name": "MIRZAPALI",
+    "trains_count": 2
+  },
+  "BMO": {
+    "code": "BMO",
+    "name": "BOLARUM",
+    "trains_count": 2
+  },
+  "BTW": {
+    "code": "BTW",
+    "name": "BARSHI",
+    "trains_count": 2
+  },
+  "UMD": {
+    "code": "UMD",
+    "name": "USMANABAD",
+    "trains_count": 2
+  },
+  "HGL": {
+    "code": "HGL",
+    "name": "HARANGUL",
+    "trains_count": 2
+  },
+  "LUR": {
+    "code": "LUR",
+    "name": "LATUR",
+    "trains_count": 2
+  },
+  "LTRR": {
+    "code": "LTRR",
+    "name": "LATUR ROAD",
+    "trains_count": 2
+  },
+  "UDGR": {
+    "code": "UDGR",
+    "name": "UDGIR",
+    "trains_count": 2
+  },
+  "BHLK": {
+    "code": "BHLK",
+    "name": "BHALKI",
+    "trains_count": 2
+  },
+  "BIDR": {
+    "code": "BIDR",
+    "name": "BIDAR",
+    "trains_count": 2
+  },
+  "ULNR": {
+    "code": "ULNR",
+    "name": "ULHASNAGAR",
+    "trains_count": 4
+  },
+  "ABH": {
+    "code": "ABH",
+    "name": "AMBERNATH",
+    "trains_count": 4
+  },
+  "BUD": {
+    "code": "BUD",
+    "name": "BADLAPUR",
+    "trains_count": 4
+  },
+  "KMST": {
+    "code": "KMST",
+    "name": "KAMSHET",
+    "trains_count": 4
+  },
+  "MLB": {
+    "code": "MLB",
+    "name": "MODLIMB",
+    "trains_count": 2
+  },
+  "PVR": {
+    "code": "PVR",
+    "name": "PANDHARPUR",
+    "trains_count": 2
+  },
+  "DAPD": {
+    "code": "DAPD",
+    "name": "DAPODI",
+    "trains_count": 2
+  },
+  "AKRD": {
+    "code": "AKRD",
+    "name": "AKURDI",
+    "trains_count": 2
+  },
+  "VDN": {
+    "code": "VDN",
+    "name": "VADGAON",
+    "trains_count": 2
+  },
+  "TVL": {
+    "code": "TVL",
+    "name": "TADWAL",
+    "trains_count": 2
+  },
+  "LHN": {
+    "code": "LHN",
+    "name": "LACHYAN",
+    "trains_count": 2
+  },
+  "IDR": {
+    "code": "IDR",
+    "name": "INDI ROAD",
+    "trains_count": 2
+  },
+  "NBL": {
+    "code": "NBL",
+    "name": "NIMBAL",
+    "trains_count": 2
+  },
+  "MNL": {
+    "code": "MNL",
+    "name": "MINCHNAL",
+    "trains_count": 2
+  },
+  "BJP": {
+    "code": "BJP",
+    "name": "BIJAPUR JN",
+    "trains_count": 2
+  },
+  "SHAD": {
+    "code": "SHAD",
+    "name": "SHAHAD",
+    "trains_count": 2
+  },
+  "ABY": {
+    "code": "ABY",
+    "name": "AMBIVLI",
+    "trains_count": 2
+  },
+  "TLA": {
+    "code": "TLA",
+    "name": "TITVALA",
+    "trains_count": 2
+  },
+  "KDV": {
+    "code": "KDV",
+    "name": "KHADAVALI",
+    "trains_count": 2
+  },
+  "VSD": {
+    "code": "VSD",
+    "name": "VASIND",
+    "trains_count": 2
+  },
+  "ASO": {
+    "code": "ASO",
+    "name": "ASANGAON",
+    "trains_count": 2
+  },
+  "ATG": {
+    "code": "ATG",
+    "name": "ATGAON",
+    "trains_count": 2
+  },
+  "KE": {
+    "code": "KE",
+    "name": "KHARDI",
+    "trains_count": 1
+  },
+  "GO": {
+    "code": "GO",
+    "name": "GHOTI",
+    "trains_count": 2
+  },
+  "PI": {
+    "code": "PI",
+    "name": "PADLI",
+    "trains_count": 2
+  },
+  "AV": {
+    "code": "AV",
+    "name": "ASVALI",
+    "trains_count": 2
+  },
+  "LT": {
+    "code": "LT",
+    "name": "LAHAVIT",
+    "trains_count": 2
+  },
+  "ODHA": {
+    "code": "ODHA",
+    "name": "ODHA",
+    "trains_count": 2
+  },
+  "KW": {
+    "code": "KW",
+    "name": "KHERVADI",
+    "trains_count": 2
+  },
+  "KBSN": {
+    "code": "KBSN",
+    "name": "KASBE SUKENE",
+    "trains_count": 2
+  },
+  "UGN": {
+    "code": "UGN",
+    "name": "UGAON",
+    "trains_count": 2
+  },
+  "SUM": {
+    "code": "SUM",
+    "name": "SUMMIT",
+    "trains_count": 2
+  },
+  "PNV": {
+    "code": "PNV",
+    "name": "PANEVADI",
+    "trains_count": 2
+  },
+  "HSL": {
+    "code": "HSL",
+    "name": "HISVAHAL",
+    "trains_count": 2
+  },
+  "PJN": {
+    "code": "PJN",
+    "name": "PANJHAN",
+    "trains_count": 2
+  },
+  "PKE": {
+    "code": "PKE",
+    "name": "PIMPAR KHED",
+    "trains_count": 2
+  },
+  "NI": {
+    "code": "NI",
+    "name": "NAYDONGRI",
+    "trains_count": 2
+  },
+  "HPR": {
+    "code": "HPR",
+    "name": "HIRAPUR",
+    "trains_count": 2
+  },
+  "VGL": {
+    "code": "VGL",
+    "name": "VAGHLI",
+    "trains_count": 2
+  },
+  "KJ": {
+    "code": "KJ",
+    "name": "KAJGAON",
+    "trains_count": 2
+  },
+  "NGD": {
+    "code": "NGD",
+    "name": "NAGARDEVLA",
+    "trains_count": 2
+  },
+  "GAA": {
+    "code": "GAA",
+    "name": "GALAN",
+    "trains_count": 2
+  },
+  "PHQ": {
+    "code": "PHQ",
+    "name": "PARDHADE",
+    "trains_count": 2
+  },
+  "MYJ": {
+    "code": "MYJ",
+    "name": "MAHEJI",
+    "trains_count": 2
+  },
+  "MWD": {
+    "code": "MWD",
+    "name": "MHASAVAD",
+    "trains_count": 2
+  },
+  "SS": {
+    "code": "SS",
+    "name": "SHIRSOLI",
+    "trains_count": 2
+  },
+  "BDI": {
+    "code": "BDI",
+    "name": "BHADLI",
+    "trains_count": 2
+  }
+}

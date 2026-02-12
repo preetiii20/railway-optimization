@@ -139,13 +139,16 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
+import AIFeatures from './pages/AIFeatures';
+import SimpleAITest from './components/SimpleAITest';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard />} />
-        {/* We will add Login route here in Phase 2 */}
+        <Route path="/ai-features" element={<AIFeatures />} />
+        <Route path="/test-ai" element={<SimpleAITest />} />
       </Routes>
     </Router>
   );

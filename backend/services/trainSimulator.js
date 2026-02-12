@@ -211,6 +211,133 @@ class TrainSimulator {
   }
 
   /**
+   * Calculate train position based on schedule and current time
+   * Used for freight trains with scheduled departure/arrival times
+   * Now considers train speed for realistic movement
+   */
+  calculatePositionByTime(train, currentTimeMinutes) {
+    if (!train.route || train.route.length < 2) return null;
+
+    // Get train speed (default 60 km/h for freight)
+    const trainSpeed = train.speed || 60; // km/h
+
+    // Find which segment the train is currently on
+    for (let i = 0; i < train.route.length - 1; i++) {
+      const currentStop = train.route[i];
+      const nextStop = train.route[i + 1];
+
+      const departureTime = this.parseTimeToMinutes(currentStop.departure_time);
+      const arrivalTime = this.parseTimeToMinutes(nextStop.arrival_time);
+
+      // Check if train is between these two stations
+      if (currentTimeMinutes >= departureTime && currentTimeMinutes <= arrivalTime) {
+        const currentStation = this.stations[currentStop.station_code];
+        const nextStation = this.stations[nextStop.station_code];
+
+        if (!currentStation?.latitude || !nextStation?.latitude) continue;
+
+        // Calculate distance between stations
+        const distance = Math.abs(nextStop.distance - currentStop.distance); // km
+        
+        // Calculate expected travel time based on speed
+        const expectedTravelTime = (distance / trainSpeed) * 60; // minutes
+        
+        // Calculate actual progress based on time elapsed
+        const totalTime = arrivalTime - departureTime;
+        const elapsedTime = currentTimeMinutes - departureTime;
+        
+        // Use speed-based calculation if available, otherwise use time-based
+        let progress;
+        if (expectedTravelTime > 0 && distance > 0) {
+          // Speed-based: how far should train have traveled
+          const distanceTraveled = (trainSpeed * (elapsedTime / 60)); // km
+          progress = Math.min(distanceTraveled / distance, 1);
+        } else {
+          // Time-based fallback
+          progress = totalTime > 0 ? elapsedTime / totalTime : 0;
+        }
+
+        // Interpolate position
+        const lat = currentStation.latitude + 
+                   (nextStation.latitude - currentStation.latitude) * progress;
+        const lng = currentStation.longitude + 
+                   (nextStation.longitude - currentStation.longitude) * progress;
+
+        return {
+          latitude: lat,
+          longitude: lng,
+          currentStation: currentStop.station_code,
+          nextStation: nextStop.station_code,
+          progress: (progress * 100).toFixed(1),
+          segmentIndex: i,
+          speed: trainSpeed,
+          distanceTraveled: (progress * distance).toFixed(1),
+          distanceRemaining: ((1 - progress) * distance).toFixed(1)
+        };
+      }
+    }
+
+    // Train hasn't started or has finished - return first/last station
+    const firstStop = train.route[0];
+    const lastStop = train.route[train.route.length - 1];
+    const firstDeparture = this.parseTimeToMinutes(firstStop.departure_time);
+    const lastArrival = this.parseTimeToMinutes(lastStop.arrival_time);
+
+    if (currentTimeMinutes < firstDeparture) {
+      // Train at origin
+      const station = this.stations[firstStop.station_code];
+      if (station?.latitude) {
+        return {
+          latitude: station.latitude,
+          longitude: station.longitude,
+          currentStation: firstStop.station_code,
+          nextStation: train.route[1]?.station_code,
+          progress: 0,
+          segmentIndex: 0,
+          speed: trainSpeed,
+          status: 'waiting'
+        };
+      }
+    } else if (currentTimeMinutes > lastArrival) {
+      // Train at destination
+      const station = this.stations[lastStop.station_code];
+      if (station?.latitude) {
+        return {
+          latitude: station.latitude,
+          longitude: station.longitude,
+          currentStation: lastStop.station_code,
+          nextStation: null,
+          progress: 100,
+          segmentIndex: train.route.length - 1,
+          speed: 0,
+          status: 'completed'
+        };
+      }
+    }
+
+    return null;
+  }
+
+  /**
+   * Parse time string (HH:MM:SS) to minutes since midnight
+   */
+  parseTimeToMinutes(timeStr) {
+    if (!timeStr) return 0;
+    const parts = timeStr.split(':');
+    const hours = parseInt(parts[0]) || 0;
+    const minutes = parseInt(parts[1]) || 0;
+    return hours * 60 + minutes;
+  }
+
+  /**
+   * Get current time in minutes since midnight
+   */
+  getCurrentTimeMinutes() {
+    const now = new Date();
+    return now.getHours() * 60 + now.getMinutes();
+  }
+
+  /**
    * Inject delay for testing
    */
   injectDelay(trainId, delayMinutes, cause = 'manual') {

@@ -96,10 +96,40 @@ class AIDataService {
     }
   }
 
-  // Get all trains as array
+  // Load mock freight trains
+  loadMockFreightTrains() {
+    try {
+      const filePath = path.join(__dirname, '../data/mock_freight_trains.json');
+      
+      if (!fs.existsSync(filePath)) {
+        console.log('⚠️ No mock freight trains found');
+        return [];
+      }
+      
+      const data = fs.readFileSync(filePath, 'utf8');
+      const freightTrains = JSON.parse(data);
+      console.log('✅ Loaded', freightTrains.length, 'mock freight trains');
+      return freightTrains;
+    } catch (error) {
+      console.error('Error loading mock freight trains:', error.message);
+      return [];
+    }
+  }
+
+  // Get all trains as array (passenger + freight)
   getTrainsArray() {
     const schedules = this.loadTrainSchedules();
-    return Object.values(schedules);
+    const passengerTrains = Object.values(schedules);
+    const freightTrains = this.loadMockFreightTrains();
+    
+    // Combine passenger and freight trains
+    const allTrains = [...passengerTrains, ...freightTrains];
+    
+    if (freightTrains.length > 0) {
+      console.log(`📊 Total trains: ${allTrains.length} (${passengerTrains.length} passenger + ${freightTrains.length} freight)`);
+    }
+    
+    return allTrains;
   }
 
   // Get train by ID

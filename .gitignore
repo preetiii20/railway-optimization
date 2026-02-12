@@ -15,5 +15,7 @@ __pycache__/
 *.pyd
 .Python
 python-ai/.env
-python-ai/data/processed/
 python-ai/data/output/
+
+# Keep processed data (needed for system to work)
+# python-ai/data/processed/ - COMMENTED OUT so data is included

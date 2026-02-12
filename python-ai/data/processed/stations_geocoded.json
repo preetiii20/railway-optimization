@@ -1,0 +1,3250 @@
+{
+  "DR": {
+    "code": "DR",
+    "name": "DADAR",
+    "latitude": 19.0177342,
+    "longitude": 72.8437523,
+    "formatted_address": "Dadar, Dadasaheb Phalke Marg, Matunga East, F/N Ward, Zone 2, Mumbai City, Maharashtra, 400014, India",
+    "status": "success"
+  },
+  "TNA": {
+    "code": "TNA",
+    "name": "THANE",
+    "latitude": 19.1846144,
+    "longitude": 72.9710278,
+    "formatted_address": "Thane Railway Station, Kopri, Thane, Thane Taluka, Thane, Maharashtra, India",
+    "status": "success"
+  },
+  "KYN": {
+    "code": "KYN",
+    "name": "KALYAN JN",
+    "latitude": 19.2358216,
+    "longitude": 73.1308101,
+    "formatted_address": "Kalyan Junction, Kalyan-Murbad Road, Kalyan, Kalyan-Dombivli, Kalyan Taluka, Thane, Maharashtra, 421306, India",
+    "status": "success"
+  },
+  "IGP": {
+    "code": "IGP",
+    "name": "IGATPURI",
+    "latitude": 19.6944394,
+    "longitude": 73.5638878,
+    "formatted_address": "Igatpuri, Old Agra Road, Igatpuri, Igatpuri Subdistrict, Nashik, Maharashtra, 422403, India",
+    "status": "success"
+  },
+  "NK": {
+    "code": "NK",
+    "name": "NASIK ROAD",
+    "latitude": 19.9480582,
+    "longitude": 73.8420837,
+    "formatted_address": "Nashik Road, NashikRoad Railway-sation road, Nashik Road, Nashik, Nashik Subdistrict, Nashik, Maharashtra, 422001, India",
+    "status": "success"
+  },
+  "MMR": {
+    "code": "MMR",
+    "name": "MANMAD JN.",
+    "latitude": 20.2501817,
+    "longitude": 74.439395,
+    "formatted_address": "Manmad Junction, NH752G, Railway Colony, Manmad, Nandgaon Taluka, Nashik, Maharashtra, 423104, India",
+    "status": "success"
+  },
+  "JL": {
+    "code": "JL",
+    "name": "JALGAON JN.",
+    "latitude": 21.0179798,
+    "longitude": 75.5632539,
+    "formatted_address": "Jalgaon Junction, Shivaji Nagar Road, Jalgaon, Maharashtra, 425001, India",
+    "status": "success"
+  },
+  "BSL": {
+    "code": "BSL",
+    "name": "BHUSAVAL JN.",
+    "latitude": 21.0472554,
+    "longitude": 75.7880594,
+    "formatted_address": "Bhusaval Junction, SH187, Bhusawal, Jalgaon, Maharashtra, 425200, India",
+    "status": "success"
+  },
+  "MKU": {
+    "code": "MKU",
+    "name": "MALKAPUR",
+    "latitude": 20.891958,
+    "longitude": 76.2040353,
+    "formatted_address": "Malkapur, NH753A, Malkapur (M Cl), Malkapur, Buldhana, Maharashtra, 443100, India",
+    "status": "success"
+  },
+  "SEG": {
+    "code": "SEG",
+    "name": "SHEGAON",
+    "latitude": 20.8007513,
+    "longitude": 76.6905257,
+    "formatted_address": "Shegaon, NH548C;161G, Shegaon (R), Shegaon, Buldhana, Maharashtra, 444203, India",
+    "status": "success"
+  },
+  "AK": {
+    "code": "AK",
+    "name": "AKOLA JN.",
+    "latitude": 20.7227763,
+    "longitude": 77.0052993,
+    "formatted_address": "Akola, Gaddam Plot Road, Maratha Nagar, Akola (M Corp.), Akola, Maharashtra, 444001, India",
+    "status": "success"
+  },
+  "BD": {
+    "code": "BD",
+    "name": "BADNERA JN.",
+    "latitude": 20.8570611,
+    "longitude": 77.7321821,
+    "formatted_address": "Badnera Junction, MSH6;SH199, Amravati, Badnera, Amravati, Maharashtra, 444600, India",
+    "status": "success"
+  },
+  "DMN": {
+    "code": "DMN",
+    "name": "DHAMANGAON",
+    "latitude": 20.7843461,
+    "longitude": 78.1389821,
+    "formatted_address": "Dhamangaon, MDR37, Kasarkheda, Dattapur Dhamangaon, Parsodi, Dhamangaon Railway, Amravati, Maharashtra, 444711, India",
+    "status": "success"
+  },
+  "PLO": {
+    "code": "PLO",
+    "name": "PULGAON JN.",
+    "latitude": 20.7262581,
+    "longitude": 78.3175529,
+    "formatted_address": "Pulgaon Junction, NH347A, Pulgaon, Deoli, Wardha, Maharashtra, 442302, India",
+    "status": "success"
+  },
+  "WR": {
+    "code": "WR",
+    "name": "WARDHA JN.",
+    "latitude": 20.7329564,
+    "longitude": 78.595261,
+    "formatted_address": "Wardha Junction, NH347A, Wardha, Maharashtra, 442001, India",
+    "status": "success"
+  },
+  "KRMI": {
+    "code": "KRMI",
+    "name": "KARMALI",
+    "latitude": 15.4904538,
+    "longitude": 73.9245522,
+    "formatted_address": "Karmali, MDR1, Sulabhat, Goa Velha, Neura, Tiswadi, North Goa, Goa, 403203, India",
+    "status": "success"
+  },
+  "THVM": {
+    "code": "THVM",
+    "name": "THIVIM",
+    "latitude": 15.6294585,
+    "longitude": 73.8770088,
+    "formatted_address": "Thivim Railway Station, SH1, Nivol Vaddo, Tivim, Sircaim, Bardez, North Goa, Goa, 403502, India",
+    "status": "success"
+  },
+  "KUDL": {
+    "code": "KUDL",
+    "name": "KUDAL",
+    "latitude": 16.0167593,
+    "longitude": 73.6779418,
+    "formatted_address": "Kudal Railway Station, Kudal MIDC, Kudal, Kudal Taluka, Sindhudurg, Maharashtra, 416520, India",
+    "status": "success"
+  },
+  "KKW": {
+    "code": "KKW",
+    "name": "KANKAVALI",
+    "latitude": 16.2594268,
+    "longitude": 73.7199483,
+    "formatted_address": "Kankavali, SH117, Swami Samarth Nagar, Kankavali, Kankavli Taluka, Sindhudurg, Maharashtra, 416602, India",
+    "status": "success"
+  },
+  "RN": {
+    "code": "RN",
+    "name": "RATNAGIRI",
+    "latitude": 17.0028514,
+    "longitude": 73.3583394,
+    "formatted_address": "Ratnagiri, Hathkambe Ratnagiri Road; Mumbai Ratnagiri Highway, Khedshi, Ratnagiri Taluka, Ratnagiri, Maharashtra, 415639, India",
+    "status": "success"
+  },
+  "CHI": {
+    "code": "CHI",
+    "name": "CHIPLUN",
+    "latitude": 17.5423529,
+    "longitude": 73.522233,
+    "formatted_address": "Chiplun, Mumbai Goa Highway, Chiplun, Chiplun Taluka, Ratnagiri, Maharashtra, 415600, India",
+    "status": "success"
+  },
+  "KHED": {
+    "code": "KHED",
+    "name": "KHED",
+    "latitude": 17.7125696,
+    "longitude": 73.4106638,
+    "formatted_address": "Khed, Mumbai Goa Highway, Khed, Khed Taluka, Ratnagiri, Maharashtra, 415709, India",
+    "status": "success"
+  },
+  "ROHA": {
+    "code": "ROHA",
+    "name": "ROHA",
+    "latitude": 18.44658,
+    "longitude": 73.1238722,
+    "formatted_address": "Roha, NH548A, Roha, Roha Taluka, Raigad, Maharashtra, 402105, India",
+    "status": "success"
+  },
+  "PNVL": {
+    "code": "PNVL",
+    "name": "PANVEL",
+    "latitude": 18.9891659,
+    "longitude": 73.1212219,
+    "formatted_address": "Panvel Railway Station, Panvel Station FOB, New Panvel, Panvel, Panvel Taluka, Raigad, Maharashtra, 497586, India",
+    "status": "success"
+  },
+  "MNI": {
+    "code": "MNI",
+    "name": "MANGAON",
+    "latitude": 18.2475244,
+    "longitude": 73.2755104,
+    "formatted_address": "Mangaon, NH66, Mangaon, Mangaon Taluka, Raigad, Maharashtra, 402104, India",
+    "status": "success"
+  },
+  "ADVI": {
+    "code": "ADVI",
+    "name": "ADAVALI",
+    "latitude": 16.9215451,
+    "longitude": 73.5928085,
+    "formatted_address": "Adavali, SH110, Lanja Taluka, Ratnagiri, Maharashtra, India",
+    "status": "success"
+  },
+  "RAJP": {
+    "code": "RAJP",
+    "name": "RAJAPUR ROAD",
+    "latitude": 16.635634,
+    "longitude": 73.6267989,
+    "formatted_address": "Rajapur Road, Rajapur Taluka, Ratnagiri, Maharashtra, India",
+    "status": "success"
+  },
+  "VBW": {
+    "code": "VBW",
+    "name": "VAIBHAVWADI",
+    "latitude": 16.5123066,
+    "longitude": 73.7079427,
+    "formatted_address": "Vaibhavwadi Road, NH166G, Vaibhavwadi, Vaibhavwadi Taluka, Sindhudurg, Maharashtra, 416810, India",
+    "status": "success"
+  },
+  "PERN": {
+    "code": "PERN",
+    "name": "PERNEM",
+    "latitude": 15.7089964,
+    "longitude": 73.8167602,
+    "formatted_address": "Pernem, NH66, Malpe, Pernem, North Goa, Goa, India",
+    "status": "success"
+  },
+  "VID": {
+    "code": "VID",
+    "name": "VILAVADE",
+    "latitude": 16.7856781,
+    "longitude": 73.6191607,
+    "formatted_address": "Vilavade, MDR50, Shiravli, Lanja Taluka, Ratnagiri, Maharashtra, India",
+    "status": "success"
+  },
+  "NRL": {
+    "code": "NRL",
+    "name": "NERAL",
+    "latitude": 19.0274308,
+    "longitude": 73.3184369,
+    "formatted_address": "Neral, Old Market Road, Neral, Karjat Taluka, Raigad, Maharashtra, 410101, India",
+    "status": "success"
+  },
+  "KJT": {
+    "code": "KJT",
+    "name": "KARJAT",
+    "latitude": 18.9130789,
+    "longitude": 73.3208486,
+    "formatted_address": "Karjat Railway Station, Halavali, Karjat, Karjat Taluka, Raigad, Maharashtra, 410201, India",
+    "status": "success"
+  },
+  "LNL": {
+    "code": "LNL",
+    "name": "LONAVLA",
+    "latitude": 18.7534635,
+    "longitude": 73.4059575,
+    "formatted_address": "Equitas Small Finance Bank Lonavla Branch, Railway Station Road 2, Summer Hill, Lonavala, Mawal, Pune, Maharashtra, 410400, India",
+    "status": "success"
+  },
+  "TGN": {
+    "code": "TGN",
+    "name": "TALEGAON",
+    "latitude": 18.7351057,
+    "longitude": 73.6720899,
+    "formatted_address": "Talegaon, ST Stand Road, Talegaon Dabhade, Mawal, Pune, Maharashtra, 410507, India",
+    "status": "success"
+  },
+  "KK": {
+    "code": "KK",
+    "name": "KHADKI",
+    "latitude": 18.5641718,
+    "longitude": 73.8404533,
+    "formatted_address": "Khadki, Old Pune–Mumbai Highway, Khadki, Pune City, Pune, Maharashtra, 411020, India",
+    "status": "success"
+  },
+  "SVJR": {
+    "code": "SVJR",
+    "name": "SHIVAJINAGAR",
+    "latitude": 18.5325915,
+    "longitude": 73.8513115,
+    "formatted_address": "Shivajinagar, Shivajinagar Railway Station Road, Shivajinagar, Pune City, Pune, Maharashtra, 411016, India",
+    "status": "success"
+  },
+  "PUNE": {
+    "code": "PUNE",
+    "name": "PUNE JN.",
+    "latitude": 18.529751,
+    "longitude": 73.872596,
+    "formatted_address": "Pune Railway Station, Raja Bahadur Mill Marg, RBM Road, Mangalwar Peth, Pune City, Pune, Maharashtra, 411001, India",
+    "status": "success"
+  },
+  "PMP": {
+    "code": "PMP",
+    "name": "PIMPRI",
+    "latitude": 18.6229526,
+    "longitude": 73.8025117,
+    "formatted_address": "Pimpri, Jawaharlal Nehru Road, Pimpri, Pimpri-Chinchwad, Haveli, Pune, Maharashtra, 411089, India",
+    "status": "success"
+  },
+  "DD": {
+    "code": "DD",
+    "name": "DAUND JN.",
+    "latitude": 18.4639145,
+    "longitude": 74.5793013,
+    "formatted_address": "Daund Junction, Ahmednagar - Daund Road, Veer Savarkar Nagar, Daund, Pune, Maharashtra, 413800, India",
+    "status": "success"
+  },
+  "SUR": {
+    "code": "SUR",
+    "name": "SOLAPUR",
+    "latitude": 17.6645286,
+    "longitude": 75.8934941,
+    "formatted_address": "Solapur, Station Road, Solapur, Solapur North, Solapur, Maharashtra, 413001, India",
+    "status": "success"
+  },
+  "WADI": {
+    "code": "WADI",
+    "name": "WADI JN.",
+    "latitude": 17.0522945,
+    "longitude": 76.9918953,
+    "formatted_address": "Wadi Junction, SH149, ACC Cement, Ravura, Chitapura taluku, Kalaburagi, Karnataka, 585225, India",
+    "status": "success"
+  },
+  "TDU": {
+    "code": "TDU",
+    "name": "TANDUR",
+    "latitude": 17.2509364,
+    "longitude": 77.5841263,
+    "formatted_address": "Tandur, NH167N, Tanduru, Tandur mandal, Vikarabad, Telangana, 501141, India",
+    "status": "success"
+  },
+  "LPI": {
+    "code": "LPI",
+    "name": "LINGAMPALLI",
+    "latitude": 17.483695,
+    "longitude": 78.3165842,
+    "formatted_address": "Lingampalli Railway Station, Lingampalli Station Road, Rail Vihar, Lingampally, Ward 106 Serilingampally, Hyderabad, Serilingampalle mandal, Ranga Reddy, Telangana, 500019, India",
+    "status": "success"
+  },
+  "SC": {
+    "code": "SC",
+    "name": "SECUNDERABAD",
+    "latitude": 17.4338591,
+    "longitude": 78.502051,
+    "formatted_address": "Secunderabad Junction, Regimental Bazar Main Road, Marredpally mandal, Secunderabad, Hyderabad, Telangana, 500003, India",
+    "status": "success"
+  },
+  "KZJ": {
+    "code": "KZJ",
+    "name": "KAZIPET JN.",
+    "latitude": 17.9748271,
+    "longitude": 79.5112685,
+    "formatted_address": "Kazipet Junction, Kazipet - Somidi Road, Kazipet, Khaazipet mandal, Hanumakonda, Telangana, 506003, India",
+    "status": "success"
+  },
+  "WL": {
+    "code": "WL",
+    "name": "WARANGAL",
+    "latitude": 17.9732956,
+    "longitude": 79.6056068,
+    "formatted_address": "Warangal, shivanagar road, Khila Warangal mandal, Warangal, Telangana, 506002, India",
+    "status": "success"
+  },
+  "KMT": {
+    "code": "KMT",
+    "name": "KHAMMAM",
+    "latitude": 17.2487461,
+    "longitude": 80.1391865,
+    "formatted_address": "Khammam Railway Station, Railway Station road, Gandhi chowk, Khammam, Khammam Urban mandal, Khammam, Telangana, 507003, India",
+    "status": "success"
+  },
+  "MDR": {
+    "code": "MDR",
+    "name": "MADHIRA",
+    "latitude": 16.922272,
+    "longitude": 80.3655535,
+    "formatted_address": "Madhira, Railway Station - Bus Stand Road, Madhira, Madhira mandal, Khammam, Telangana, 507203, India",
+    "status": "success"
+  },
+  "EE": {
+    "code": "EE",
+    "name": "ELURU",
+    "latitude": 16.7181031,
+    "longitude": 81.1194761,
+    "formatted_address": "Eluru, Eluru Road, Turupulakulu, Eluru, Andhra Pradesh, 534001, India",
+    "status": "success"
+  },
+  "RJY": {
+    "code": "RJY",
+    "name": "RAJAHMUNDRY",
+    "latitude": 16.9840432,
+    "longitude": 81.7839579,
+    "formatted_address": "Rajahmundry, SH17, Dowleshwaram, Rajahmundry (Urban), East Godavari, Andhra Pradesh, 533125, India",
+    "status": "success"
+  },
+  "SLO": {
+    "code": "SLO",
+    "name": "SAMALKOT JN.",
+    "latitude": 17.0453164,
+    "longitude": 82.1689895,
+    "formatted_address": "Samalkot Junction, Samarlakota - Gokavaram Road, Samarlakota, Samalkota, Kakinada, Andhra Pradesh, 533400, India",
+    "status": "success"
+  },
+  "TUNI": {
+    "code": "TUNI",
+    "name": "TUNI",
+    "latitude": 17.3610379,
+    "longitude": 82.5433224,
+    "formatted_address": "Tuni, Tuni Town Road, Tuni, Kakinada, Andhra Pradesh, 533401, India",
+    "status": "success"
+  },
+  "AKP": {
+    "code": "AKP",
+    "name": "ANAKAPALLE",
+    "latitude": 17.6946307,
+    "longitude": 83.0086484,
+    "formatted_address": "Anakapalle, Ring Road, Niddanam Doddi, Anakapalle, Anakapalli, Andhra Pradesh, 531001, India",
+    "status": "success"
+  },
+  "VZM": {
+    "code": "VZM",
+    "name": "VIZIANAGARAM",
+    "latitude": 18.1114637,
+    "longitude": 83.396325,
+    "formatted_address": "Vizianagaram Junction, FOB, Natraj Colony, Vizianagaram, Andhra Pradesh, 535001, India",
+    "status": "success"
+  },
+  "PSA": {
+    "code": "PSA",
+    "name": "PALASA",
+    "latitude": 18.7573816,
+    "longitude": 84.4219454,
+    "formatted_address": "Palasa, Bendi Gate - Kasibugga- Palasa Main Road, Nehru Nagar, APIIC Industrial Estate Palasa, Padmanabhapuram, Palasa, Srikakulam, Andhra Pradesh, 532222, India",
+    "status": "success"
+  },
+  "SPT": {
+    "code": "SPT",
+    "name": "SOMPETA",
+    "latitude": 18.9809076,
+    "longitude": 84.5815746,
+    "formatted_address": "Sompeta, Sompeta - Kaviti - Edupuram Road, Purusgottapuram, Kanchili, Samant Ramachamdrapuram, Kanchili, Srikakulam, Andhra Pradesh, 532291, India",
+    "status": "success"
+  },
+  "CAP": {
+    "code": "CAP",
+    "name": "CHATRAPUR",
+    "latitude": 19.3592282,
+    "longitude": 84.9737421,
+    "formatted_address": "Chatrapur, Station Road, Mahaveer Nagar, Chhatrapur, Ganjam, Odisha, 761020, India",
+    "status": "success"
+  },
+  "KUR": {
+    "code": "KUR",
+    "name": "KHURDA ROAD",
+    "latitude": 20.1531141,
+    "longitude": 85.7076331,
+    "formatted_address": "Khurda Road Junction, Khorda - Jatani Road Underpass, Jatani, Khordha, Odisha, 752050, India",
+    "status": "success"
+  },
+  "BBS": {
+    "code": "BBS",
+    "name": "BHUBANESWAR",
+    "latitude": 20.2667774,
+    "longitude": 85.8435592,
+    "formatted_address": "Bhubaneswar, Lane number 1, Budheswari Colony, Ward 42, South East Zone, Bhubaneswar Municipal Corporation, Bhubaneswar (M.Corp.), Khordha, Odisha, 751006, India",
+    "status": "success"
+  },
+  "DEHR": {
+    "code": "DEHR",
+    "name": "DEHU ROAD",
+    "latitude": 18.6809586,
+    "longitude": 73.7354319,
+    "formatted_address": "Dehu Road Railway Station, Bus Stop, Mamurdi, Haveli, Pune, Maharashtra, 654321, India",
+    "status": "success"
+  },
+  "JJR": {
+    "code": "JJR",
+    "name": "JEJURI",
+    "latitude": 18.2871679,
+    "longitude": 74.1716695,
+    "formatted_address": "Jejuri, Jejuri Morgaon Baramati Road, Jejuri, Purandhar, Pune, Maharashtra, 412303, India",
+    "status": "success"
+  },
+  "NIRA": {
+    "code": "NIRA",
+    "name": "NIRA",
+    "latitude": 18.1054456,
+    "longitude": 74.208078,
+    "formatted_address": "Nira, Nira Pune Road, Nira, Purandhar, Pune, Maharashtra, India",
+    "status": "success"
+  },
+  "LNN": {
+    "code": "LNN",
+    "name": "LONAND",
+    "latitude": 18.0406799,
+    "longitude": 74.1902209,
+    "formatted_address": "Lonand, Shirur Satara Road, Lonand, Khandala, Satara, Maharashtra, 415521, India",
+    "status": "success"
+  },
+  "WTR": {
+    "code": "WTR",
+    "name": "WATHAR",
+    "latitude": 17.8913345,
+    "longitude": 74.1365984,
+    "formatted_address": "Wathar, SH72, Watar, Koregaon, Satara, Maharashtra, 415634, India",
+    "status": "success"
+  },
+  "STR": {
+    "code": "STR",
+    "name": "SATARA",
+    "latitude": 17.6883359,
+    "longitude": 74.0631835,
+    "formatted_address": "Satara, NH548C, Satara, Maharashtra, 415002, India",
+    "status": "success"
+  },
+  "KRG": {
+    "code": "KRG",
+    "name": "KOREGAON",
+    "latitude": 17.6919946,
+    "longitude": 74.1490683,
+    "formatted_address": "Koregaon, NH548C, Koregaon, Satara, Maharashtra, 415500, India",
+    "status": "success"
+  },
+  "KRD": {
+    "code": "KRD",
+    "name": "KARAD",
+    "latitude": 17.3096343,
+    "longitude": 74.2168653,
+    "formatted_address": "Karad, Karad Railway Station Road, Karad, Satara, Maharashtra, 415105, India",
+    "status": "success"
+  },
+  "SLI": {
+    "code": "SLI",
+    "name": "SANGLI",
+    "latitude": 16.8584407,
+    "longitude": 74.5880836,
+    "formatted_address": "Sangli, Kupwad MIDC Road, Gokul Nagar, Sangli, Miraj, Sangli, Maharashtra, 416416, India",
+    "status": "success"
+  },
+  "MRJ": {
+    "code": "MRJ",
+    "name": "MIRAJ JN.",
+    "latitude": 16.8186596,
+    "longitude": 74.6397627,
+    "formatted_address": "Miraj Junction, Maniknagar Bypass, Samatanagar, Miraj, Sangli, Maharashtra, 416400, India",
+    "status": "success"
+  },
+  "JSP": {
+    "code": "JSP",
+    "name": "JAYASINGPUR",
+    "latitude": 16.7907328,
+    "longitude": 74.5509846,
+    "formatted_address": "Jayasingpur, Station Road, Jaysingpur, Shirol, Kolhapur, Maharashtra, 416101, India",
+    "status": "success"
+  },
+  "HTK": {
+    "code": "HTK",
+    "name": "HATKANANGALE",
+    "latitude": 16.7477491,
+    "longitude": 74.4211932,
+    "formatted_address": "Hatkanangale, NH166, Hatkanangle, Kolhapur, Maharashtra, 416109, India",
+    "status": "success"
+  },
+  "RKD": {
+    "code": "RKD",
+    "name": "RUKADI",
+    "latitude": 16.7254247,
+    "longitude": 74.3585898,
+    "formatted_address": "Rukadi, NH166, Ichalkaranji, Hatkanangle, Kolhapur, Maharashtra, 416118, India",
+    "status": "success"
+  },
+  "VV": {
+    "code": "VV",
+    "name": "VALIVADE",
+    "latitude": 16.7041544,
+    "longitude": 74.2994847,
+    "formatted_address": "Valivade, Gandhinagar Road, Shahu Market Yard, Chinchwad, Karvir, Kolhapur, Maharashtra, 416119, India",
+    "status": "success"
+  },
+  "KOP": {
+    "code": "KOP",
+    "name": "CHHATRAPATI",
+    "latitude": 19.8597998,
+    "longitude": 75.3114008,
+    "formatted_address": "Chhatrapati Sambhajinagar, Railway Station Flyover, Chhatrapati Sambhajinagar, Maharashtra, 431002, India",
+    "status": "success"
+  },
+  "GPR": {
+    "code": "GPR",
+    "name": "GHORPURI",
+    "latitude": 18.528148,
+    "longitude": 73.8939317,
+    "formatted_address": "Ghorpuri, Church Road, Ghorpuri, Pune City, Pune, Maharashtra, 411037, India",
+    "status": "success"
+  },
+  "JEUR": {
+    "code": "JEUR",
+    "name": "JEUR",
+    "latitude": 18.26162,
+    "longitude": 75.1620767,
+    "formatted_address": "Jeur Railway Station, MDR11, Chikhalthan No 2, Karmala, Solapur, Maharashtra, 413202, India",
+    "status": "success"
+  },
+  "KEM": {
+    "code": "KEM",
+    "name": "KEM",
+    "latitude": 18.1768096,
+    "longitude": 75.2743674,
+    "formatted_address": "Kem, MDR12, Kem, Karmala, Solapur, Maharashtra, 413223, India",
+    "status": "success"
+  },
+  "KWV": {
+    "code": "KWV",
+    "name": "KURDUVADI JN",
+    "latitude": 18.0918477,
+    "longitude": 75.4170412,
+    "formatted_address": "Kurduvadi Junction, SH149, Kurduvadi, Madha, Solapur, Maharashtra, 413230, India",
+    "status": "success"
+  },
+  "MA": {
+    "code": "MA",
+    "name": "MADHA",
+    "latitude": 18.0301719,
+    "longitude": 75.5464219,
+    "formatted_address": "Madha, SH150, Undargaon, Madha, Solapur, Maharashtra, India",
+    "status": "success"
+  },
+  "MO": {
+    "code": "MO",
+    "name": "MOHOL",
+    "latitude": 17.8045662,
+    "longitude": 75.6761992,
+    "formatted_address": "Mohol, Pune Sholapur Road, Pawar Wasti, Mohol, Solapur, Maharashtra, 413213, India",
+    "status": "success"
+  },
+  "HG": {
+    "code": "HG",
+    "name": "HOTGI JN.",
+    "latitude": 17.5652835,
+    "longitude": 75.9895751,
+    "formatted_address": "Hotgi Junction, Hotgi Road, Hotagi, Solapur South, Solapur, Maharashtra, India",
+    "status": "success"
+  },
+  "AKOR": {
+    "code": "AKOR",
+    "name": "AKALKOT ROAD",
+    "latitude": 17.4507852,
+    "longitude": 76.1385307,
+    "formatted_address": "Akalkot Road, MDR51, Ghungre Gaon, Shaval, Akkalkot, Solapur, Maharashtra, India",
+    "status": "success"
+  },
+  "DUD": {
+    "code": "DUD",
+    "name": "DUDHANI",
+    "latitude": 17.3626389,
+    "longitude": 76.3802855,
+    "formatted_address": "Dudhani, Solapur–Chennai Economic Corridor, Mugali, Akkalkot, Solapur, Maharashtra, 413220, India",
+    "status": "success"
+  },
+  "SDB": {
+    "code": "SDB",
+    "name": "SHAHABAD",
+    "latitude": 17.1219321,
+    "longitude": 76.9433966,
+    "formatted_address": "Shahabad, Burman lane, Siparkatta, Shahabad, Shahabad taluku, Kalaburagi, Karnataka, 585228, India",
+    "status": "success"
+  },
+  "NW": {
+    "code": "NW",
+    "name": "NALWAR",
+    "latitude": 16.936031,
+    "longitude": 77.0194415,
+    "formatted_address": "Nalwar, Raichur - Wadi Road, Subbunayaka Tanda, Kumbarahalli, Chitapura taluku, Kalaburagi, Karnataka, 585218, India",
+    "status": "success"
+  },
+  "YG": {
+    "code": "YG",
+    "name": "YADGIR",
+    "latitude": 16.7446491,
+    "longitude": 77.1297018,
+    "formatted_address": "Yadgir, Railway Platform Bridge, Yadgiri, Yadagiri taluku, Yadgir, Karnataka, 585200, India",
+    "status": "success"
+  },
+  "SADP": {
+    "code": "SADP",
+    "name": "SAIDAPUR",
+    "latitude": 16.5707868,
+    "longitude": 77.2500033,
+    "formatted_address": "Saidapur, SH127, Saidapur Station Area, Saidapura, Yadagiri taluku, Yadgir, Karnataka, 585221, India",
+    "status": "success"
+  },
+  "KSN": {
+    "code": "KSN",
+    "name": "KRISHNA",
+    "latitude": 22.3295398,
+    "longitude": 88.4505893,
+    "formatted_address": "Krishna Mohan, Kulpi Road, Baruipur, Kolkata Metropolitan Area, Baruipur, South 24 Parganas, West Bengal, 700144, India",
+    "status": "success"
+  },
+  "RC": {
+    "code": "RC",
+    "name": "RAICHUR",
+    "latitude": 16.1921996,
+    "longitude": 77.3395346,
+    "formatted_address": "Raichur Railway Station, Raichur, Rayachuru taluku, Raichur, Karnataka, 584100, India",
+    "status": "success"
+  },
+  "MTU": {
+    "code": "MTU",
+    "name": "MATMARI",
+    "latitude": 16.0464993,
+    "longitude": 77.3024789,
+    "formatted_address": "Matmari, SH127, Aroli, Rayachuru taluku, Raichur, Karnataka, 584202, India",
+    "status": "success"
+  },
+  "KO": {
+    "code": "KO",
+    "name": "KOSGI",
+    "latitude": 15.847702,
+    "longitude": 77.2363765,
+    "formatted_address": "Kosgi, SH283, Kosigi, Kurnool, Andhra Pradesh, 518313, India",
+    "status": "success"
+  },
+  "AD": {
+    "code": "AD",
+    "name": "ADONI",
+    "latitude": 15.6176141,
+    "longitude": 77.2746943,
+    "formatted_address": "Adoni, Adoni Main Road, MM Colony, Kranthi Nagar, Adoni, Kurnool, Andhra Pradesh, 518301, India",
+    "status": "success"
+  },
+  "NRR": {
+    "code": "NRR",
+    "name": "NAGARUR",
+    "latitude": 15.5428674,
+    "longitude": 77.3136308,
+    "formatted_address": "Nagarur, Gooty - Kalaburgi Highway, Benigere, Aspari, Kurnool, Andhra Pradesh, India",
+    "status": "success"
+  },
+  "GTL": {
+    "code": "GTL",
+    "name": "GUNTAKAL JN.",
+    "latitude": 15.1737125,
+    "longitude": 77.3698642,
+    "formatted_address": "Guntakal Junction, Guntakal - Maddikera Road, Timmanacherla, Guntakal, Anantapuram, Andhra Pradesh, 515801, India",
+    "status": "success"
+  },
+  "GY": {
+    "code": "GY",
+    "name": "GOOTY JN.",
+    "latitude": 15.1495485,
+    "longitude": 77.625239,
+    "formatted_address": "Gooty Junction, Gooty - Kalaburgi Highway, Railway Colony, Chetrapalli, Gooty, Anantapuram, Andhra Pradesh, 515402, India",
+    "status": "success"
+  },
+  "RLO": {
+    "code": "RLO",
+    "name": "RAYALCHERUVU",
+    "latitude": 15.0552191,
+    "longitude": 77.8197426,
+    "formatted_address": "Rayalcheruvu, NH67, Rayalacheruvu, Yadiki, Anantapuram, Andhra Pradesh, 515455, India",
+    "status": "success"
+  },
+  "TU": {
+    "code": "TU",
+    "name": "TADIPATRI",
+    "latitude": 14.9084903,
+    "longitude": 77.9774192,
+    "formatted_address": "Tadipatri, Damajipalle - Tadipatri Road, Komali, Tadpatri, Anantapuram, Andhra Pradesh, 515411, India",
+    "status": "success"
+  },
+  "KDP": {
+    "code": "KDP",
+    "name": "KONDAPURAM",
+    "latitude": 14.7732844,
+    "longitude": 78.1935398,
+    "formatted_address": "Kondapuram, Gandluru - Kondapuram - Simhadripuram - Velidandla Road, Kondapuram, YSR Kadapa, Andhra Pradesh, India",
+    "status": "success"
+  },
+  "MOO": {
+    "code": "MOO",
+    "name": "MUDDANURU",
+    "latitude": 14.6890314,
+    "longitude": 78.3972937,
+    "formatted_address": "Muddanuru, Jammalamadugu Muddanuru Road, Prakashnagar, Muddanur, YSR Kadapa, Andhra Pradesh, 516380, India",
+    "status": "success"
+  },
+  "KKM": {
+    "code": "KKM",
+    "name": "KAMALAPURAM",
+    "latitude": 14.5928671,
+    "longitude": 78.6663253,
+    "formatted_address": "Kamalapuram, Khajipeta - Kamalapuram Road, Kamalapuram, YSR Kadapa, Andhra Pradesh, 516289, India",
+    "status": "success"
+  },
+  "NRE": {
+    "code": "NRE",
+    "name": "NANDALUR",
+    "latitude": 14.2707973,
+    "longitude": 79.104387,
+    "formatted_address": "Nandalur, MDR029, Rachapalle, Patur, Nandalur, YSR Kadapa, Andhra Pradesh, 516150, India",
+    "status": "success"
+  },
+  "RJP": {
+    "code": "RJP",
+    "name": "RAZAMPETA",
+    "latitude": 14.1852984,
+    "longitude": 79.1531123,
+    "formatted_address": "Razampeta, MDR0164, Narapareddipalle, Mannur, Rajampet, YSR Kadapa, Andhra Pradesh, 516100, India",
+    "status": "success"
+  },
+  "KOU": {
+    "code": "KOU",
+    "name": "KODURU",
+    "latitude": 13.9486651,
+    "longitude": 79.3465739,
+    "formatted_address": "Koduru, MDR0424, Chengala Rachapalle, Gangarajupadu, Kodur, Annamayya, Andhra Pradesh, 516101, India",
+    "status": "success"
+  },
+  "RU": {
+    "code": "RU",
+    "name": "RENIGUNTA JN",
+    "latitude": 13.6378742,
+    "longitude": 79.5062532,
+    "formatted_address": "Renigunta Junction, APSRTC Bus Station Road, Renigunta, Tirupati, Andhra Pradesh, 517520, India",
+    "status": "success"
+  },
+  "TRT": {
+    "code": "TRT",
+    "name": "TIRUTTANI",
+    "latitude": 13.1792949,
+    "longitude": 79.6121808,
+    "formatted_address": "Tiruttani, Ma. Po. C. Road, Thiruthani, Tiruttani, Thiruvallur, Tamil Nadu, 631209, India",
+    "status": "success"
+  },
+  "AJJ": {
+    "code": "AJJ",
+    "name": "ARAKKONAM JN",
+    "latitude": 13.0823386,
+    "longitude": 79.6685253,
+    "formatted_address": "Arakkonam Junction, Sadras - Chengalpattu - Kancheepuram - Arakkonam - Tiruthani Road, Arakkonam, Arakonam, Ranipet, Tamil Nadu, 631001, India",
+    "status": "success"
+  },
+  "TRL": {
+    "code": "TRL",
+    "name": "TIRUVALLUR",
+    "latitude": 13.1161924,
+    "longitude": 79.9121601,
+    "formatted_address": "Tiruvallur, J. N. Road, Tiruvallur, Thiruvallur, Tamil Nadu, 602001, India",
+    "status": "success"
+  },
+  "PER": {
+    "code": "PER",
+    "name": "PERAMBUR",
+    "latitude": 13.1082594,
+    "longitude": 80.2515158,
+    "formatted_address": "Perambur Railway Station, Perambur, Ward 70, Zone 6 Thiru. Vi. Ka. Nagar, Chennai Corporation, Chennai, Tamil Nadu, India",
+    "status": "success"
+  },
+  "RMP": {
+    "code": "RMP",
+    "name": "RAHIMATPUR",
+    "latitude": 17.6122762,
+    "longitude": 74.172551,
+    "formatted_address": "Rahimatpur, SH73, Rahimatpur, Koregaon, Satara, Maharashtra, 415511, India",
+    "status": "success"
+  },
+  "TAZ": {
+    "code": "TAZ",
+    "name": "TARGAON",
+    "latitude": 17.5143166,
+    "longitude": 74.1562096,
+    "formatted_address": "Targaon, SH75, Koregaon, Satara, Maharashtra, 415107, India",
+    "status": "success"
+  },
+  "MSR": {
+    "code": "MSR",
+    "name": "MASUR",
+    "latitude": 17.4051415,
+    "longitude": 74.1447937,
+    "formatted_address": "Masur, SH76, Masur, Karad, Satara, Maharashtra, 415106, India",
+    "status": "success"
+  },
+  "TKR": {
+    "code": "TKR",
+    "name": "TAKARI",
+    "latitude": 17.1330025,
+    "longitude": 74.3582285,
+    "formatted_address": "Takari, Tasgaon Road, Ghogaon, Walwa, Sangli, Maharashtra, 416309, India",
+    "status": "success"
+  },
+  "NMGT": {
+    "code": "NMGT",
+    "name": "NIMSHIRGAON",
+    "latitude": 16.7630161,
+    "longitude": 74.471782,
+    "formatted_address": "Nimshirgaon Tamdalge, NH166, Shirol, Kolhapur, Maharashtra, India",
+    "status": "success"
+  },
+  "VRB": {
+    "code": "VRB",
+    "name": "VISHRAMBAG",
+    "latitude": 16.8509965,
+    "longitude": 74.6028035,
+    "formatted_address": "Vishrambag, Lane Number 5, Sangli, Miraj, Sangli, Maharashtra, 416416, India",
+    "status": "success"
+  },
+  "KSRA": {
+    "code": "KSRA",
+    "name": "KASARA",
+    "latitude": 19.6482325,
+    "longitude": 73.4735887,
+    "formatted_address": "Kasara, SH37, Kasara Village, Kasara, Shahapur Taluka, Thane, Maharashtra, 421602, India",
+    "status": "success"
+  },
+  "DVL": {
+    "code": "DVL",
+    "name": "DEVLALI",
+    "latitude": 19.8965492,
+    "longitude": 73.8367402,
+    "formatted_address": "Devlali, Lam Road, Deolali Market, Deolali Camp, Nashik Subdistrict, Nashik, Maharashtra, 422401, India",
+    "status": "success"
+  },
+  "PC": {
+    "code": "PC",
+    "name": "PACHORA JN.",
+    "latitude": 20.6696319,
+    "longitude": 75.3492048,
+    "formatted_address": "Pachora Junction, MDR33, Pachora, Jalgaon, Maharashtra, 424200, India",
+    "status": "success"
+  },
+  "SAV": {
+    "code": "SAV",
+    "name": "SAVDA",
+    "latitude": 21.1106964,
+    "longitude": 75.9102475,
+    "formatted_address": "Savda, MDR15, Savda, Raver, Jalgaon, Maharashtra, 425304, India",
+    "status": "success"
+  },
+  "NB": {
+    "code": "NB",
+    "name": "NIMBHORA",
+    "latitude": 21.1605208,
+    "longitude": 75.97467,
+    "formatted_address": "Nimbhora, Waghoda Road, Nimbhore Bk, Raver, Jalgaon, Maharashtra, 425506, India",
+    "status": "success"
+  },
+  "RV": {
+    "code": "RV",
+    "name": "RAVER",
+    "latitude": 21.2222313,
+    "longitude": 76.0444182,
+    "formatted_address": "Raver, NH753BE, Raver, Jalgaon, Maharashtra, 425508, India",
+    "status": "success"
+  },
+  "BAU": {
+    "code": "BAU",
+    "name": "BURHANPUR",
+    "latitude": 21.334818,
+    "longitude": 76.1998332,
+    "formatted_address": "Burhanpur, Kundi Bhandaaraa Road, Burhanpur, Burhanpur Nagar Tahsil, Burhanpur, Madhya Pradesh, 450331, India",
+    "status": "success"
+  },
+  "KNW": {
+    "code": "KNW",
+    "name": "KHANDWA JN.",
+    "latitude": 21.8237021,
+    "longitude": 76.3532291,
+    "formatted_address": "Khandwa Junction, SH70, Khandwa, Khandwa Nagar Tahsil, Khandwa, Madhya Pradesh, 450001, India",
+    "status": "success"
+  },
+  "TLV": {
+    "code": "TLV",
+    "name": "TALVADIYA",
+    "latitude": 21.927809,
+    "longitude": 76.4446336,
+    "formatted_address": "Talvadiya Junction, MD5014, Jawar, Khandwa Tahsil, Khandwa, Madhya Pradesh, 450991, India",
+    "status": "success"
+  },
+  "KKN": {
+    "code": "KKN",
+    "name": "KHIRKIYA",
+    "latitude": 22.1659093,
+    "longitude": 76.8590441,
+    "formatted_address": "Khirkiya, MD3409, Khirkya, Khirkiya, Khirkiya Tahsil, Harda, Madhya Pradesh, 461441, India",
+    "status": "success"
+  },
+  "HD": {
+    "code": "HD",
+    "name": "HARDA",
+    "latitude": 22.3390401,
+    "longitude": 77.1015504,
+    "formatted_address": "Harda, SH71, Harda Khas, Harda, Harda Tahsil, Harda, Madhya Pradesh, 461331, India",
+    "status": "success"
+  },
+  "TBN": {
+    "code": "TBN",
+    "name": "TIMARNI",
+    "latitude": 22.3762705,
+    "longitude": 77.2301922,
+    "formatted_address": "Timarni, SH67, Timarni, Timurni, Rehatgarh Tahsil, Harda, Madhya Pradesh, 461228, India",
+    "status": "success"
+  },
+  "BPF": {
+    "code": "BPF",
+    "name": "BANAPURA",
+    "latitude": 22.470483,
+    "longitude": 77.4816889,
+    "formatted_address": "Banapura, One way, Banapura, Bheelpur, Seoni Malwa, Seoni-Malwa Tahsil, Narmadapuram, Madhya Pradesh, 461223, India",
+    "status": "success"
+  },
+  "ET": {
+    "code": "ET",
+    "name": "ITARSI",
+    "latitude": 22.6085628,
+    "longitude": 77.76707,
+    "formatted_address": "Itarsi Junction, MD3318, Railway Colony, Itarsi, Itarsi Tahsil, Narmadapuram, Madhya Pradesh, 461111, India",
+    "status": "success"
+  },
+  "HBD": {
+    "code": "HBD",
+    "name": "HOSHANGABAD",
+    "latitude": 22.7529598,
+    "longitude": 77.7173261,
+    "formatted_address": "Hoshangabad, Gwaltoli Underbridge, Sethani Ghat, Hoshangabad, Narmadapuram, Narmadapuram Tahsil, Narmadapuram, Madhya Pradesh, 461001, India",
+    "status": "success"
+  },
+  "MDDP": {
+    "code": "MDDP",
+    "name": "MANDIDEEP",
+    "latitude": 23.093838,
+    "longitude": 77.5114296,
+    "formatted_address": "Mandideep, NH46, Mandideep, Goharganj Tahsil, Raisen, Madhya Pradesh, 462046, India",
+    "status": "success"
+  },
+  "HBJ": {
+    "code": "HBJ",
+    "name": "HABIBGANJ",
+    "latitude": 23.2208832,
+    "longitude": 77.4393691,
+    "formatted_address": "Rani Kamlapati, MD3119, Habibganj, Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India",
+    "status": "success"
+  },
+  "BPL": {
+    "code": "BPL",
+    "name": "BHOPAL",
+    "latitude": 23.2663138,
+    "longitude": 77.4125257,
+    "formatted_address": "Bhopal Railway Station, Ibrahimpura, Bhopal, Huzur Tahsil, Bhopal, Madhya Pradesh, 462001, India",
+    "status": "success"
+  },
+  "SCI": {
+    "code": "SCI",
+    "name": "SANCHI",
+    "latitude": 23.4876339,
+    "longitude": 77.7360676,
+    "formatted_address": "Sanchi, Vidisha Road, Kanakheri Kalan, Sanchi, Raisen Tahsil, Raisen, Madhya Pradesh, 464661, India",
+    "status": "success"
+  },
+  "BHS": {
+    "code": "BHS",
+    "name": "VIDISHA",
+    "latitude": 23.5225788,
+    "longitude": 77.8148001,
+    "formatted_address": "Vidisha, Main road, Vidisha, Vidisha NagarTahsil, Vidisha, Madhya Pradesh, 464001, India",
+    "status": "success"
+  },
+  "BAQ": {
+    "code": "BAQ",
+    "name": "GANJ BASODA",
+    "latitude": 23.8459129,
+    "longitude": 77.9446199,
+    "formatted_address": "Ganj Basoda, MD2912, Betoli, Basoda, Basoda Tahsil, Vidisha, Madhya Pradesh, 464221, India",
+    "status": "success"
+  },
+  "MABA": {
+    "code": "MABA",
+    "name": "MANDI BAMORA",
+    "latitude": 24.0534758,
+    "longitude": 78.0823252,
+    "formatted_address": "Mandi Bamora, MD1912, Bamora, Gohar, Bina Tahsil, Sagar, Madhya Pradesh, 464224, India",
+    "status": "success"
+  },
+  "BINA": {
+    "code": "BINA",
+    "name": "BINA",
+    "latitude": 24.1712328,
+    "longitude": 78.1851809,
+    "formatted_address": "Bina Junction, SH61, Pali, Bina Etawa, Bina Tahsil, Sagar, Madhya Pradesh, 470113, India",
+    "status": "success"
+  },
+  "DUA": {
+    "code": "DUA",
+    "name": "DHAURA",
+    "latitude": 24.4504812,
+    "longitude": 78.3219214,
+    "formatted_address": "Dhaura, Lalitpur Tehsil, Lalitpur, Uttar Pradesh, India",
+    "status": "success"
+  },
+  "LAR": {
+    "code": "LAR",
+    "name": "LALITPUR",
+    "latitude": 24.6878726,
+    "longitude": 78.3957263,
+    "formatted_address": "Lalitpur Junction, Lalitpur Devgarh Road, Lalitpur, Lalitpur Tehsil, Lalitpur, Uttar Pradesh, 284403, India",
+    "status": "success"
+  },
+  "TBT": {
+    "code": "TBT",
+    "name": "TALBAHAT",
+    "latitude": 25.039164,
+    "longitude": 78.4144768,
+    "formatted_address": "Talbahat, NH44, Talbehat, Lalitpur, Uttar Pradesh, India",
+    "status": "success"
+  },
+  "BZY": {
+    "code": "BZY",
+    "name": "BASAI",
+    "latitude": 27.1578436,
+    "longitude": 78.0507366,
+    "formatted_address": "Basai, Taj East Gate Road, Taj Ganj, Agra, Uttar Pradesh, 282004, India",
+    "status": "success"
+  },
+  "BAB": {
+    "code": "BAB",
+    "name": "BABINA",
+    "latitude": 25.2392689,
+    "longitude": 78.4536357,
+    "formatted_address": "Babina, NH44, Babina, Jhansi, Uttar Pradesh, 284401, India",
+    "status": "success"
+  },
+  "JHS": {
+    "code": "JHS",
+    "name": "JHANSI JN",
+    "latitude": 25.44395,
+    "longitude": 78.5534422,
+    "formatted_address": "Virangana Lakshmibai Jhansi Junction, GARHIYA ROAD, Azad Ganj, Jhansi, Uttar Pradesh, 284003, India",
+    "status": "success"
+  },
+  "DAA": {
+    "code": "DAA",
+    "name": "DATIA",
+    "latitude": 25.6406595,
+    "longitude": 78.4559832,
+    "formatted_address": "Datia, SH1, Chak Ramsagar, Datia, Datia Nagar Tahsil, Datia, Madhya Pradesh, 475600, India",
+    "status": "success"
+  },
+  "SOR": {
+    "code": "SOR",
+    "name": "SONAGIR",
+    "latitude": 25.7298086,
+    "longitude": 78.4092119,
+    "formatted_address": "Sonagir, NH44, Upraya, Uprain, Badoni Tahsil, Datia, Madhya Pradesh, India",
+    "status": "success"
+  },
+  "DBA": {
+    "code": "DBA",
+    "name": "DABRA",
+    "latitude": 25.8818881,
+    "longitude": 78.3305079,
+    "formatted_address": "Dabra, Sarafa Bazaar Road, Dabra, Dabra Tahsil, Gwalior, Madhya Pradesh, 475110, India",
+    "status": "success"
+  },
+  "GWL": {
+    "code": "GWL",
+    "name": "GWALIOR JN",
+    "latitude": 26.2162438,
+    "longitude": 78.1826037,
+    "formatted_address": "Gwalior Junction, Padaav Pul Flyover, Gwalior, Gird Tahsil, Gwalior, Madhya Pradesh, 474001, India",
+    "status": "success"
+  },
+  "MRA": {
+    "code": "MRA",
+    "name": "MORENA",
+    "latitude": 26.5013204,
+    "longitude": 78.0028617,
+    "formatted_address": "Morena, NH552, Morena, Morena Nagar Tahsil, Morena, Madhya Pradesh, 476001, India",
+    "status": "success"
+  },
+  "DHO": {
+    "code": "DHO",
+    "name": "DHAULPUR",
+    "latitude": 26.6963543,
+    "longitude": 77.9059515,
+    "formatted_address": "Dhaulpur Junction, NH23, Dhaulpur, Dhaulpur Tehsil, Dhaulpur, Rajasthan, 328001, India",
+    "status": "success"
+  },
+  "AGC": {
+    "code": "AGC",
+    "name": "AGRA CANTT",
+    "latitude": 27.1589527,
+    "longitude": 77.9900478,
+    "formatted_address": "Agra Cantonment Junction, SH39, Shahganj, Agra, Uttar Pradesh, 282010, India",
+    "status": "success"
+  },
+  "MTJ": {
+    "code": "MTJ",
+    "name": "MATHURA JN.",
+    "latitude": 27.4801125,
+    "longitude": 77.6737596,
+    "formatted_address": "Mathura Junction, Bharatpur-Mathura Road, Dholi Pyau, Mathura, Uttar Pradesh, 281001, India",
+    "status": "success"
+  },
+  "KSV": {
+    "code": "KSV",
+    "name": "KOSI KALAN",
+    "latitude": 27.78804,
+    "longitude": 77.4458072,
+    "formatted_address": "Kosi Kalan, MDR143W, Kosi Kalan, Chhata, Mathura, Uttar Pradesh, 281403, India",
+    "status": "success"
+  },
+  "PWL": {
+    "code": "PWL",
+    "name": "PALWAL",
+    "latitude": 28.1515806,
+    "longitude": 77.3417952,
+    "formatted_address": "Palwal, Palwal Bypass, Palwal, Haryana, 121102, India",
+    "status": "success"
+  },
+  "BVH": {
+    "code": "BVH",
+    "name": "BALLABGARH",
+    "latitude": 28.3402623,
+    "longitude": 77.3121997,
+    "formatted_address": "Ballabgarh, Ballabgrah Flyover, Ballabgarh, Faridabad, Haryana, 121004, India",
+    "status": "success"
+  },
+  "FDB": {
+    "code": "FDB",
+    "name": "FARIDABAD",
+    "latitude": 28.4107617,
+    "longitude": 77.3070774,
+    "formatted_address": "Faridabad, ITI Road, Sant Nagar, New Industrial Township, Faridabad, Haryana, 121001, India",
+    "status": "success"
+  },
+  "NDLS": {
+    "code": "NDLS",
+    "name": "NEW DELHI",
+    "latitude": 28.6402816,
+    "longitude": 77.2204103,
+    "formatted_address": "New Delhi Railway Station, Karol Bagh Tehsil, Central Delhi, Delhi, India",
+    "status": "success"
+  },
+  "BHD": {
+    "code": "BHD",
+    "name": "BADLI",
+    "latitude": 28.7446411,
+    "longitude": 77.1382701,
+    "formatted_address": "Samaypur Badli, Samaypur Underpass, Samaipur Badli, Alipur Tehsil, North Delhi, Delhi, 110089, India",
+    "status": "success"
+  },
+  "NUR": {
+    "code": "NUR",
+    "name": "NARELA",
+    "latitude": 28.8464766,
+    "longitude": 77.0856631,
+    "formatted_address": "Narela, Narela Bawana Flyover, Narela, Narela Tehsil, North Delhi, Delhi, 110040, India",
+    "status": "success"
+  },
+  "SNP": {
+    "code": "SNP",
+    "name": "SONIPAT",
+    "latitude": 28.9898429,
+    "longitude": 77.0171182,
+    "formatted_address": "Sonipat Junction, NH352A, Sonipat, Haryana, 131001, India",
+    "status": "success"
+  },
+  "GNU": {
+    "code": "GNU",
+    "name": "GANAUR",
+    "latitude": 29.1315256,
+    "longitude": 77.0110886,
+    "formatted_address": "Ganaur, Israna - Ganaur Rd, Gannaur, Ganaur, Sonipat, Haryana, 131100, India",
+    "status": "success"
+  },
+  "SMK": {
+    "code": "SMK",
+    "name": "SAMALKHA",
+    "latitude": 29.2415096,
+    "longitude": 77.0032892,
+    "formatted_address": "Samalkha, Grand Trunk Road, Samalkha, Panipat, Haryana, 132101, India",
+    "status": "success"
+  },
+  "PNP": {
+    "code": "PNP",
+    "name": "PANIPAT JN.",
+    "latitude": 29.3903294,
+    "longitude": 76.964085,
+    "formatted_address": "Panipat Junction, Assandh Road Panipat, Panipat, Haryana, 132100, India",
+    "status": "success"
+  },
+  "GRA": {
+    "code": "GRA",
+    "name": "GHARAUNDA",
+    "latitude": 29.5408768,
+    "longitude": 76.9653774,
+    "formatted_address": "Gharaunda, Grand Trunk Road, Gharaunda, Karnal, Haryana, 132114, India",
+    "status": "success"
+  },
+  "KUN": {
+    "code": "KUN",
+    "name": "KARNAL",
+    "latitude": 29.6943976,
+    "longitude": 76.9692194,
+    "formatted_address": "Karnal Railway Station, Ramnagar, Karnal, Haryana, India",
+    "status": "success"
+  },
+  "TRR": {
+    "code": "TRR",
+    "name": "TARAORI",
+    "latitude": 29.7977912,
+    "longitude": 76.9380354,
+    "formatted_address": "Taraori, Grand Trunk Road, Taraori, Nilokheri, Karnal, Haryana, 132116, India",
+    "status": "success"
+  },
+  "NLKR": {
+    "code": "NLKR",
+    "name": "NILOKHERI",
+    "latitude": 29.8319792,
+    "longitude": 76.9254714,
+    "formatted_address": "Nilokheri, SH33, Nilokheri, Karnal, Haryana, 132117, India",
+    "status": "success"
+  },
+  "KKDE": {
+    "code": "KKDE",
+    "name": "KURUKSHETRA",
+    "latitude": 29.9698587,
+    "longitude": 76.8517108,
+    "formatted_address": "Kurukshetra Junction, SH6, Kurukshetra, Thanesar, Kurukshetra, Haryana, 132118, India",
+    "status": "success"
+  },
+  "UMB": {
+    "code": "UMB",
+    "name": "AMBALA CANTT",
+    "latitude": 30.3382427,
+    "longitude": 76.8286956,
+    "formatted_address": "Ambala Cantonment Junction, Grand Trunk Road, Sadar Bazaar, Ambala, Ambala Cantt, Ambala, Haryana, 134002, India",
+    "status": "success"
+  },
+  "UBC": {
+    "code": "UBC",
+    "name": "AMBALA CITY",
+    "latitude": 30.3780749,
+    "longitude": 76.7646449,
+    "formatted_address": "Ambala City, Manav Chowk, Ambala, Ambala Cantt, Ambala, Haryana, 134002, India",
+    "status": "success"
+  },
+  "RPJ": {
+    "code": "RPJ",
+    "name": "RAJPURA JN.",
+    "latitude": 30.4862768,
+    "longitude": 76.5936242,
+    "formatted_address": "Rajpura Junction, Old Rajpura Bypass, Rajpura, Rajpura Tahsil, Patiala, Punjab, 140401, India",
+    "status": "success"
+  },
+  "PTA": {
+    "code": "PTA",
+    "name": "PATIALA",
+    "latitude": 30.3421592,
+    "longitude": 76.4022665,
+    "formatted_address": "Patiala, Bus Stand Road, Patiala, Patiala Tahsil, Patiala, Punjab, 147003, India",
+    "status": "success"
+  },
+  "NBA": {
+    "code": "NBA",
+    "name": "NABHA",
+    "latitude": 30.3634981,
+    "longitude": 76.1460696,
+    "formatted_address": "Nabha, State Highway 12A, Kotwali, Nabha Tahsil, Patiala, Punjab, 147201, India",
+    "status": "success"
+  },
+  "DUI": {
+    "code": "DUI",
+    "name": "DHURI JN.",
+    "latitude": 30.3724081,
+    "longitude": 75.871738,
+    "formatted_address": "Dhuri Junction, ODR7, Dhura, Dhuri Tahsil, Sangrur, Punjab, 148024, India",
+    "status": "success"
+  },
+  "MET": {
+    "code": "MET",
+    "name": "MALERKOTLA",
+    "latitude": 30.5158301,
+    "longitude": 75.8733835,
+    "formatted_address": "Malerkotla, Raikot - Malerkotla Road, Malerkotla, Malerkotla Tahsil, Malerkotla, Punjab, 148023, India",
+    "status": "success"
+  },
+  "LDH": {
+    "code": "LDH",
+    "name": "LUDHIANA JN.",
+    "latitude": 30.9128023,
+    "longitude": 75.8481637,
+    "formatted_address": "Ludhiana Railway Station, Ludhiana, Ludhiana (West) Tahsil, Ludhiana, Punjab, India",
+    "status": "success"
+  },
+  "PHR": {
+    "code": "PHR",
+    "name": "PHILLAUR JN.",
+    "latitude": 31.0168732,
+    "longitude": 75.7861019,
+    "formatted_address": "Phillaur Junction, NH44, Phillaur, Phillaur Tahsil, Jalandhar, Punjab, 144410, India",
+    "status": "success"
+  },
+  "GRY": {
+    "code": "GRY",
+    "name": "GORAYA",
+    "latitude": 31.1298905,
+    "longitude": 75.7741716,
+    "formatted_address": "Goraya, NH44, Chachrari, Phillaur Tahsil, Jalandhar, Punjab, 144409, India",
+    "status": "success"
+  },
+  "PGW": {
+    "code": "PGW",
+    "name": "PHAGWARA JN.",
+    "latitude": 31.2175763,
+    "longitude": 75.7654384,
+    "formatted_address": "Phagwara Junction, Bhagatpura Rd, Phagwara, Phagwara Tahsil, Kapurthala, Punjab, 144400, India",
+    "status": "success"
+  },
+  "BEAS": {
+    "code": "BEAS",
+    "name": "BEAS JN",
+    "latitude": 31.5202811,
+    "longitude": 75.2913365,
+    "formatted_address": "Beas Junction, GT Road; Sher Shah Suri Marg, Beas, Baba Bakala Tahsil, Amritsar, Punjab, 143201, India",
+    "status": "success"
+  },
+  "JNL": {
+    "code": "JNL",
+    "name": "JANDIALA",
+    "latitude": 31.5892298,
+    "longitude": 75.0568715,
+    "formatted_address": "Jandiala, ODR14, Ghari, Amritsar II Tahsil, Amritsar, Punjab, 143149, India",
+    "status": "success"
+  },
+  "ASR": {
+    "code": "ASR",
+    "name": "AMRITSAR JN.",
+    "latitude": 31.6332129,
+    "longitude": 74.8671432,
+    "formatted_address": "Amritsar Junction, GT Road;Sher Shah Suri Marg, Cantonment, Amritsar, Amritsar I Tahsil, Amritsar, Punjab, 143001, India",
+    "status": "success"
+  },
+  "KRE": {
+    "code": "KRE",
+    "name": "KARTARPUR",
+    "latitude": 31.4329248,
+    "longitude": 75.4918386,
+    "formatted_address": "Kartarpur, Kapurthala Road, Kartarpur, Jalandhar II Tahsil, Jalandhar, Punjab, 144801, India",
+    "status": "success"
+  },
+  "ANDI": {
+    "code": "ANDI",
+    "name": "ADARSH NAGAR",
+    "latitude": 28.7165805,
+    "longitude": 77.1704223,
+    "formatted_address": "Adarsh Nagar, Mall Road Extension, Jahangir Puri, Model Town Tehsil, North Delhi, Delhi, 110033, India",
+    "status": "success"
+  },
+  "PPI": {
+    "code": "PPI",
+    "name": "PIPARIYA",
+    "latitude": 22.7543115,
+    "longitude": 78.3558763,
+    "formatted_address": "Pipariya, Pipariya Road, Pipariya, Pipariya Tahsil, Narmadapuram, Madhya Pradesh, 461775, India",
+    "status": "success"
+  },
+  "NU": {
+    "code": "NU",
+    "name": "NARSINGHPUR",
+    "latitude": 22.9431778,
+    "longitude": 79.2142889,
+    "formatted_address": "Narsinghpur, MD3810, Narsimhapur, Narsinghpur, Narsimhapur Tahsil, Narsinghpur, Madhya Pradesh, 487001, India",
+    "status": "success"
+  },
+  "JBP": {
+    "code": "JBP",
+    "name": "JABALPUR",
+    "latitude": 23.1649733,
+    "longitude": 79.951231,
+    "formatted_address": "Jabalpur, NH45, Jabalpur, Ranjhi Tahsil, Jabalpur, Madhya Pradesh, 482007, India",
+    "status": "success"
+  },
+  "KTE": {
+    "code": "KTE",
+    "name": "KATNI",
+    "latitude": 23.8347633,
+    "longitude": 80.4006981,
+    "formatted_address": "Katni Junction, SH63, Murwara, Katni Nagar, Katni, Madhya Pradesh, 483500, India",
+    "status": "success"
+  },
+  "MYR": {
+    "code": "MYR",
+    "name": "MAIHAR",
+    "latitude": 24.2567489,
+    "longitude": 80.7637341,
+    "formatted_address": "Maihar, SH6, Maihar, Sonwari, Maihar Tahsil, Maihar, Madhya Pradesh, India",
+    "status": "success"
+  },
+  "STA": {
+    "code": "STA",
+    "name": "SATNA",
+    "latitude": 24.5677309,
+    "longitude": 80.8286814,
+    "formatted_address": "Satna Junction, NH135BG, Satna, Raghurajnagar Nagareey Tahsil, Satna, Madhya Pradesh, 485001, India",
+    "status": "success"
+  },
+  "MKP": {
+    "code": "MKP",
+    "name": "MANIKPUR JN.",
+    "latitude": 25.0632145,
+    "longitude": 81.0940561,
+    "formatted_address": "Manikpur Junction, Station Road Manikpur, Manikpur Sarhat, Karwi, Chitrakoot, Uttar Pradesh, 210208, India",
+    "status": "success"
+  },
+  "ACOI": {
+    "code": "ACOI",
+    "name": "CHHEOKI",
+    "latitude": 25.3770586,
+    "longitude": 81.8671292,
+    "formatted_address": "Allahabad Chheoki Junction, Mirzapur Road, Railway Colony Naini, Chheoki, Naini, Karchhana, Prayagraj, Uttar Pradesh, 211009, India",
+    "status": "success"
+  },
+  "BDL": {
+    "code": "BDL",
+    "name": "VINDHYACHAL",
+    "latitude": 25.1602259,
+    "longitude": 82.5024648,
+    "formatted_address": "Vindhyachal Railroad Station, Main Road, Vindhyachal, Mirzapur, Uttar Pradesh, India",
+    "status": "success"
+  },
+  "MZP": {
+    "code": "MZP",
+    "name": "MIRZAPUR",
+    "latitude": 25.1349626,
+    "longitude": 82.5684437,
+    "formatted_address": "Mirzapur Railway Station, Station Road, Katra Bajirao, Mirzapur, Uttar Pradesh, 231209, India",
+    "status": "success"
+  },
+  "CAR": {
+    "code": "CAR",
+    "name": "CHUNAR JN.",
+    "latitude": 25.1036797,
+    "longitude": 82.8729662,
+    "formatted_address": "Chunar Junction, Mirzapur - Varanasi Road, Chunar, Mirzapur, Uttar Pradesh, 231304, India",
+    "status": "success"
+  },
+  "KEI": {
+    "code": "KEI",
+    "name": "KASHI",
+    "latitude": 25.3268078,
+    "longitude": 83.0318039,
+    "formatted_address": "Kashi, Madan Mohan Malviya Road, Varanasi, Sadar, Varanasi, Uttar Pradesh, 221001, India",
+    "status": "success"
+  },
+  "BSB": {
+    "code": "BSB",
+    "name": "VARANASI JN.",
+    "latitude": 25.3275678,
+    "longitude": 82.986245,
+    "formatted_address": "Varanasi Junction, Station Road, AEN Colony, Cantonment, Varanasi, Sadar, Varanasi, Uttar Pradesh, 221002, India",
+    "status": "success"
+  },
+  "URI": {
+    "code": "URI",
+    "name": "URULI",
+    "latitude": 18.4937197,
+    "longitude": 74.1369658,
+    "formatted_address": "Uruli, MG Road, Uruli Kanchan, Haveli, Pune, Maharashtra, 412202, India",
+    "status": "success"
+  },
+  "ATP": {
+    "code": "ATP",
+    "name": "ANANTAPUR",
+    "latitude": 14.6862885,
+    "longitude": 77.5952461,
+    "formatted_address": "Anantapur, First Road, Rangaswamy Nagar, Anantapur, Anantapuram, Andhra Pradesh, 515001, India",
+    "status": "success"
+  },
+  "DMM": {
+    "code": "DMM",
+    "name": "DHARMAVARAM",
+    "latitude": 14.4260635,
+    "longitude": 77.7152283,
+    "formatted_address": "Dharmavaram Junction, MDR0107, Guttakindapalli, Dharmavaram, Sri Sathya Sai, Andhra Pradesh, 515672, India",
+    "status": "success"
+  },
+  "HUP": {
+    "code": "HUP",
+    "name": "HINDUPUR",
+    "latitude": 13.818776,
+    "longitude": 77.4999363,
+    "formatted_address": "Hindupur, MDR0123, Hindupuram Urban, Shrikantapuram, Hindupuram, Hindupur, Sri Sathya Sai, Andhra Pradesh, 515200, India",
+    "status": "success"
+  },
+  "GBD": {
+    "code": "GBD",
+    "name": "GAURIBIDANUR",
+    "latitude": 13.6150425,
+    "longitude": 77.5134316,
+    "formatted_address": "Gauribidanur, Railway Station, ಕರೇಕಲ್ಲಹಳ್ಳಿ, Gauribidanuru, Gauribidanuru taluk, Chikkaballapura, Karnataka, 561208, India",
+    "status": "success"
+  },
+  "DBU": {
+    "code": "DBU",
+    "name": "DODBALLAPUR",
+    "latitude": 13.2796882,
+    "longitude": 77.5505054,
+    "formatted_address": "Dodballapur, Doddaballapur Road, Kolipura, Doddaballapura taluk, Bengaluru North, Karnataka, 562163, India",
+    "status": "success"
+  },
+  "YNK": {
+    "code": "YNK",
+    "name": "YELAHANKA JN",
+    "latitude": 13.1050067,
+    "longitude": 77.5918938,
+    "formatted_address": "Yelahanka Junction, Yellahanka Railwaystation Road, Yelahanka, Raja Kempegowda Ward, Bengaluru North City Corporation, Bengaluru, Yelahanka taluku, Bengaluru Urban, Karnataka, 560064, India",
+    "status": "success"
+  },
+  "NSL": {
+    "code": "NSL",
+    "name": "NAGARSOL",
+    "latitude": 20.1012655,
+    "longitude": 74.5431539,
+    "formatted_address": "Nagarsol, SH25, Nagarsol, Yeola Taluka, Nashik, Maharashtra, 423403, India",
+    "status": "success"
+  },
+  "RGO": {
+    "code": "RGO",
+    "name": "ROTEGAON",
+    "latitude": 19.9554395,
+    "longitude": 74.7583238,
+    "formatted_address": "Rotegaon, NH752H, Rotegaon Rly Stn, Khandala, Vaijapur, Chhatrapati Sambhajinagar, Maharashtra, 423700, India",
+    "status": "success"
+  },
+  "LSR": {
+    "code": "LSR",
+    "name": "LASUR",
+    "latitude": 19.9263446,
+    "longitude": 75.0118617,
+    "formatted_address": "Lasur, SH48, Bhagthan, Gangapur, Chhatrapati Sambhajinagar, Maharashtra, India",
+    "status": "success"
+  },
+  "AWB": {
+    "code": "AWB",
+    "name": "AURANGABAD",
+    "latitude": 19.8597998,
+    "longitude": 75.3114008,
+    "formatted_address": "Chhatrapati Sambhajinagar, Railway Station Flyover, Chhatrapati Sambhajinagar, Maharashtra, 431002, India",
+    "status": "success"
+  },
+  "J": {
+    "code": "J",
+    "name": "JALNA",
+    "latitude": 19.8318228,
+    "longitude": 75.8909339,
+    "formatted_address": "Jalna, Swaraj Rd., Nariman Nagar, Jalna, Maharashtra, 431200, India",
+    "status": "success"
+  },
+  "PTU": {
+    "code": "PTU",
+    "name": "PARTUR",
+    "latitude": 19.576485,
+    "longitude": 76.2130772,
+    "formatted_address": "Partur, NH548C, Partur, Jalna, Maharashtra, 431501, India",
+    "status": "success"
+  },
+  "SELU": {
+    "code": "SELU",
+    "name": "SELU",
+    "latitude": 19.4483351,
+    "longitude": 76.4334798,
+    "formatted_address": "Selu, NH548B, Selu, Parbhani, Maharashtra, 431503, India",
+    "status": "success"
+  },
+  "PBN": {
+    "code": "PBN",
+    "name": "PARBHANI JN.",
+    "latitude": 19.2577028,
+    "longitude": 76.7737511,
+    "formatted_address": "Parbhani Junction, NH61, Parbhani, Maharashtra, 431400, India",
+    "status": "success"
+  },
+  "PAU": {
+    "code": "PAU",
+    "name": "PURNA  JN.",
+    "latitude": 19.1806209,
+    "longitude": 77.0256353,
+    "formatted_address": "Purna Junction, SH219, Railway Colony, Purna, Parbhani, Maharashtra, 431511, India",
+    "status": "success"
+  },
+  "NED": {
+    "code": "NED",
+    "name": "NANDED",
+    "latitude": 19.1601795,
+    "longitude": 77.3098821,
+    "formatted_address": "Hazur Sahib Nanded, Vazirabad Road, Nanded, Maharashtra, 431600, India",
+    "status": "success"
+  },
+  "MUE": {
+    "code": "MUE",
+    "name": "MUDKHED JN.",
+    "latitude": 19.1480047,
+    "longitude": 77.5097482,
+    "formatted_address": "Mudkhed Junction, NH161A, Mudkhed, Nanded, Maharashtra, 431806, India",
+    "status": "success"
+  },
+  "BOKR": {
+    "code": "BOKR",
+    "name": "BHOKAR",
+    "latitude": 19.2139735,
+    "longitude": 77.6671095,
+    "formatted_address": "Bhokar, NH61, Bhokar, Nanded, Maharashtra, 431800, India",
+    "status": "success"
+  },
+  "HEM": {
+    "code": "HEM",
+    "name": "HIMAYATNAGAR",
+    "latitude": 19.417082,
+    "longitude": 77.869045,
+    "formatted_address": "Himayatnagar, NH752I;NH161A, Himayatnagar, Nanded, Maharashtra, 431802, India",
+    "status": "success"
+  },
+  "SHSK": {
+    "code": "SHSK",
+    "name": "SAHASRAKUND",
+    "latitude": 19.403327,
+    "longitude": 78.0083586,
+    "formatted_address": "Sahasrakund, SH220, Kupti, Dayal Dhanora, Kinwat, Nanded, Maharashtra, 431815, India",
+    "status": "success"
+  },
+  "KNVT": {
+    "code": "KNVT",
+    "name": "KINWAT",
+    "latitude": 19.618782,
+    "longitude": 78.2027909,
+    "formatted_address": "Kinwat, NH161A, Kinwat, Nanded, Maharashtra, 431804, India",
+    "status": "success"
+  },
+  "ADB": {
+    "code": "ADB",
+    "name": "ADILABAD",
+    "latitude": 19.6807668,
+    "longitude": 78.5360794,
+    "formatted_address": "Adilabad, Old NH7, Vidya Nagar, Adilabad, Adilabad Urban Mandal, Adilabad, Telangana, 504001, India",
+    "status": "success"
+  },
+  "LNT": {
+    "code": "LNT",
+    "name": "LINGTI",
+    "latitude": 19.7965256,
+    "longitude": 78.7521369,
+    "formatted_address": "Lingti, SH234, Lingti, Zari-Jamani, Yavatmal, Maharashtra, India",
+    "status": "success"
+  },
+  "KAYR": {
+    "code": "KAYR",
+    "name": "KAYAR",
+    "latitude": 19.9066859,
+    "longitude": 78.9073026,
+    "formatted_address": "Kayar, MDR59, Parsoda, Wani, Yavatmal, Maharashtra, 445322, India",
+    "status": "success"
+  },
+  "WANI": {
+    "code": "WANI",
+    "name": "WANI",
+    "latitude": 20.0665702,
+    "longitude": 78.9606252,
+    "formatted_address": "Wani, Railway Station Road, Wani, Yavatmal, Maharashtra, 445304, India",
+    "status": "success"
+  },
+  "MJRI": {
+    "code": "MJRI",
+    "name": "MAJRI JN.",
+    "latitude": 20.1393347,
+    "longitude": 79.0429621,
+    "formatted_address": "Majri Junction, Railway coal filling area, Majari, Bhadravati Taluka, Chandrapur, Maharashtra, 442503, India",
+    "status": "success"
+  },
+  "WRR": {
+    "code": "WRR",
+    "name": "WARORA",
+    "latitude": 20.2423655,
+    "longitude": 79.0110137,
+    "formatted_address": "Warora Railway Station, Warora, Warora Taluka, Chandrapur, Maharashtra, 442907, India",
+    "status": "success"
+  },
+  "HGT": {
+    "code": "HGT",
+    "name": "HINGANGHAT",
+    "latitude": 20.542611,
+    "longitude": 78.8331636,
+    "formatted_address": "Hinganghat, Nagpur Adilabad Road, Hinganghat, Wardha, Maharashtra, 442300, India",
+    "status": "success"
+  },
+  "NN": {
+    "code": "NN",
+    "name": "NANDURA",
+    "latitude": 20.8385687,
+    "longitude": 76.4603069,
+    "formatted_address": "Nandura, NH53, Ward Number 2, Mahamdpur, Nandura, Buldhana, Maharashtra, 443404, India",
+    "status": "success"
+  },
+  "CND": {
+    "code": "CND",
+    "name": "CHANDUR",
+    "latitude": 20.8037999,
+    "longitude": 77.982925,
+    "formatted_address": "Chandur, SH243, Chandur Railway, Rajana, Chandur Railway, Amravati, Maharashtra, 444904, India",
+    "status": "success"
+  },
+  "AJNI": {
+    "code": "AJNI",
+    "name": "AJNI",
+    "latitude": 21.1275955,
+    "longitude": 79.0829364,
+    "formatted_address": "Ajni Railway Station, Greenview Colony, Dhantoli, Nagpur City, Nagpur Urban Taluka, Nagpur, Maharashtra, India",
+    "status": "success"
+  },
+  "KP": {
+    "code": "KP",
+    "name": "KAMPTEE",
+    "latitude": 21.2108564,
+    "longitude": 79.1959787,
+    "formatted_address": "Kamptee, NH247, Kamptee, Kamptee Taluka, Nagpur, Maharashtra, 441404, India",
+    "status": "success"
+  },
+  "BRD": {
+    "code": "BRD",
+    "name": "BHANDARA RD",
+    "latitude": 21.238648,
+    "longitude": 79.6472199,
+    "formatted_address": "Bhandara Road, NH543K, Warthi, Mohadi Taluka, Bhandara, Maharashtra, 441905, India",
+    "status": "success"
+  },
+  "TMR": {
+    "code": "TMR",
+    "name": "TUMSAR RD",
+    "latitude": 21.3421773,
+    "longitude": 79.7511434,
+    "formatted_address": "Tumsar Road Junction, NH753, Madagi, Dewhadi, Tumsar Taluka, Bhandara, Maharashtra, 441913, India",
+    "status": "success"
+  },
+  "TRO": {
+    "code": "TRO",
+    "name": "TIRORA",
+    "latitude": 21.4140125,
+    "longitude": 79.9166108,
+    "formatted_address": "Tirora, Nagpur-Bhandara-Gondia Access Controlled Super Communication Expressway, Mundhari Budruk, Tiroda Town, Tiroda Taluka, Gondiya, Maharashtra, 441905, India",
+    "status": "success"
+  },
+  "G": {
+    "code": "G",
+    "name": "GONDIA JN.",
+    "latitude": 21.4611517,
+    "longitude": 80.1931894,
+    "formatted_address": "Gondia Junction, Gondia - Balaghat Road, Sai Colony, Gondia City, Gondiya Taluka, Gondiya, Maharashtra, 441601, India",
+    "status": "success"
+  },
+  "NR": {
+    "code": "NR",
+    "name": "NIPHAD",
+    "latitude": 20.0972017,
+    "longitude": 74.0800142,
+    "formatted_address": "Niphad, SH23, Niphad, Niphad Taluka, Nashik, Maharashtra, 422230, India",
+    "status": "success"
+  },
+  "AMI": {
+    "code": "AMI",
+    "name": "AMRAVATI",
+    "latitude": 20.9307137,
+    "longitude": 77.7580715,
+    "formatted_address": "Amravati, bus stand road, Shyam Nagar, Fejarpura, Amravati, Maharashtra, 444600, India",
+    "status": "success"
+  },
+  "KAWR": {
+    "code": "KAWR",
+    "name": "KAWR",
+    "latitude": 14.8202478,
+    "longitude": 74.1825906,
+    "formatted_address": "Karwar, Kaiga Road, Karnataka Housing Board Colony, Shirwada, Karwar taluk, Uttara Kannada, Karnataka, 581300, India",
+    "status": "success"
+  },
+  "KT": {
+    "code": "KT",
+    "name": "KUMTA",
+    "latitude": 14.4372403,
+    "longitude": 74.421244,
+    "formatted_address": "Kumta, Sirsi - Kumta Highway   ಸಿರ್ಸಿ - ಕುಮಟಾ ಹೆದ್ದಾರಿ, Manaki, Kumata taluk, Uttara Kannada, Karnataka, 581343, India",
+    "status": "success"
+  },
+  "BTJL": {
+    "code": "BTJL",
+    "name": "BHATKAL",
+    "latitude": 13.9893566,
+    "longitude": 74.5656301,
+    "formatted_address": "Bhatkal, NH66, Kokti, Bhatkal, Bhatkal taluk, Uttara Kannada, Karnataka, 581320, India",
+    "status": "success"
+  },
+  "KUDA": {
+    "code": "KUDA",
+    "name": "KUNDAPURA",
+    "latitude": 13.6133737,
+    "longitude": 74.7286856,
+    "formatted_address": "Kundapura, Railway Station Road, Kandhavara, Koni, Kundapura, Udupi, Karnataka, 576211, India",
+    "status": "success"
+  },
+  "UD": {
+    "code": "UD",
+    "name": "UDUPI",
+    "latitude": 13.3360724,
+    "longitude": 74.7708331,
+    "formatted_address": "Udupi, Udupi Station Road, Indrali, Udupi, Udupi taluku, Udupi, Karnataka, 576101, India",
+    "status": "success"
+  },
+  "SL": {
+    "code": "SL",
+    "name": "SURATHKAL",
+    "latitude": 12.9901479,
+    "longitude": 74.8054148,
+    "formatted_address": "Surathkal, Krishnapura Road, Iddya, Surathkal, Mangaluru taluk, Dakshina Kannada, Karnataka, 575014, India",
+    "status": "success"
+  },
+  "MAJN": {
+    "code": "MAJN",
+    "name": "MANGALORE JN",
+    "latitude": 12.8634037,
+    "longitude": 74.8432387,
+    "formatted_address": "Mangaluru Central, Railway Station Road, Pandeshwara, Attavar, Mangaluru, Mangaluru taluk, Dakshina Kannada, Karnataka, 575001, India",
+    "status": "success"
+  },
+  "DKZ": {
+    "code": "DKZ",
+    "name": "DELHI-KISHAN",
+    "latitude": 28.6627442,
+    "longitude": 77.1979077,
+    "formatted_address": "Delhi Kishanganj, Gaushala Road, 68, Civil Lines Tehsil, Central Delhi, Delhi, 110055, India",
+    "status": "success"
+  },
+  "BGZ": {
+    "code": "BGZ",
+    "name": "BAHADURGARH",
+    "latitude": 28.7012243,
+    "longitude": 76.9303569,
+    "formatted_address": "Bahadurgarh, MDR138, Bahadurgarh, Jhajjar, Haryana, 124507, India",
+    "status": "success"
+  },
+  "ROK": {
+    "code": "ROK",
+    "name": "ROHTAK JN.",
+    "latitude": 28.8909196,
+    "longitude": 76.5796261,
+    "formatted_address": "Rohtak Junction, Railway Road, Rohtak, Haryana, 124001, India",
+    "status": "success"
+  },
+  "JIND": {
+    "code": "JIND",
+    "name": "JIND JN",
+    "latitude": 29.3296102,
+    "longitude": 76.2895009,
+    "formatted_address": "Jind Junction, post office, Jind, Haryana, 126100, India",
+    "status": "success"
+  },
+  "NRW": {
+    "code": "NRW",
+    "name": "NARWANA JN.",
+    "latitude": 29.5890517,
+    "longitude": 76.1096766,
+    "formatted_address": "Narwana Junction, Hissar Ambala Road, Narwana, Jind, Haryana, 126116, India",
+    "status": "success"
+  },
+  "TUN": {
+    "code": "TUN",
+    "name": "TOHANA",
+    "latitude": 29.7264061,
+    "longitude": 75.9027671,
+    "formatted_address": "Tohana, NH148B, Tohana, Fatehabad, Haryana, India",
+    "status": "success"
+  },
+  "JHL": {
+    "code": "JHL",
+    "name": "JAKHAL JN.",
+    "latitude": 29.803082,
+    "longitude": 75.8207927,
+    "formatted_address": "Jakhal Junction, Railway road, Jakhal, Fatehabad, Haryana, 125133, India",
+    "status": "success"
+  },
+  "BRZ": {
+    "code": "BRZ",
+    "name": "BARETA",
+    "latitude": 29.8597039,
+    "longitude": 75.6924398,
+    "formatted_address": "Bareta, Jakhal-Budhlada State Highway 10, Bakshiwala, Budhlada Tahsil, Mansa, Punjab, 151500, India",
+    "status": "success"
+  },
+  "BLZ": {
+    "code": "BLZ",
+    "name": "BUDHLADA",
+    "latitude": 29.9218535,
+    "longitude": 75.5498608,
+    "formatted_address": "Budhlada, MDR29, Budhlada, Budhlada Tahsil, Mansa, Punjab, 151502, India",
+    "status": "success"
+  },
+  "MSZ": {
+    "code": "MSZ",
+    "name": "MANSA",
+    "latitude": 29.988294,
+    "longitude": 75.4041125,
+    "formatted_address": "Mansa, Sirsa-Mansa Road, Mansa, Mansa Tehsil, Mansa, Punjab, 151505, India",
+    "status": "success"
+  },
+  "MAUR": {
+    "code": "MAUR",
+    "name": "MAUR",
+    "latitude": 30.0629699,
+    "longitude": 75.2282396,
+    "formatted_address": "Maur, Talwandi Sabo Road, Maur, Maur Tahsil, Bathinda, Punjab, 151509, India",
+    "status": "success"
+  },
+  "BTI": {
+    "code": "BTI",
+    "name": "BATHINDA JN",
+    "latitude": 30.2127569,
+    "longitude": 74.9330837,
+    "formatted_address": "Bathinda Junction, Railway Road, Nai Basti, Parasram Nagar, Bathinda, Bathinda Tahsil, Bathinda, Punjab, 151001, India",
+    "status": "success"
+  },
+  "FDK": {
+    "code": "FDK",
+    "name": "FARIDKOT",
+    "latitude": 30.682651,
+    "longitude": 74.7620865,
+    "formatted_address": "Faridkot, SH15, Faridkot, Faridkot Tahsil, Faridkot, Punjab, 151200, India",
+    "status": "success"
+  },
+  "NGN": {
+    "code": "NGN",
+    "name": "NANDGAON",
+    "latitude": 20.3094018,
+    "longitude": 74.6597622,
+    "formatted_address": "Nandgaon, SH25, Nandgaon, Nandgaon Taluka, Nashik, Maharashtra, 423106, India",
+    "status": "success"
+  },
+  "VNA": {
+    "code": "VNA",
+    "name": "VARANGAON",
+    "latitude": 21.0104777,
+    "longitude": 75.9013224,
+    "formatted_address": "Varangaon, MDR16, Varangaon, Susari, Bhusawal, Jalgaon, Maharashtra, India",
+    "status": "success"
+  },
+  "BDWD": {
+    "code": "BDWD",
+    "name": "BODWAD",
+    "latitude": 20.9034659,
+    "longitude": 76.0174431,
+    "formatted_address": "Bodwad, NH753L, Nadgaon, Bodvad, Jalgaon, Maharashtra, India",
+    "status": "success"
+  },
+  "JM": {
+    "code": "JM",
+    "name": "JALAMB JN.",
+    "latitude": 20.8127812,
+    "longitude": 76.5729835,
+    "formatted_address": "Jalamb Junction, MDR5, Jalamb, Shegaon, Buldhana, Maharashtra, 444312, India",
+    "status": "success"
+  },
+  "SNI": {
+    "code": "SNI",
+    "name": "SINDI",
+    "latitude": 20.8156785,
+    "longitude": 78.8832426,
+    "formatted_address": "Sindi, NH353I, Sindi, Seloo, Wardha, Maharashtra, 442105, India",
+    "status": "success"
+  },
+  "GAR": {
+    "code": "GAR",
+    "name": "GADARWARA",
+    "latitude": 22.9003732,
+    "longitude": 78.7926881,
+    "formatted_address": "Gadarwara, MD3816, Patlon, Gadarwara, Saikheda Tahsil, Narsinghpur, Madhya Pradesh, 487551, India",
+    "status": "success"
+  },
+  "BSP": {
+    "code": "BSP",
+    "name": "BILASPUR JN.",
+    "latitude": 22.0561021,
+    "longitude": 82.1707668,
+    "formatted_address": "Bilaspur Junction, Station Road, Bilaspur, Bilaspur Tahsil, Bilaspur, Chhattisgarh, 495004, India",
+    "status": "success"
+  },
+  "TATA": {
+    "code": "TATA",
+    "name": "TATANAGAR JN",
+    "latitude": 22.7682803,
+    "longitude": 86.2011172,
+    "formatted_address": "Tatanagar, SH6, Jamshedpur, Golmuri-Cum-Jugsalai, East Singhbhum, Jharkhand, 831001, India",
+    "status": "success"
+  },
+  "HWH": {
+    "code": "HWH",
+    "name": "HOWRAH JN.",
+    "latitude": 22.5833648,
+    "longitude": 88.3403452,
+    "formatted_address": "Howrah, Old Cab Road, Howrah Maidan, Haora, Kolkata Metropolitan Area, Howrah, West Bengal, 711317, India",
+    "status": "success"
+  },
+  "DGR": {
+    "code": "DGR",
+    "name": "DURGAPUR",
+    "latitude": 23.494862,
+    "longitude": 87.3181832,
+    "formatted_address": "Durgapur, J.P. Avenue Railway Flyover, Durgapur, Faridpur Durgapur, Paschim Bardhaman, West Bengal, 713200, India",
+    "status": "success"
+  },
+  "BRR": {
+    "code": "BRR",
+    "name": "BARAKAR",
+    "latitude": 23.7421515,
+    "longitude": 86.8171649,
+    "formatted_address": "Barakar, Grand Trunk Road, Barakar, Asansol Kulti Township, Paschim Bardhaman, West Bengal, 713324, India",
+    "status": "success"
+  },
+  "DHN": {
+    "code": "DHN",
+    "name": "DHANBAD JN.",
+    "latitude": 23.7913021,
+    "longitude": 86.4294782,
+    "formatted_address": "Dhanbad Junction, Station Road, Kasturba Nagar, Dhanbad, Dhanbad-Cum-Kenduadih-Cum-Jagata, Dhanbad, Jharkhand, 826001, India",
+    "status": "success"
+  },
+  "PNME": {
+    "code": "PNME",
+    "name": "PARASNATH",
+    "latitude": 23.9873085,
+    "longitude": 86.0379701,
+    "formatted_address": "Parasnath, NH19, Isri, Dumri, Giridih, Jharkhand, 825106, India",
+    "status": "success"
+  },
+  "KQR": {
+    "code": "KQR",
+    "name": "KODERMA",
+    "latitude": 24.4351882,
+    "longitude": 85.5279448,
+    "formatted_address": "Koderma Junction, MDR110, Nawāda, Jhumri Tilaiya, Koderma, Kodarma, Jharkhand, 825409, India",
+    "status": "success"
+  },
+  "GAYA": {
+    "code": "GAYA",
+    "name": "GAYA JN.",
+    "latitude": 24.8038191,
+    "longitude": 84.9997938,
+    "formatted_address": "Gaya Railway Station, Swarajpuri Road, Gaya, Gaya Town C.D.Block, Gaya, Bihar, 823001, India",
+    "status": "success"
+  },
+  "SSM": {
+    "code": "SSM",
+    "name": "SASARAM",
+    "latitude": 24.9565107,
+    "longitude": 84.0189153,
+    "formatted_address": "Sasaram Junction, NH119A, Sasaram, Rohtas, Bihar, 821115, India",
+    "status": "success"
+  },
+  "BBU": {
+    "code": "BBU",
+    "name": "BHABUA ROAD",
+    "latitude": 25.1725434,
+    "longitude": 83.619816,
+    "formatted_address": "Bhabua Road, NH319A, Mohania, Kaimur, Bihar, 821109, India",
+    "status": "success"
+  },
+  "MGS": {
+    "code": "MGS",
+    "name": "MUGHAL SARAI",
+    "latitude": 25.2803918,
+    "longitude": 83.1207396,
+    "formatted_address": "Deen Dayal Upadhyaya Junction, Mughal Sarai, Mughalsarai, Chandauli, Uttar Pradesh, India",
+    "status": "success"
+  },
+  "SRJ": {
+    "code": "SRJ",
+    "name": "SHANKARGARH",
+    "latitude": 25.1803985,
+    "longitude": 81.6141328,
+    "formatted_address": "Shankargarh, SH102, Shankargarh, Bara, Prayagraj, Uttar Pradesh, 212108, India",
+    "status": "success"
+  },
+  "KY": {
+    "code": "KY",
+    "name": "KARELI",
+    "latitude": 22.9322525,
+    "longitude": 79.0666841,
+    "formatted_address": "Kareli, NH44, Kareli, Kareli Tahsil, Narsinghpur, Madhya Pradesh, 487221, India",
+    "status": "success"
+  },
+  "MDP": {
+    "code": "MDP",
+    "name": "MADHUPUR JN.",
+    "latitude": 24.2709577,
+    "longitude": 86.6421996,
+    "formatted_address": "Madhupur Junction, MDR227, Bawāndīgha, Madhupur, Deoghar, Jharkhand, 815353, India",
+    "status": "success"
+  },
+  "JSME": {
+    "code": "JSME",
+    "name": "JASIDIH JN.",
+    "latitude": 24.5152477,
+    "longitude": 86.6441571,
+    "formatted_address": "Jasidih Junction, MDR234, Jasidih, Deoghar, Jharkhand, 814142, India",
+    "status": "success"
+  },
+  "JAJ": {
+    "code": "JAJ",
+    "name": "JHAJHA",
+    "latitude": 24.7728576,
+    "longitude": 86.3862997,
+    "formatted_address": "Jhajha, NH333A, Jhajha, Jamui, Bihar, 811308, India",
+    "status": "success"
+  },
+  "KIUL": {
+    "code": "KIUL",
+    "name": "KIUL JN.",
+    "latitude": 25.171587,
+    "longitude": 86.1056672,
+    "formatted_address": "Kiul Junction, ODR, Kiul, Lakhisarai, Bihar, India",
+    "status": "success"
+  },
+  "PNBE": {
+    "code": "PNBE",
+    "name": "PATNA JN.",
+    "latitude": 25.6032109,
+    "longitude": 85.1376861,
+    "formatted_address": "Patna Junction, Station Road, Patna, Patna Rural, Patna, Bihar, 800001, India",
+    "status": "success"
+  },
+  "BXR": {
+    "code": "BXR",
+    "name": "BUXAR",
+    "latitude": 25.5611885,
+    "longitude": 83.9813329,
+    "formatted_address": "Buxar, MDR, Buxar, Bihar, 802101, India",
+    "status": "success"
+  },
+  "LJN": {
+    "code": "LJN",
+    "name": "LUCKNOW JN.",
+    "latitude": 26.8311583,
+    "longitude": 80.9243609,
+    "formatted_address": "Lucknow Charbagh, Kanpur-Lucknow Road, Charbagh, Lucknow, Uttar Pradesh, 226018, India",
+    "status": "success"
+  },
+  "ON": {
+    "code": "ON",
+    "name": "UNNAO JN.",
+    "latitude": 26.5492382,
+    "longitude": 80.4874371,
+    "formatted_address": "Unnao Junction, SH58, Unnao, Uttar Pradesh, 209800, India",
+    "status": "success"
+  },
+  "ORAI": {
+    "code": "ORAI",
+    "name": "ORAI",
+    "latitude": 25.9827679,
+    "longitude": 79.4597648,
+    "formatted_address": "Orai, Station road, Orai, Jalaun, Uttar Pradesh, India",
+    "status": "success"
+  },
+  "GKP": {
+    "code": "GKP",
+    "name": "GORAKHPUR JN",
+    "latitude": 26.7592816,
+    "longitude": 83.379318,
+    "formatted_address": "Gorakhpur Railway Station, Dharmashala Flyover, Gorakhpur, Uttar Pradesh, 273001, India",
+    "status": "success"
+  },
+  "KLD": {
+    "code": "KLD",
+    "name": "KHALILABAD",
+    "latitude": 26.7751208,
+    "longitude": 83.05424,
+    "formatted_address": "Khalilabad, NH27, Khalilabad, Sant Kabir Nagar, Uttar Pradesh, 272175, India",
+    "status": "success"
+  },
+  "BST": {
+    "code": "BST",
+    "name": "BASTI",
+    "latitude": 26.8153868,
+    "longitude": 82.7698883,
+    "formatted_address": "Basti, Railway Statio Road, Basti, Uttar Pradesh, 272001, India",
+    "status": "success"
+  },
+  "GD": {
+    "code": "GD",
+    "name": "GONDA JN.",
+    "latitude": 27.1545673,
+    "longitude": 81.9773841,
+    "formatted_address": "Gonda Junction, NH330, Gonda, Uttar Pradesh, 271001, India",
+    "status": "success"
+  },
+  "LKO": {
+    "code": "LKO",
+    "name": "LUCKNOW JN.",
+    "latitude": 26.8311583,
+    "longitude": 80.9243609,
+    "formatted_address": "Lucknow Charbagh, Kanpur-Lucknow Road, Charbagh, Lucknow, Uttar Pradesh, 226018, India",
+    "status": "success"
+  },
+  "RJN": {
+    "code": "RJN",
+    "name": "RAJNANDGAON",
+    "latitude": 21.1008927,
+    "longitude": 81.0384927,
+    "formatted_address": "Rajnandgaon Railway Station, Station Para, Chikhali, Rajnandgaon, Rajnandgaon Tahsil, Rajnandgaon, Chhattisgarh, 491441, India",
+    "status": "success"
+  },
+  "DURG": {
+    "code": "DURG",
+    "name": "DURG",
+    "latitude": 21.2000869,
+    "longitude": 81.2915794,
+    "formatted_address": "Durg Junction, SH7, Aakash nagar, Durg, Durg Tahsil, Durg, Chhattisgarh, 491002, India",
+    "status": "success"
+  },
+  "R": {
+    "code": "R",
+    "name": "RAIPUR JN.",
+    "latitude": 21.2577979,
+    "longitude": 81.6302867,
+    "formatted_address": "Raipur Junction, Atal Path, Raipur, Raipur Tahsil, Raipur, Chhattisgarh, 493332, India",
+    "status": "success"
+  },
+  "BYT": {
+    "code": "BYT",
+    "name": "BHATAPARA",
+    "latitude": 21.7321358,
+    "longitude": 81.9458317,
+    "formatted_address": "Bhatapara, SH10, Rohra, Bhatapara Tahsil, Baloda Bazar, Chhattisgarh, India",
+    "status": "success"
+  },
+  "CPH": {
+    "code": "CPH",
+    "name": "CHAMPA JN.",
+    "latitude": 22.0348235,
+    "longitude": 82.6652117,
+    "formatted_address": "Champa Junction, NH149B, Champa Tahsil, Janjgir-Champa, Chhattisgarh, 495671, India",
+    "status": "success"
+  },
+  "SKT": {
+    "code": "SKT",
+    "name": "SAKTI",
+    "latitude": 22.0119045,
+    "longitude": 82.955565,
+    "formatted_address": "Sakti, Bilaspur - Kharagpur Highway, Ragja, Sakti, Sakti Tahsil, Sakti, Chhattisgarh, 495689, India",
+    "status": "success"
+  },
+  "KHS": {
+    "code": "KHS",
+    "name": "KHARSIA",
+    "latitude": 21.9920491,
+    "longitude": 83.1040855,
+    "formatted_address": "Kharsia, Shyam Mandir Road, Telikot, Kharsia, Kharsia Tahsil, Raigarh, Chhattisgarh, 496661, India",
+    "status": "success"
+  },
+  "RIG": {
+    "code": "RIG",
+    "name": "RAIGARH",
+    "latitude": 21.8910999,
+    "longitude": 83.3899236,
+    "formatted_address": "Raigarh Railway Station, Raigarh, Raigarh Tahsil, Raigarh, Chhattisgarh, India",
+    "status": "success"
+  },
+  "ROU": {
+    "code": "ROU",
+    "name": "ROURKELA",
+    "latitude": 22.2277166,
+    "longitude": 84.8631585,
+    "formatted_address": "Rourkela Junction, NH320D, Rourkela, Raurkela (M), Sundargarh, Odisha, 769002, India",
+    "status": "success"
+  },
+  "KGP": {
+    "code": "KGP",
+    "name": "KHARAGPUR",
+    "latitude": 22.3399404,
+    "longitude": 87.3250048,
+    "formatted_address": "Kharagpur Junction, Station Road, Kharagpur, Kharagpur-I, Paschim Medinipur, West Bengal, 721301, India",
+    "status": "success"
+  },
+  "SRC": {
+    "code": "SRC",
+    "name": "SANTRAGACHI",
+    "latitude": 22.5846995,
+    "longitude": 88.2830722,
+    "formatted_address": "Santragachi Junction, Kona Expressway, Haora, Kolkata Metropolitan Area, Domjur, Howrah, West Bengal, 711110, India",
+    "status": "success"
+  },
+  "CPR": {
+    "code": "CPR",
+    "name": "CHHAPRA JN.",
+    "latitude": 25.7872602,
+    "longitude": 84.7250566,
+    "formatted_address": "Chhapra Junction, Chapra - Patna Highway, Bhagwan Bazar, Chhapra, Chapra, Saran, Bihar, 841300, India",
+    "status": "success"
+  },
+  "SV": {
+    "code": "SV",
+    "name": "SIWAN JN.",
+    "latitude": 26.2106493,
+    "longitude": 84.3585631,
+    "formatted_address": "Siwan Junction, MDR, Siwan, Bihar, 841226, India",
+    "status": "success"
+  },
+  "BTT": {
+    "code": "BTT",
+    "name": "BHATNI JN.",
+    "latitude": 26.3815594,
+    "longitude": 83.9333475,
+    "formatted_address": "Bhatni Junction, Salempur, Deoria, Uttar Pradesh, 274501, India",
+    "status": "success"
+  },
+  "DEOS": {
+    "code": "DEOS",
+    "name": "DEORIA SADAR",
+    "latitude": 26.5079698,
+    "longitude": 83.7819579,
+    "formatted_address": "Deoria Sadar, Station Road, Indra Nagar, Deoria, Uttar Pradesh, 274001, India",
+    "status": "success"
+  },
+  "BWT": {
+    "code": "BWT",
+    "name": "BANGARPET JN",
+    "latitude": 12.9854946,
+    "longitude": 78.178224,
+    "formatted_address": "Bangarpet Junction, SH95, Bangarapete, Bangarapet taluk, Kolar, Karnataka, 563114, India",
+    "status": "success"
+  },
+  "TPT": {
+    "code": "TPT",
+    "name": "TIRUPATTUR",
+    "latitude": 12.4983561,
+    "longitude": 78.5618167,
+    "formatted_address": "Tirupattur, Sama Nagar, Tirupattur, Tirupathur, Tirupattur, Tamil Nadu, 635600, India",
+    "status": "success"
+  },
+  "SA": {
+    "code": "SA",
+    "name": "SALEM JN.",
+    "latitude": 11.6707553,
+    "longitude": 78.1135427,
+    "formatted_address": "Salem Junction, Railway Underpass, Suramangalam, Salem West, Salem, Tamil Nadu, 636005, India",
+    "status": "success"
+  },
+  "ED": {
+    "code": "ED",
+    "name": "ERODE JN.",
+    "latitude": 11.3286258,
+    "longitude": 77.7257896,
+    "formatted_address": "Erode Junction, Erode - Dharapuram Road, Erode, Tamil Nadu, 638001, India",
+    "status": "success"
+  },
+  "TUP": {
+    "code": "TUP",
+    "name": "TIRUPPUR",
+    "latitude": 11.1082216,
+    "longitude": 77.3398693,
+    "formatted_address": "Tiruppur, Railway Station Road, Odakkadu, TiruppurNorth, Tiruppur, Tamil Nadu, 638600, India",
+    "status": "success"
+  },
+  "CBE": {
+    "code": "CBE",
+    "name": "COIMBATORE",
+    "latitude": 10.9962357,
+    "longitude": 76.9679417,
+    "formatted_address": "Coimbatore Railway Station, State Bank Road, Ward 73, Central Zone, Coimbatore, Coimbatore North, Coimbatore, Tamil Nadu, 641001, India",
+    "status": "success"
+  },
+  "PTJ": {
+    "code": "PTJ",
+    "name": "PODANUR JN.",
+    "latitude": 10.9640914,
+    "longitude": 76.9886998,
+    "formatted_address": "Podanur Junction, Station road, Ward 99, South Zone, Podanur, Coimbatore South, Coimbatore, Tamil Nadu, 641023, India",
+    "status": "success"
+  },
+  "PGT": {
+    "code": "PGT",
+    "name": "PALAKKAD JN",
+    "latitude": 10.7992965,
+    "longitude": 76.6375662,
+    "formatted_address": "Palakkad Junction, Railway Station Entrance, Meleppuram, Olavakkode, Palakkad, Kerala, 678002, India",
+    "status": "success"
+  },
+  "OTP": {
+    "code": "OTP",
+    "name": "OTTAPPALAM",
+    "latitude": 10.7698093,
+    "longitude": 76.3777089,
+    "formatted_address": "Ottappalam Railway Station, Ottapalam Railway Station Road, Ottappalam, Palakkad, Kerala, 679101, India",
+    "status": "success"
+  },
+  "TCR": {
+    "code": "TCR",
+    "name": "TRICHUR",
+    "latitude": 10.5161402,
+    "longitude": 76.2084616,
+    "formatted_address": "Thrissur, Railway Station Road Thrissur, Poothole, Thrissur, Kerala, 680021, India",
+    "status": "success"
+  },
+  "AWY": {
+    "code": "AWY",
+    "name": "ALWAYE",
+    "latitude": 10.1082525,
+    "longitude": 76.3566989,
+    "formatted_address": "Aluva, Railway Station Road, Thottakkattukara, Aluva, Ernakulam, Kerala, 683101, India",
+    "status": "success"
+  },
+  "SRTL": {
+    "code": "SRTL",
+    "name": "SHERTALAI",
+    "latitude": 9.6912036,
+    "longitude": 76.3257168,
+    "formatted_address": "Cherthala, Salem - Kochi - Kanyakumari Road, Mooleppally, Cherthala, Alappuzha, Kerala, 688524, India",
+    "status": "success"
+  },
+  "ALLP": {
+    "code": "ALLP",
+    "name": "ALLEPPEY",
+    "latitude": 10.7986508,
+    "longitude": 76.7529607,
+    "formatted_address": "Alleppey Parcel Service L.L.P, 15/95 Royal Complex, Railway Station Road, Nilampathi, Kanjikode, Palakkad, Kerala, 678621, India",
+    "status": "success"
+  },
+  "AMPA": {
+    "code": "AMPA",
+    "name": "AMBALAPUZHA",
+    "latitude": 9.3862335,
+    "longitude": 76.3628354,
+    "formatted_address": "Ambalapuzha Railway Station, Railway Station Road, Ambalappuzha, Alappuzha, Kerala, 688561, India",
+    "status": "success"
+  },
+  "HAD": {
+    "code": "HAD",
+    "name": "HARIPAD",
+    "latitude": 9.2778496,
+    "longitude": 76.4631956,
+    "formatted_address": "Haripad Railway Station(HAD), Haripad railway station road, Paingali, Haripad, Karthikappally, Alappuzha, Kerala, 690514, India",
+    "status": "success"
+  },
+  "VAK": {
+    "code": "VAK",
+    "name": "VARKALA",
+    "latitude": 8.7406369,
+    "longitude": 76.723134,
+    "formatted_address": "Varkala Sivagiri, Varkala - Parippally - Madathara Road, Varkala, Thiruvananthapuram, Kerala, 695145, India",
+    "status": "success"
+  },
+  "KPN": {
+    "code": "KPN",
+    "name": "KUPPAM",
+    "latitude": 12.74728,
+    "longitude": 78.3403626,
+    "formatted_address": "Kuppam, Kuppam Road, Kottapeta, Old Pet, Matarlapalli, Chinnakurbalapalle, Kuppam, Chittoor, Andhra Pradesh, 517425, India",
+    "status": "success"
+  },
+  "KRR": {
+    "code": "KRR",
+    "name": "KARUR JN.",
+    "latitude": 10.9658076,
+    "longitude": 78.0849562,
+    "formatted_address": "Karur Junction, Thiruvikka Road, Karur, Tamil Nadu, 639001, India",
+    "status": "success"
+  },
+  "DG": {
+    "code": "DG",
+    "name": "DINDIGUL JN",
+    "latitude": 10.3527913,
+    "longitude": 77.9834295,
+    "formatted_address": "Dindigul Junction, Dindigul - Natham - Singampunari - Tiruppattur - Karaikudi Road, Dindigul, Tamil Nadu, 624001, India",
+    "status": "success"
+  },
+  "KQN": {
+    "code": "KQN",
+    "name": "KODAIKKANAL",
+    "latitude": 10.1786983,
+    "longitude": 77.9102779,
+    "formatted_address": "Kodaikkanal Road, Varanasi - Kanniyakumari Road (Old NH7), Kodai Road, Ammaianayakkanur, Nilakkottai, Dindigul, Tamil Nadu, 624201, India",
+    "status": "success"
+  },
+  "MDU": {
+    "code": "MDU",
+    "name": "MADURAI JN",
+    "latitude": 9.9192715,
+    "longitude": 78.1098809,
+    "formatted_address": "Madurai Junction, Mela Veli Veethi, Ellis Nagar, Madurai, Madurai South, Madurai, Tamil Nadu, 625011, India",
+    "status": "success"
+  },
+  "CVP": {
+    "code": "CVP",
+    "name": "KOVILPATTI",
+    "latitude": 9.1823313,
+    "longitude": 77.8734215,
+    "formatted_address": "Kovilpatti Railway Station, Kovilpatti, Thoothukudi, Tamil Nadu, India",
+    "status": "success"
+  },
+  "TEN": {
+    "code": "TEN",
+    "name": "TIRUNELVELI",
+    "latitude": 8.7312234,
+    "longitude": 77.708336,
+    "formatted_address": "Tirunelveli Junction, Old Madurai - Kanniyakumari Road, nellai area, Tirunelveli, Tamil Nadu, 627001, India",
+    "status": "success"
+  },
+  "NNN": {
+    "code": "NNN",
+    "name": "NANGUNERI",
+    "latitude": 8.4918298,
+    "longitude": 77.6631807,
+    "formatted_address": "Nanguneri Railway Station, Nanguneri, Tirunelveli, Tamil Nadu, 627108, India",
+    "status": "success"
+  },
+  "VLY": {
+    "code": "VLY",
+    "name": "VALLIYUR",
+    "latitude": 8.3768343,
+    "longitude": 77.6142866,
+    "formatted_address": "Valliyur, பயணியர் விடுதிச் சாலை, Valiyoor, Radhapuram, Tirunelveli, Tamil Nadu, 627117, India",
+    "status": "success"
+  },
+  "NCJ": {
+    "code": "NCJ",
+    "name": "NAGERCOIL JN",
+    "latitude": 8.174535,
+    "longitude": 77.4438789,
+    "formatted_address": "Nagercoil Junction, Salem - Kochi - Kanyakumari Road, Agastheeswaram, Nagercoil, Agastheeswaram, Kanniyakumari, Tamil Nadu, 629001, India",
+    "status": "success"
+  },
+  "CJ": {
+    "code": "CJ",
+    "name": "KANCHIPURAM",
+    "latitude": 12.8483107,
+    "longitude": 79.705073,
+    "formatted_address": "Kanchipuram, Kanchipuram - Chennai Road, Konerikuppam, Kanchipuram, Kancheepuram, Kanchipuram, Tamil Nadu, 631501, India",
+    "status": "success"
+  },
+  "TMV": {
+    "code": "TMV",
+    "name": "TINDIVANAM",
+    "latitude": 12.2291653,
+    "longitude": 79.6514192,
+    "formatted_address": "Tindivanam Railway Station (TMV), Rajaji Street, Tindivanam, Viluppuram, Tamil Nadu, 604001, India",
+    "status": "success"
+  },
+  "ALU": {
+    "code": "ALU",
+    "name": "ARIYALUR",
+    "latitude": 11.1489062,
+    "longitude": 79.0686377,
+    "formatted_address": "Ariyalur, Perambalur - Manamadurai Road, Kuringipadi, Ariyalur, Tamil Nadu, 621704, India",
+    "status": "success"
+  },
+  "SRGM": {
+    "code": "SRGM",
+    "name": "SRIRANGAM",
+    "latitude": 10.8577026,
+    "longitude": 78.6959617,
+    "formatted_address": "Srirangam, Gandhi Road Flyover, Ward 3, Trichy Zone I, Trichy Corporation Limits, Srirangam, Tiruchirappalli, Tamil Nadu, 620006, India",
+    "status": "success"
+  },
+  "KDU": {
+    "code": "KDU",
+    "name": "KADAMBUR",
+    "latitude": 9.0011547,
+    "longitude": 77.8635153,
+    "formatted_address": "Kadambur, Kadambur - Eppodumvendran Road, Kadambur, Kovilpatti, Thoothukudi, Tamil Nadu, 627714, India",
+    "status": "success"
+  },
+  "TPTY": {
+    "code": "TPTY",
+    "name": "TIRUPATI",
+    "latitude": 13.6282907,
+    "longitude": 79.4195276,
+    "formatted_address": "Tirupati, G.Car Street, STV Nagar, Tirupati, Tirupati (Urban), Tirupati, Andhra Pradesh, 517500, India",
+    "status": "success"
+  },
+  "PAK": {
+    "code": "PAK",
+    "name": "PAKALA JN.",
+    "latitude": 13.4509043,
+    "longitude": 79.1145053,
+    "formatted_address": "Pakala Junction, Pakala Main Road, Pasemvāripalli, Pakala, Tirupati, Andhra Pradesh, 517112, India",
+    "status": "success"
+  },
+  "CTO": {
+    "code": "CTO",
+    "name": "CHITTOOR",
+    "latitude": 13.2193663,
+    "longitude": 79.1033126,
+    "formatted_address": "Chittoor, APSRTC Bus Station Road, Mango yard, Thota palem, Chittoor, Andhra Pradesh, 517001, India",
+    "status": "success"
+  },
+  "KPD": {
+    "code": "KPD",
+    "name": "KATPADI JN",
+    "latitude": 12.9721529,
+    "longitude": 79.1376369,
+    "formatted_address": "Katpadi Junction, NH75, Dharapadavedu, Katpadi, Vellore, Tamil Nadu, 632007, India",
+    "status": "success"
+  },
+  "JTJ": {
+    "code": "JTJ",
+    "name": "JOLARPETTAI",
+    "latitude": 12.5639905,
+    "longitude": 78.5783902,
+    "formatted_address": "Jolarpettai Junction, Railway station Road, Vakkanampatti, Jolarpet, Tirupathur, Tirupattur, Tamil Nadu, 635851, India",
+    "status": "success"
+  },
+  "WKI": {
+    "code": "WKI",
+    "name": "WADAKANCHERI",
+    "latitude": 10.6513451,
+    "longitude": 76.2396882,
+    "formatted_address": "Wadakancheri, Shornur Road, Ottupara, Wadakkancherry, Talappilly, Thrissur, Kerala, 680582, India",
+    "status": "success"
+  },
+  "IJK": {
+    "code": "IJK",
+    "name": "IRINJALAKUDA",
+    "latitude": 10.3404997,
+    "longitude": 76.2808307,
+    "formatted_address": "Irinjalakuda, Avittathur-Irinjalakuda(Kaleettumkara)Railway road, Vallakkunnu, Chalakkudy, Thrissur, Kerala, 680683, India",
+    "status": "success"
+  },
+  "CKI": {
+    "code": "CKI",
+    "name": "CHALAKUDI",
+    "latitude": 10.3025203,
+    "longitude": 76.3211436,
+    "formatted_address": "Chalakudi Railway Station, V.R Puram, Thachudaparambu, Chalakudy, Chalakkudy, Thrissur, Kerala, India",
+    "status": "success"
+  },
+  "TRTR": {
+    "code": "TRTR",
+    "name": "TRIPUNITTURA",
+    "latitude": 9.9497664,
+    "longitude": 76.3526309,
+    "formatted_address": "Tripunittura, Old SH20, Chathari, Thrippunithura, Kanayannur, Ernakulam, Kerala, 682301, India",
+    "status": "success"
+  },
+  "KTYM": {
+    "code": "KTYM",
+    "name": "KOTTAYAM",
+    "latitude": 9.5948345,
+    "longitude": 76.5317478,
+    "formatted_address": "Kottayam Railway Station, Railway station to Rubber Board JunctionRoad, Nagampadam, Kottayam, Kerala, 686002, India",
+    "status": "success"
+  },
+  "CNGR": {
+    "code": "CNGR",
+    "name": "CHENGANNUR",
+    "latitude": 9.3182808,
+    "longitude": 76.6085318,
+    "formatted_address": "Chengannur, Chengannur Railway Station Road, Chengannur, Alappuzha, Kerala, 689121, India",
+    "status": "success"
+  },
+  "PVU": {
+    "code": "PVU",
+    "name": "PARAVUR",
+    "latitude": 8.8148927,
+    "longitude": 76.6693016,
+    "formatted_address": "Paravur railway station, Paravur Town Road, Paravur, Kollam, Kerala, 691301, India",
+    "status": "success"
+  },
+  "KVU": {
+    "code": "KVU",
+    "name": "KADAKAVUR",
+    "latitude": 8.6786987,
+    "longitude": 76.7676427,
+    "formatted_address": "Kadakavur, Nethaji Road, Kadakkavoor, Chirayinkeezhu, Thiruvananthapuram, Kerala, 695306, India",
+    "status": "success"
+  },
+  "PASA": {
+    "code": "PASA",
+    "name": "PARASSALA",
+    "latitude": 8.3397236,
+    "longitude": 77.165665,
+    "formatted_address": "Parassala, Salem - Kochi - Kanyakumari Road, Melpuram, Parassala, Neyyattinkara, Thiruvananthapuram, Kerala, 699502, India",
+    "status": "success"
+  },
+  "ERL": {
+    "code": "ERL",
+    "name": "ERANIEL",
+    "latitude": 8.2132052,
+    "longitude": 77.3085394,
+    "formatted_address": "Eraniel Railway Station, Authivilai, Eraniel, Thuckalay, Thingal Nagar, Kalkulam, Kanniyakumari, Tamil Nadu, India",
+    "status": "success"
+  },
+  "KDG": {
+    "code": "KDG",
+    "name": "KEDGAON",
+    "latitude": 18.4820871,
+    "longitude": 74.3767149,
+    "formatted_address": "Kedgaon, SH62, Kedgaon, Daund, Pune, Maharashtra, 412203, India",
+    "status": "success"
+  },
+  "UMRI": {
+    "code": "UMRI",
+    "name": "UMRI",
+    "latitude": 19.0419847,
+    "longitude": 77.6433503,
+    "formatted_address": "Umri, SH44, Shelgaon Tanda, Umri, Nanded, Maharashtra, 431807, India",
+    "status": "success"
+  },
+  "DAB": {
+    "code": "DAB",
+    "name": "DHARMABAD",
+    "latitude": 18.8884881,
+    "longitude": 77.8494751,
+    "formatted_address": "Dharmabad, SH44, Dharmabad, Nanded, Maharashtra, 431809, India",
+    "status": "success"
+  },
+  "BSX": {
+    "code": "BSX",
+    "name": "BASAR",
+    "latitude": 18.8657895,
+    "longitude": 77.9388603,
+    "formatted_address": "Basar, Basar mandal, Nirmal, Telangana, 504107, India",
+    "status": "success"
+  },
+  "NZB": {
+    "code": "NZB",
+    "name": "NIZAMABAD",
+    "latitude": 18.6787865,
+    "longitude": 78.103517,
+    "formatted_address": "Nizamabad Junction, NH63, Nizamabad, Nizamabad South mandal, Nizamabad, Telangana, 503001, India",
+    "status": "success"
+  },
+  "KMC": {
+    "code": "KMC",
+    "name": "KAMAREDDI",
+    "latitude": 18.3251976,
+    "longitude": 78.3360019,
+    "formatted_address": "Kamareddi, siricilla road, Kamareddy, Kamareddy mandal, Kamareddy, Telangana, 503100, India",
+    "status": "success"
+  },
+  "AKE": {
+    "code": "AKE",
+    "name": "AKANAPET",
+    "latitude": 18.1019355,
+    "longitude": 78.3980203,
+    "formatted_address": "Akanapet, NH765DG, Narayana Thanda, Thonigandla, Ramayampet mandal, Medak, Telangana, 502101, India",
+    "status": "success"
+  },
+  "BMO": {
+    "code": "BMO",
+    "name": "BOLARUM",
+    "latitude": 17.5330679,
+    "longitude": 78.5154568,
+    "formatted_address": "Bolarum, Bolarum to Kompally Road, Brindavan Colony, Bolarum, Ward 133 Macha Bolarum, Greater Hyderabad Municipal Corporation North Zone, Hyderabad, Alwal mandal, Medchal–Malkajgiri, Telangana, 500100, India",
+    "status": "success"
+  },
+  "HGL": {
+    "code": "HGL",
+    "name": "HARANGUL",
+    "latitude": 18.390464,
+    "longitude": 76.4958724,
+    "formatted_address": "Harangul, NH63, Murud Akola, Latur, Maharashtra, India",
+    "status": "success"
+  },
+  "LUR": {
+    "code": "LUR",
+    "name": "LATUR",
+    "latitude": 18.4294563,
+    "longitude": 76.5557973,
+    "formatted_address": "Latur Railway Station, Ring Road, Deep Jyoti Nagar, Latur, Maharashtra, 413512, India",
+    "status": "success"
+  },
+  "LTRR": {
+    "code": "LTRR",
+    "name": "LATUR ROAD",
+    "latitude": 18.5064442,
+    "longitude": 76.8451251,
+    "formatted_address": "Latur Road, ODR34, Bansawargaon, Chakur, Latur, Maharashtra, 413513, India",
+    "status": "success"
+  },
+  "UDGR": {
+    "code": "UDGR",
+    "name": "UDGIR",
+    "latitude": 18.3908529,
+    "longitude": 77.1098789,
+    "formatted_address": "Udgir, Nanded - Bidar Road, Udgir, Latur, Maharashtra, 413517, India",
+    "status": "success"
+  },
+  "BHLK": {
+    "code": "BHLK",
+    "name": "BHALKI",
+    "latitude": 18.0470691,
+    "longitude": 77.2281379,
+    "formatted_address": "Bhalki, SH34, Bhalki, Bhalki taluku, Bidar, Karnataka, 585328, India",
+    "status": "success"
+  },
+  "BIDR": {
+    "code": "BIDR",
+    "name": "BIDAR",
+    "latitude": 17.9118862,
+    "longitude": 77.5154346,
+    "formatted_address": "Bidar, Kamthan Road, Gandhi Gunj, Jungle Koyi, Bidar, Bidar taluku, Bidar, Karnataka, 585400, India",
+    "status": "success"
+  },
+  "ULNR": {
+    "code": "ULNR",
+    "name": "ULHASNAGAR",
+    "latitude": 19.2178804,
+    "longitude": 73.1630778,
+    "formatted_address": "Ulhasnagar, Railway Station Road, Vitthalwadi, Ulhasnagar, Ulhasnagar Taluka, Thane, Maharashtra, 421002, India",
+    "status": "success"
+  },
+  "ABH": {
+    "code": "ABH",
+    "name": "AMBERNATH",
+    "latitude": 19.2094131,
+    "longitude": 73.1851962,
+    "formatted_address": "Ambernath, Station Road, Ambernath, Ulhasnagar Taluka, Thane, Maharashtra, 421501, India",
+    "status": "success"
+  },
+  "BUD": {
+    "code": "BUD",
+    "name": "BADLAPUR",
+    "latitude": 19.1666237,
+    "longitude": 73.2389064,
+    "formatted_address": "Badlapur, Sky Walk, Badlapur, Kulgaon Badlapur, Ambernath Taluka, Thane, Maharashtra, 421503, India",
+    "status": "success"
+  },
+  "KMST": {
+    "code": "KMST",
+    "name": "KAMSHET",
+    "latitude": 18.7669374,
+    "longitude": 73.5524324,
+    "formatted_address": "Kamshet, Lonavala-Kamshet Railway Station Road, Kamshet, Mawal, Pune, Maharashtra, India",
+    "status": "success"
+  },
+  "MLB": {
+    "code": "MLB",
+    "name": "MODLIMB",
+    "latitude": 17.9168601,
+    "longitude": 75.4053029,
+    "formatted_address": "Modlimb, ODR22, Modnimb, Madha, Solapur, Maharashtra, 413301, India",
+    "status": "success"
+  },
+  "PVR": {
+    "code": "PVR",
+    "name": "PANDHARPUR",
+    "latitude": 17.6696359,
+    "longitude": 75.3208411,
+    "formatted_address": "Pandharpur, SH76, Pandharpur, Solapur, Maharashtra, 413300, India",
+    "status": "success"
+  },
+  "DAPD": {
+    "code": "DAPD",
+    "name": "DAPODI",
+    "latitude": 18.5814473,
+    "longitude": 73.8326856,
+    "formatted_address": "Dapodi, Dapodi Railway Station Back Road, Pimple Gurav, Pimpri-Chinchwad, Haveli, Pune, Maharashtra, 411012, India",
+    "status": "success"
+  },
+  "AKRD": {
+    "code": "AKRD",
+    "name": "AKURDI",
+    "latitude": 18.6490357,
+    "longitude": 73.7652694,
+    "formatted_address": "Akurdi Railway Station, Babasaheb Ambedkar Marg, Nigdi, Pimpri-Chinchwad, Haveli, Pune, Maharashtra, 411044, India",
+    "status": "success"
+  },
+  "VDN": {
+    "code": "VDN",
+    "name": "VADGAON",
+    "latitude": 18.7425866,
+    "longitude": 73.6366603,
+    "formatted_address": "Vadgaon, Mumbai - Pune Expressway (Toll Road), Wadgaon, Mawal, Pune, Maharashtra, 412106, India",
+    "status": "success"
+  },
+  "TVL": {
+    "code": "TVL",
+    "name": "TADWAL",
+    "latitude": 17.39303,
+    "longitude": 75.9760337,
+    "formatted_address": "Tadwal, MDR43, Karajagi, Akkalkot, Solapur, Maharashtra, India",
+    "status": "success"
+  },
+  "LHN": {
+    "code": "LHN",
+    "name": "LACHYAN",
+    "latitude": 17.2789625,
+    "longitude": 75.9713756,
+    "formatted_address": "Lachyan, Lachyana, Indi taluku, Vijayapura, Karnataka, 586211, India",
+    "status": "success"
+  },
+  "IDR": {
+    "code": "IDR",
+    "name": "INDI ROAD",
+    "latitude": 17.2108496,
+    "longitude": 75.9188694,
+    "formatted_address": "Indi Road, SH41, Indi Road, Indi, Indi taluku, Vijayapura, Karnataka, 586200, India",
+    "status": "success"
+  },
+  "NBL": {
+    "code": "NBL",
+    "name": "NIMBAL",
+    "latitude": 17.1187954,
+    "longitude": 75.8603369,
+    "formatted_address": "Nimbal, Indi taluku, Vijayapura, Karnataka, India",
+    "status": "success"
+  },
+  "MNL": {
+    "code": "MNL",
+    "name": "MINCHNAL",
+    "latitude": 16.9705608,
+    "longitude": 75.8217834,
+    "formatted_address": "Minchnal, NH548B, Bijapur Taluk, Vijayapura, Karnataka, India",
+    "status": "success"
+  },
+  "SHAD": {
+    "code": "SHAD",
+    "name": "SHAHAD",
+    "latitude": 19.2435448,
+    "longitude": 73.1580817,
+    "formatted_address": "Shahad, Shahad Station Road East, Kalyan, Ambivali, Kalyan-Dombivli, Kalyan Taluka, Thane, Maharashtra, 421003, India",
+    "status": "success"
+  },
+  "ABY": {
+    "code": "ABY",
+    "name": "AMBIVLI",
+    "latitude": 19.267645,
+    "longitude": 73.1718625,
+    "formatted_address": "Ambivli, Ambivli FOB, Ambivali, Kalyan-Dombivli, Kalyan Taluka, Thane, Maharashtra, 421102, India",
+    "status": "success"
+  },
+  "VSD": {
+    "code": "VSD",
+    "name": "VASIND",
+    "latitude": 19.4065089,
+    "longitude": 73.2674683,
+    "formatted_address": "Vasind, Bhatsa Road, Vasind, Shahapur Taluka, Thane, Maharashtra, 421604, India",
+    "status": "success"
+  },
+  "ASO": {
+    "code": "ASO",
+    "name": "ASANGAON",
+    "latitude": 19.4399615,
+    "longitude": 73.3081462,
+    "formatted_address": "Asangaon, Mumbai Agra National Highway, Asangaon, Shahapur, Shahapur Taluka, Thane, Maharashtra, 421601, India",
+    "status": "success"
+  },
+  "ATG": {
+    "code": "ATG",
+    "name": "ATGAON",
+    "latitude": 19.5028985,
+    "longitude": 73.3287332,
+    "formatted_address": "Atgaon, Wada Shahapur Road, Aakhrachapada, Shahapur Taluka, Thane, Maharashtra, India",
+    "status": "success"
+  },
+  "KE": {
+    "code": "KE",
+    "name": "KHARDI",
+    "latitude": 19.5802161,
+    "longitude": 73.3938248,
+    "formatted_address": "Khardi, Gawali Nagar Road, Gawali Nagr, Khardi, Shahapur Taluka, Thane, Maharashtra, India",
+    "status": "success"
+  },
+  "GO": {
+    "code": "GO",
+    "name": "GHOTI",
+    "latitude": 19.723749,
+    "longitude": 73.6363065,
+    "formatted_address": "Ghoti, NH160A, Ghoti, Igatpuri Subdistrict, Nashik, Maharashtra, 422402, India",
+    "status": "success"
+  },
+  "PI": {
+    "code": "PI",
+    "name": "PADLI",
+    "latitude": 19.7981986,
+    "longitude": 73.6721291,
+    "formatted_address": "Padli, NH160, Mundegaon, Igatpuri Subdistrict, Nashik, Maharashtra, India",
+    "status": "success"
+  },
+  "AV": {
+    "code": "AV",
+    "name": "ASVALI",
+    "latitude": 19.8204504,
+    "longitude": 73.7175906,
+    "formatted_address": "Asvali, MDR58, Igatpuri Subdistrict, Nashik, Maharashtra, 422404, India",
+    "status": "success"
+  },
+  "LT": {
+    "code": "LT",
+    "name": "LAHAVIT",
+    "latitude": 19.8229091,
+    "longitude": 73.784872,
+    "formatted_address": "Lahavit, MDR58, Nashik Subdistrict, Nashik, Maharashtra, India",
+    "status": "success"
+  },
+  "ODHA": {
+    "code": "ODHA",
+    "name": "ODHA",
+    "latitude": 20.0177954,
+    "longitude": 73.913237,
+    "formatted_address": "Odha, SH 30, Chandori, Nashik Subdistrict, Nashik, Maharashtra, India",
+    "status": "success"
+  },
+  "KBSN": {
+    "code": "KBSN",
+    "name": "KASBE SUKENE",
+    "latitude": 20.0743449,
+    "longitude": 74.0313112,
+    "formatted_address": "Kasbe Sukene, MDR42, Pimpalas, Niphad Taluka, Nashik, Maharashtra, 422302, India",
+    "status": "success"
+  },
+  "UGN": {
+    "code": "UGN",
+    "name": "UGAON",
+    "latitude": 20.1234702,
+    "longitude": 74.1396874,
+    "formatted_address": "Ugaon, Ugaon Road, Niphad, Niphad Taluka, Nashik, Maharashtra, 422230, India",
+    "status": "success"
+  },
+  "SUM": {
+    "code": "SUM",
+    "name": "SUMMIT",
+    "latitude": 20.2115322,
+    "longitude": 74.3439352,
+    "formatted_address": "Summit, MDR37, Chandwad Taluka, Nashik, Maharashtra, India",
+    "status": "success"
+  },
+  "HSL": {
+    "code": "HSL",
+    "name": "HISVAHAL",
+    "latitude": 20.2811784,
+    "longitude": 74.560309,
+    "formatted_address": "Hisvahal, NH753J, Hisvahal, Nandgaon Taluka, Nashik, Maharashtra, India",
+    "status": "success"
+  },
+  "PJN": {
+    "code": "PJN",
+    "name": "PANJHAN",
+    "latitude": 20.2750721,
+    "longitude": 74.6109867,
+    "formatted_address": "Panjhan, NH753J, Nandgaon, Nandgaon Taluka, Nashik, Maharashtra, 423106, India",
+    "status": "success"
+  },
+  "PKE": {
+    "code": "PKE",
+    "name": "PIMPAR KHED",
+    "latitude": 20.307474,
+    "longitude": 74.7563516,
+    "formatted_address": "Pimpar Khed, NH753J, Nandgaon Taluka, Nashik, Maharashtra, India",
+    "status": "success"
+  },
+  "NI": {
+    "code": "NI",
+    "name": "NAYDONGRI",
+    "latitude": 20.3492845,
+    "longitude": 74.8374188,
+    "formatted_address": "Naydongri, NH753J, Naydongri, Nandgaon Taluka, Nashik, Maharashtra, 424109, India",
+    "status": "success"
+  },
+  "HPR": {
+    "code": "HPR",
+    "name": "HIRAPUR",
+    "latitude": 20.4245194,
+    "longitude": 74.9366176,
+    "formatted_address": "Hirapur, NH753J, Chalisgaon, Jalgaon, Maharashtra, 424108, India",
+    "status": "success"
+  },
+  "VGL": {
+    "code": "VGL",
+    "name": "VAGHLI",
+    "latitude": 20.5178506,
+    "longitude": 75.0684267,
+    "formatted_address": "Vaghli, NH753J, Waghali, Chalisgaon, Jalgaon, Maharashtra, 424102, India",
+    "status": "success"
+  },
+  "KJ": {
+    "code": "KJ",
+    "name": "KAJGAON",
+    "latitude": 20.5736247,
+    "longitude": 75.140686,
+    "formatted_address": "Kajgaon, NH753J, Pasardi, Bhadgaon, Jalgaon, Maharashtra, 424104, India",
+    "status": "success"
+  },
+  "NGD": {
+    "code": "NGD",
+    "name": "NAGARDEVLA",
+    "latitude": 20.6033221,
+    "longitude": 75.1984334,
+    "formatted_address": "Nagardevla, NH753J, Pasardi, Bhadgaon, Jalgaon, Maharashtra, 424104, India",
+    "status": "success"
+  },
+  "GAA": {
+    "code": "GAA",
+    "name": "GALAN",
+    "latitude": 20.609212,
+    "longitude": 75.2768934,
+    "formatted_address": "Galan, MDR38, Takali Bk, Pachora, Jalgaon, Maharashtra, India",
+    "status": "success"
+  },
+  "PHQ": {
+    "code": "PHQ",
+    "name": "PARDHADE",
+    "latitude": 20.7298415,
+    "longitude": 75.3771919,
+    "formatted_address": "Pardhade, MDR33, Utran Ahir Hadd, Erandol, Jalgaon, Maharashtra, India",
+    "status": "success"
+  },
+  "MYJ": {
+    "code": "MYJ",
+    "name": "MAHEJI",
+    "latitude": 20.7691355,
+    "longitude": 75.4244792,
+    "formatted_address": "Maheji, NH753J, Nandre Bk, Pachora, Jalgaon, Maharashtra, 425115, India",
+    "status": "success"
+  },
+  "MWD": {
+    "code": "MWD",
+    "name": "MHASAVAD",
+    "latitude": 20.8706567,
+    "longitude": 75.4586828,
+    "formatted_address": "Mhasavad, State Highway 185, Mhasawad, Jalgaon, Maharashtra, 425116, India",
+    "status": "success"
+  },
+  "SS": {
+    "code": "SS",
+    "name": "SHIRSOLI",
+    "latitude": 20.9346269,
+    "longitude": 75.5088615,
+    "formatted_address": "Shirsoli, NH753J, Shirsoli P n, Jalgaon, Maharashtra, India",
+    "status": "success"
+  },
+  "BDI": {
+    "code": "BDI",
+    "name": "BHADLI",
+    "latitude": 21.0231855,
+    "longitude": 75.6751728,
+    "formatted_address": "Bhadli, NH53, Nashirabad, Jalgaon, Maharashtra, 425309, India",
+    "status": "success"
+  }
+}
